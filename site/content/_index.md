@@ -1,7 +1,7 @@
 ---
 title: casdsankjd askd
 subtitle: Support sustainable farming while enjoying a cup
-image: img/about-single-origin.jpg
+image: img/img-20221120-wa0007.jpg
 blurb:
   heading: Why Kaldi?
   text: Kaldi is the coffee store for everyone who believes that great coffee
