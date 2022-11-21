@@ -19,7 +19,9 @@
     "build:hugo:preview": "npm run build:hugo -- -D -F",
     "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.prod.js",
     "test": "cypress run",
-    "index": "hugo-lunr -i \"site/content/**\" -o my-search-index.json"
+    "index": "hugo-lunr -i \"site/content/**\" -o my-search-index.json",
+    "scripts": "parcel build src/components/_index.ts -d site/static/scripts/ -o bundle.js --no-source-maps",
+    "scripts:watch": "parcel watch src/components/_index.ts -d site/static/scripts/ -o bundle.js --no-hmr"
   },
   "author": "",
   "license": "MIT",
@@ -54,6 +56,7 @@
     "sass-loader": "^12.3.0",
     "style-loader": "^3.3.1",
     "terser-webpack-plugin": "^5.2.5",
+    "typescript": "^4.9.3",
     "webpack": "^5.64.1",
     "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.5.0",
@@ -65,8 +68,10 @@
     "date-fns": "^2.28.0",
     "hugo-lunr": "^0.0.4",
     "immutable": "^4.1.0",
+    "lit": "^2.4.1",
     "netlify-cms-app": "^2.15.72",
     "netlify-plugin-cypress": "^2.2.0",
+    "parcel-bundler": "^1.12.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "to-string-loader": "^1.2.0"
