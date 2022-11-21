@@ -1,7 +1,7 @@
 ---
-title: "compromised running "
-subtitle: "A de ultimate resource for functional fitness racing "
-image: img/img-20221120-wa0007.jpg
+title: .
+subtitle: .
+image: img/banner-main-large.svg
 blurb:
   heading: "Why Compromised Running "
   text: "A resource for people looking to improve their functional fitness "
