@@ -3,47 +3,47 @@
  * Copyright 2019 Google LLC
  * SPDX-License-Identifier: BSD-3-Clause
  */
-const e=window,t=e.ShadowRoot&&(void 0===e.ShadyCSS||e.ShadyCSS.nativeShadow)&&"adoptedStyleSheets"in Document.prototype&&"replace"in CSSStyleSheet.prototype,i=Symbol(),s=new WeakMap;class n{constructor(e,t,s){if(this._$cssResult$=!0,s!==i)throw Error("CSSResult is not constructable. Use `unsafeCSS` or `css` instead.");this.cssText=e,this.t=t}get styleSheet(){let e=this.o;const i=this.t;if(t&&void 0===e){const t=void 0!==i&&1===i.length;t&&(e=s.get(i)),void 0===e&&((this.o=e=new CSSStyleSheet).replaceSync(this.cssText),t&&s.set(i,e))}return e}toString(){return this.cssText}}const a=(e,...t)=>{const s=1===e.length?e[0]:t.reduce(((t,i,s)=>t+(e=>{if(!0===e._$cssResult$)return e.cssText;if("number"==typeof e)return e;throw Error("Value passed to 'css' function must be a 'css' function result: "+e+". Use 'unsafeCSS' to pass non-literal values, but take care to ensure page security.")})(i)+e[s+1]),e[0]);return new n(s,e,i)},l=t?e=>e:e=>e instanceof CSSStyleSheet?(e=>{let t="";for(const i of e.cssRules)t+=i.cssText;return(e=>new n("string"==typeof e?e:e+"",void 0,i))(t)})(e):e
+const t=window,e=t.ShadowRoot&&(void 0===t.ShadyCSS||t.ShadyCSS.nativeShadow)&&"adoptedStyleSheets"in Document.prototype&&"replace"in CSSStyleSheet.prototype,i=Symbol(),s=new WeakMap;class n{constructor(t,e,s){if(this._$cssResult$=!0,s!==i)throw Error("CSSResult is not constructable. Use `unsafeCSS` or `css` instead.");this.cssText=t,this.t=e}get styleSheet(){let t=this.o;const i=this.t;if(e&&void 0===t){const e=void 0!==i&&1===i.length;e&&(t=s.get(i)),void 0===t&&((this.o=t=new CSSStyleSheet).replaceSync(this.cssText),e&&s.set(i,t))}return t}toString(){return this.cssText}}const r=(t,...e)=>{const s=1===t.length?t[0]:e.reduce(((e,i,s)=>e+(t=>{if(!0===t._$cssResult$)return t.cssText;if("number"==typeof t)return t;throw Error("Value passed to 'css' function must be a 'css' function result: "+t+". Use 'unsafeCSS' to pass non-literal values, but take care to ensure page security.")})(i)+t[s+1]),t[0]);return new n(s,t,i)},o=e?t=>t:t=>t instanceof CSSStyleSheet?(t=>{let e="";for(const i of t.cssRules)e+=i.cssText;return(t=>new n("string"==typeof t?t:t+"",void 0,i))(e)})(t):t
 /**
  * @license
  * Copyright 2017 Google LLC
  * SPDX-License-Identifier: BSD-3-Clause
- */;var r;const o=window,h=o.trustedTypes,d=h?h.emptyScript:"",c=o.reactiveElementPolyfillSupport,b={toAttribute(e,t){switch(t){case Boolean:e=e?d:null;break;case Object:case Array:e=null==e?e:JSON.stringify(e)}return e},fromAttribute(e,t){let i=e;switch(t){case Boolean:i=null!==e;break;case Number:i=null===e?null:Number(e);break;case Object:case Array:try{i=JSON.parse(e)}catch(e){i=null}}return i}},v=(e,t)=>t!==e&&(t==t||e==e),u={attribute:!0,type:String,converter:b,reflect:!1,hasChanged:v};class m extends HTMLElement{constructor(){super(),this._$Ei=new Map,this.isUpdatePending=!1,this.hasUpdated=!1,this._$El=null,this.u()}static addInitializer(e){var t;this.finalize(),(null!==(t=this.h)&&void 0!==t?t:this.h=[]).push(e)}static get observedAttributes(){this.finalize();const e=[];return this.elementProperties.forEach(((t,i)=>{const s=this._$Ep(i,t);void 0!==s&&(this._$Ev.set(s,i),e.push(s))})),e}static createProperty(e,t=u){if(t.state&&(t.attribute=!1),this.finalize(),this.elementProperties.set(e,t),!t.noAccessor&&!this.prototype.hasOwnProperty(e)){const i="symbol"==typeof e?Symbol():"__"+e,s=this.getPropertyDescriptor(e,i,t);void 0!==s&&Object.defineProperty(this.prototype,e,s)}}static getPropertyDescriptor(e,t,i){return{get(){return this[t]},set(s){const n=this[e];this[t]=s,this.requestUpdate(e,n,i)},configurable:!0,enumerable:!0}}static getPropertyOptions(e){return this.elementProperties.get(e)||u}static finalize(){if(this.hasOwnProperty("finalized"))return!1;this.finalized=!0;const e=Object.getPrototypeOf(this);if(e.finalize(),void 0!==e.h&&(this.h=[...e.h]),this.elementProperties=new Map(e.elementProperties),this._$Ev=new Map,this.hasOwnProperty("properties")){const e=this.properties,t=[...Object.getOwnPropertyNames(e),...Object.getOwnPropertySymbols(e)];for(const i of t)this.createProperty(i,e[i])}return this.elementStyles=this.finalizeStyles(this.styles),!0}static finalizeStyles(e){const t=[];if(Array.isArray(e)){const i=new Set(e.flat(1/0).reverse());for(const e of i)t.unshift(l(e))}else void 0!==e&&t.push(l(e));return t}static _$Ep(e,t){const i=t.attribute;return!1===i?void 0:"string"==typeof i?i:"string"==typeof e?e.toLowerCase():void 0}u(){var e;this._$E_=new Promise((e=>this.enableUpdating=e)),this._$AL=new Map,this._$Eg(),this.requestUpdate(),null===(e=this.constructor.h)||void 0===e||e.forEach((e=>e(this)))}addController(e){var t,i;(null!==(t=this._$ES)&&void 0!==t?t:this._$ES=[]).push(e),void 0!==this.renderRoot&&this.isConnected&&(null===(i=e.hostConnected)||void 0===i||i.call(e))}removeController(e){var t;null===(t=this._$ES)||void 0===t||t.splice(this._$ES.indexOf(e)>>>0,1)}_$Eg(){this.constructor.elementProperties.forEach(((e,t)=>{this.hasOwnProperty(t)&&(this._$Ei.set(t,this[t]),delete this[t])}))}createRenderRoot(){var i;const s=null!==(i=this.shadowRoot)&&void 0!==i?i:this.attachShadow(this.constructor.shadowRootOptions);return((i,s)=>{t?i.adoptedStyleSheets=s.map((e=>e instanceof CSSStyleSheet?e:e.styleSheet)):s.forEach((t=>{const s=document.createElement("style"),n=e.litNonce;void 0!==n&&s.setAttribute("nonce",n),s.textContent=t.cssText,i.appendChild(s)}))})(s,this.constructor.elementStyles),s}connectedCallback(){var e;void 0===this.renderRoot&&(this.renderRoot=this.createRenderRoot()),this.enableUpdating(!0),null===(e=this._$ES)||void 0===e||e.forEach((e=>{var t;return null===(t=e.hostConnected)||void 0===t?void 0:t.call(e)}))}enableUpdating(e){}disconnectedCallback(){var e;null===(e=this._$ES)||void 0===e||e.forEach((e=>{var t;return null===(t=e.hostDisconnected)||void 0===t?void 0:t.call(e)}))}attributeChangedCallback(e,t,i){this._$AK(e,i)}_$EO(e,t,i=u){var s;const n=this.constructor._$Ep(e,i);if(void 0!==n&&!0===i.reflect){const a=(void 0!==(null===(s=i.converter)||void 0===s?void 0:s.toAttribute)?i.converter:b).toAttribute(t,i.type);this._$El=e,null==a?this.removeAttribute(n):this.setAttribute(n,a),this._$El=null}}_$AK(e,t){var i;const s=this.constructor,n=s._$Ev.get(e);if(void 0!==n&&this._$El!==n){const e=s.getPropertyOptions(n),a="function"==typeof e.converter?{fromAttribute:e.converter}:void 0!==(null===(i=e.converter)||void 0===i?void 0:i.fromAttribute)?e.converter:b;this._$El=n,this[n]=a.fromAttribute(t,e.type),this._$El=null}}requestUpdate(e,t,i){let s=!0;void 0!==e&&(((i=i||this.constructor.getPropertyOptions(e)).hasChanged||v)(this[e],t)?(this._$AL.has(e)||this._$AL.set(e,t),!0===i.reflect&&this._$El!==e&&(void 0===this._$EC&&(this._$EC=new Map),this._$EC.set(e,i))):s=!1),!this.isUpdatePending&&s&&(this._$E_=this._$Ej())}async _$Ej(){this.isUpdatePending=!0;try{await this._$E_}catch(e){Promise.reject(e)}const e=this.scheduleUpdate();return null!=e&&await e,!this.isUpdatePending}scheduleUpdate(){return this.performUpdate()}performUpdate(){var e;if(!this.isUpdatePending)return;this.hasUpdated,this._$Ei&&(this._$Ei.forEach(((e,t)=>this[t]=e)),this._$Ei=void 0);let t=!1;const i=this._$AL;try{t=this.shouldUpdate(i),t?(this.willUpdate(i),null===(e=this._$ES)||void 0===e||e.forEach((e=>{var t;return null===(t=e.hostUpdate)||void 0===t?void 0:t.call(e)})),this.update(i)):this._$Ek()}catch(e){throw t=!1,this._$Ek(),e}t&&this._$AE(i)}willUpdate(e){}_$AE(e){var t;null===(t=this._$ES)||void 0===t||t.forEach((e=>{var t;return null===(t=e.hostUpdated)||void 0===t?void 0:t.call(e)})),this.hasUpdated||(this.hasUpdated=!0,this.firstUpdated(e)),this.updated(e)}_$Ek(){this._$AL=new Map,this.isUpdatePending=!1}get updateComplete(){return this.getUpdateComplete()}getUpdateComplete(){return this._$E_}shouldUpdate(e){return!0}update(e){void 0!==this._$EC&&(this._$EC.forEach(((e,t)=>this._$EO(t,this[t],e))),this._$EC=void 0),this._$Ek()}updated(e){}firstUpdated(e){}}
-/**
- * @license
- * Copyright 2017 Google LLC
- * SPDX-License-Identifier: BSD-3-Clause
- */
-var p;m.finalized=!0,m.elementProperties=new Map,m.elementStyles=[],m.shadowRootOptions={mode:"open"},null==c||c({ReactiveElement:m}),(null!==(r=o.reactiveElementVersions)&&void 0!==r?r:o.reactiveElementVersions=[]).push("1.4.2");const g=window,f=g.trustedTypes,x=f?f.createPolicy("lit-html",{createHTML:e=>e}):void 0,y=`lit$${(Math.random()+"").slice(9)}$`,w="?"+y,k=`<${w}>`,j=document,S=(e="")=>j.createComment(e),_=e=>null===e||"object"!=typeof e&&"function"!=typeof e,$=Array.isArray,A=/<(?:(!--|\/[^a-zA-Z])|(\/?[a-zA-Z][^>\s]*)|(\/?$))/g,H=/-->/g,z=/>/g,C=RegExp(">|[ \t\n\f\r](?:([^\\s\"'>=/]+)([ \t\n\f\r]*=[ \t\n\f\r]*(?:[^ \t\n\f\r\"'`<>=]|(\"|')|))|$)","g"),O=/'/g,M=/"/g,E=/^(?:script|style|textarea|title)$/i,R=(e=>(t,...i)=>({_$litType$:e,strings:t,values:i}))(1),T=Symbol.for("lit-noChange"),U=Symbol.for("lit-nothing"),F=new WeakMap,N=j.createTreeWalker(j,129,null,!1),W=(e,t)=>{const i=e.length-1,s=[];let n,a=2===t?"<svg>":"",l=A;for(let t=0;t<i;t++){const i=e[t];let r,o,h=-1,d=0;for(;d<i.length&&(l.lastIndex=d,o=l.exec(i),null!==o);)d=l.lastIndex,l===A?"!--"===o[1]?l=H:void 0!==o[1]?l=z:void 0!==o[2]?(E.test(o[2])&&(n=RegExp("</"+o[2],"g")),l=C):void 0!==o[3]&&(l=C):l===C?">"===o[0]?(l=null!=n?n:A,h=-1):void 0===o[1]?h=-2:(h=l.lastIndex-o[2].length,r=o[1],l=void 0===o[3]?C:'"'===o[3]?M:O):l===M||l===O?l=C:l===H||l===z?l=A:(l=C,n=void 0);const c=l===C&&e[t+1].startsWith("/>")?" ":"";a+=l===A?i+k:h>=0?(s.push(r),i.slice(0,h)+"$lit$"+i.slice(h)+y+c):i+y+(-2===h?(s.push(void 0),t):c)}const r=a+(e[i]||"<?>")+(2===t?"</svg>":"");if(!Array.isArray(e)||!e.hasOwnProperty("raw"))throw Error("invalid template strings array");return[void 0!==x?x.createHTML(r):r,s]};class B{constructor({strings:e,_$litType$:t},i){let s;this.parts=[];let n=0,a=0;const l=e.length-1,r=this.parts,[o,h]=W(e,t);if(this.el=B.createElement(o,i),N.currentNode=this.el.content,2===t){const e=this.el.content,t=e.firstChild;t.remove(),e.append(...t.childNodes)}for(;null!==(s=N.nextNode())&&r.length<l;){if(1===s.nodeType){if(s.hasAttributes()){const e=[];for(const t of s.getAttributeNames())if(t.endsWith("$lit$")||t.startsWith(y)){const i=h[a++];if(e.push(t),void 0!==i){const e=s.getAttribute(i.toLowerCase()+"$lit$").split(y),t=/([.?@])?(.*)/.exec(i);r.push({type:1,index:n,name:t[2],strings:e,ctor:"."===t[1]?L:"?"===t[1]?J:"@"===t[1]?V:G})}else r.push({type:6,index:n})}for(const t of e)s.removeAttribute(t)}if(E.test(s.tagName)){const e=s.textContent.split(y),t=e.length-1;if(t>0){s.textContent=f?f.emptyScript:"";for(let i=0;i<t;i++)s.append(e[i],S()),N.nextNode(),r.push({type:2,index:++n});s.append(e[t],S())}}}else if(8===s.nodeType)if(s.data===w)r.push({type:2,index:n});else{let e=-1;for(;-1!==(e=s.data.indexOf(y,e+1));)r.push({type:7,index:n}),e+=y.length-1}n++}}static createElement(e,t){const i=j.createElement("template");return i.innerHTML=e,i}}function q(e,t,i=e,s){var n,a,l,r;if(t===T)return t;let o=void 0!==s?null===(n=i._$Co)||void 0===n?void 0:n[s]:i._$Cl;const h=_(t)?void 0:t._$litDirective$;return(null==o?void 0:o.constructor)!==h&&(null===(a=null==o?void 0:o._$AO)||void 0===a||a.call(o,!1),void 0===h?o=void 0:(o=new h(e),o._$AT(e,i,s)),void 0!==s?(null!==(l=(r=i)._$Co)&&void 0!==l?l:r._$Co=[])[s]=o:i._$Cl=o),void 0!==o&&(t=q(e,o._$AS(e,t.values),o,s)),t}class I{constructor(e,t){this.u=[],this._$AN=void 0,this._$AD=e,this._$AM=t}get parentNode(){return this._$AM.parentNode}get _$AU(){return this._$AM._$AU}v(e){var t;const{el:{content:i},parts:s}=this._$AD,n=(null!==(t=null==e?void 0:e.creationScope)&&void 0!==t?t:j).importNode(i,!0);N.currentNode=n;let a=N.nextNode(),l=0,r=0,o=s[0];for(;void 0!==o;){if(l===o.index){let t;2===o.type?t=new P(a,a.nextSibling,this,e):1===o.type?t=new o.ctor(a,o.name,o.strings,this,e):6===o.type&&(t=new K(a,this,e)),this.u.push(t),o=s[++r]}l!==(null==o?void 0:o.index)&&(a=N.nextNode(),l++)}return n}p(e){let t=0;for(const i of this.u)void 0!==i&&(void 0!==i.strings?(i._$AI(e,i,t),t+=i.strings.length-2):i._$AI(e[t])),t++}}class P{constructor(e,t,i,s){var n;this.type=2,this._$AH=U,this._$AN=void 0,this._$AA=e,this._$AB=t,this._$AM=i,this.options=s,this._$Cm=null===(n=null==s?void 0:s.isConnected)||void 0===n||n}get _$AU(){var e,t;return null!==(t=null===(e=this._$AM)||void 0===e?void 0:e._$AU)&&void 0!==t?t:this._$Cm}get parentNode(){let e=this._$AA.parentNode;const t=this._$AM;return void 0!==t&&11===e.nodeType&&(e=t.parentNode),e}get startNode(){return this._$AA}get endNode(){return this._$AB}_$AI(e,t=this){e=q(this,e,t),_(e)?e===U||null==e||""===e?(this._$AH!==U&&this._$AR(),this._$AH=U):e!==this._$AH&&e!==T&&this.g(e):void 0!==e._$litType$?this.$(e):void 0!==e.nodeType?this.T(e):(e=>$(e)||"function"==typeof(null==e?void 0:e[Symbol.iterator]))(e)?this.k(e):this.g(e)}O(e,t=this._$AB){return this._$AA.parentNode.insertBefore(e,t)}T(e){this._$AH!==e&&(this._$AR(),this._$AH=this.O(e))}g(e){this._$AH!==U&&_(this._$AH)?this._$AA.nextSibling.data=e:this.T(j.createTextNode(e)),this._$AH=e}$(e){var t;const{values:i,_$litType$:s}=e,n="number"==typeof s?this._$AC(e):(void 0===s.el&&(s.el=B.createElement(s.h,this.options)),s);if((null===(t=this._$AH)||void 0===t?void 0:t._$AD)===n)this._$AH.p(i);else{const e=new I(n,this),t=e.v(this.options);e.p(i),this.T(t),this._$AH=e}}_$AC(e){let t=F.get(e.strings);return void 0===t&&F.set(e.strings,t=new B(e)),t}k(e){$(this._$AH)||(this._$AH=[],this._$AR());const t=this._$AH;let i,s=0;for(const n of e)s===t.length?t.push(i=new P(this.O(S()),this.O(S()),this,this.options)):i=t[s],i._$AI(n),s++;s<t.length&&(this._$AR(i&&i._$AB.nextSibling,s),t.length=s)}_$AR(e=this._$AA.nextSibling,t){var i;for(null===(i=this._$AP)||void 0===i||i.call(this,!1,!0,t);e&&e!==this._$AB;){const t=e.nextSibling;e.remove(),e=t}}setConnected(e){var t;void 0===this._$AM&&(this._$Cm=e,null===(t=this._$AP)||void 0===t||t.call(this,e))}}class G{constructor(e,t,i,s,n){this.type=1,this._$AH=U,this._$AN=void 0,this.element=e,this.name=t,this._$AM=s,this.options=n,i.length>2||""!==i[0]||""!==i[1]?(this._$AH=Array(i.length-1).fill(new String),this.strings=i):this._$AH=U}get tagName(){return this.element.tagName}get _$AU(){return this._$AM._$AU}_$AI(e,t=this,i,s){const n=this.strings;let a=!1;if(void 0===n)e=q(this,e,t,0),a=!_(e)||e!==this._$AH&&e!==T,a&&(this._$AH=e);else{const s=e;let l,r;for(e=n[0],l=0;l<n.length-1;l++)r=q(this,s[i+l],t,l),r===T&&(r=this._$AH[l]),a||(a=!_(r)||r!==this._$AH[l]),r===U?e=U:e!==U&&(e+=(null!=r?r:"")+n[l+1]),this._$AH[l]=r}a&&!s&&this.j(e)}j(e){e===U?this.element.removeAttribute(this.name):this.element.setAttribute(this.name,null!=e?e:"")}}class L extends G{constructor(){super(...arguments),this.type=3}j(e){this.element[this.name]=e===U?void 0:e}}const D=f?f.emptyScript:"";class J extends G{constructor(){super(...arguments),this.type=4}j(e){e&&e!==U?this.element.setAttribute(this.name,D):this.element.removeAttribute(this.name)}}class V extends G{constructor(e,t,i,s,n){super(e,t,i,s,n),this.type=5}_$AI(e,t=this){var i;if((e=null!==(i=q(this,e,t,0))&&void 0!==i?i:U)===T)return;const s=this._$AH,n=e===U&&s!==U||e.capture!==s.capture||e.once!==s.once||e.passive!==s.passive,a=e!==U&&(s===U||n);n&&this.element.removeEventListener(this.name,this,s),a&&this.element.addEventListener(this.name,this,e),this._$AH=e}handleEvent(e){var t,i;"function"==typeof this._$AH?this._$AH.call(null!==(i=null===(t=this.options)||void 0===t?void 0:t.host)&&void 0!==i?i:this.element,e):this._$AH.handleEvent(e)}}class K{constructor(e,t,i){this.element=e,this.type=6,this._$AN=void 0,this._$AM=t,this.options=i}get _$AU(){return this._$AM._$AU}_$AI(e){q(this,e)}}const Z=g.litHtmlPolyfillSupport;null==Z||Z(B,P),(null!==(p=g.litHtmlVersions)&&void 0!==p?p:g.litHtmlVersions=[]).push("2.4.0");
+ */;var a;const l=window,h=l.trustedTypes,d=h?h.emptyScript:"",c=l.reactiveElementPolyfillSupport,u={toAttribute(t,e){switch(e){case Boolean:t=t?d:null;break;case Object:case Array:t=null==t?t:JSON.stringify(t)}return t},fromAttribute(t,e){let i=t;switch(e){case Boolean:i=null!==t;break;case Number:i=null===t?null:Number(t);break;case Object:case Array:try{i=JSON.parse(t)}catch(t){i=null}}return i}},m=(t,e)=>e!==t&&(e==e||t==t),v={attribute:!0,type:String,converter:u,reflect:!1,hasChanged:m};class p extends HTMLElement{constructor(){super(),this._$Ei=new Map,this.isUpdatePending=!1,this.hasUpdated=!1,this._$El=null,this.u()}static addInitializer(t){var e;this.finalize(),(null!==(e=this.h)&&void 0!==e?e:this.h=[]).push(t)}static get observedAttributes(){this.finalize();const t=[];return this.elementProperties.forEach(((e,i)=>{const s=this._$Ep(i,e);void 0!==s&&(this._$Ev.set(s,i),t.push(s))})),t}static createProperty(t,e=v){if(e.state&&(e.attribute=!1),this.finalize(),this.elementProperties.set(t,e),!e.noAccessor&&!this.prototype.hasOwnProperty(t)){const i="symbol"==typeof t?Symbol():"__"+t,s=this.getPropertyDescriptor(t,i,e);void 0!==s&&Object.defineProperty(this.prototype,t,s)}}static getPropertyDescriptor(t,e,i){return{get(){return this[e]},set(s){const n=this[t];this[e]=s,this.requestUpdate(t,n,i)},configurable:!0,enumerable:!0}}static getPropertyOptions(t){return this.elementProperties.get(t)||v}static finalize(){if(this.hasOwnProperty("finalized"))return!1;this.finalized=!0;const t=Object.getPrototypeOf(this);if(t.finalize(),void 0!==t.h&&(this.h=[...t.h]),this.elementProperties=new Map(t.elementProperties),this._$Ev=new Map,this.hasOwnProperty("properties")){const t=this.properties,e=[...Object.getOwnPropertyNames(t),...Object.getOwnPropertySymbols(t)];for(const i of e)this.createProperty(i,t[i])}return this.elementStyles=this.finalizeStyles(this.styles),!0}static finalizeStyles(t){const e=[];if(Array.isArray(t)){const i=new Set(t.flat(1/0).reverse());for(const t of i)e.unshift(o(t))}else void 0!==t&&e.push(o(t));return e}static _$Ep(t,e){const i=e.attribute;return!1===i?void 0:"string"==typeof i?i:"string"==typeof t?t.toLowerCase():void 0}u(){var t;this._$E_=new Promise((t=>this.enableUpdating=t)),this._$AL=new Map,this._$Eg(),this.requestUpdate(),null===(t=this.constructor.h)||void 0===t||t.forEach((t=>t(this)))}addController(t){var e,i;(null!==(e=this._$ES)&&void 0!==e?e:this._$ES=[]).push(t),void 0!==this.renderRoot&&this.isConnected&&(null===(i=t.hostConnected)||void 0===i||i.call(t))}removeController(t){var e;null===(e=this._$ES)||void 0===e||e.splice(this._$ES.indexOf(t)>>>0,1)}_$Eg(){this.constructor.elementProperties.forEach(((t,e)=>{this.hasOwnProperty(e)&&(this._$Ei.set(e,this[e]),delete this[e])}))}createRenderRoot(){var i;const s=null!==(i=this.shadowRoot)&&void 0!==i?i:this.attachShadow(this.constructor.shadowRootOptions);return((i,s)=>{e?i.adoptedStyleSheets=s.map((t=>t instanceof CSSStyleSheet?t:t.styleSheet)):s.forEach((e=>{const s=document.createElement("style"),n=t.litNonce;void 0!==n&&s.setAttribute("nonce",n),s.textContent=e.cssText,i.appendChild(s)}))})(s,this.constructor.elementStyles),s}connectedCallback(){var t;void 0===this.renderRoot&&(this.renderRoot=this.createRenderRoot()),this.enableUpdating(!0),null===(t=this._$ES)||void 0===t||t.forEach((t=>{var e;return null===(e=t.hostConnected)||void 0===e?void 0:e.call(t)}))}enableUpdating(t){}disconnectedCallback(){var t;null===(t=this._$ES)||void 0===t||t.forEach((t=>{var e;return null===(e=t.hostDisconnected)||void 0===e?void 0:e.call(t)}))}attributeChangedCallback(t,e,i){this._$AK(t,i)}_$EO(t,e,i=v){var s;const n=this.constructor._$Ep(t,i);if(void 0!==n&&!0===i.reflect){const r=(void 0!==(null===(s=i.converter)||void 0===s?void 0:s.toAttribute)?i.converter:u).toAttribute(e,i.type);this._$El=t,null==r?this.removeAttribute(n):this.setAttribute(n,r),this._$El=null}}_$AK(t,e){var i;const s=this.constructor,n=s._$Ev.get(t);if(void 0!==n&&this._$El!==n){const t=s.getPropertyOptions(n),r="function"==typeof t.converter?{fromAttribute:t.converter}:void 0!==(null===(i=t.converter)||void 0===i?void 0:i.fromAttribute)?t.converter:u;this._$El=n,this[n]=r.fromAttribute(e,t.type),this._$El=null}}requestUpdate(t,e,i){let s=!0;void 0!==t&&(((i=i||this.constructor.getPropertyOptions(t)).hasChanged||m)(this[t],e)?(this._$AL.has(t)||this._$AL.set(t,e),!0===i.reflect&&this._$El!==t&&(void 0===this._$EC&&(this._$EC=new Map),this._$EC.set(t,i))):s=!1),!this.isUpdatePending&&s&&(this._$E_=this._$Ej())}async _$Ej(){this.isUpdatePending=!0;try{await this._$E_}catch(t){Promise.reject(t)}const t=this.scheduleUpdate();return null!=t&&await t,!this.isUpdatePending}scheduleUpdate(){return this.performUpdate()}performUpdate(){var t;if(!this.isUpdatePending)return;this.hasUpdated,this._$Ei&&(this._$Ei.forEach(((t,e)=>this[e]=t)),this._$Ei=void 0);let e=!1;const i=this._$AL;try{e=this.shouldUpdate(i),e?(this.willUpdate(i),null===(t=this._$ES)||void 0===t||t.forEach((t=>{var e;return null===(e=t.hostUpdate)||void 0===e?void 0:e.call(t)})),this.update(i)):this._$Ek()}catch(t){throw e=!1,this._$Ek(),t}e&&this._$AE(i)}willUpdate(t){}_$AE(t){var e;null===(e=this._$ES)||void 0===e||e.forEach((t=>{var e;return null===(e=t.hostUpdated)||void 0===e?void 0:e.call(t)})),this.hasUpdated||(this.hasUpdated=!0,this.firstUpdated(t)),this.updated(t)}_$Ek(){this._$AL=new Map,this.isUpdatePending=!1}get updateComplete(){return this.getUpdateComplete()}getUpdateComplete(){return this._$E_}shouldUpdate(t){return!0}update(t){void 0!==this._$EC&&(this._$EC.forEach(((t,e)=>this._$EO(e,this[e],t))),this._$EC=void 0),this._$Ek()}updated(t){}firstUpdated(t){}}
 /**
  * @license
  * Copyright 2017 Google LLC
  * SPDX-License-Identifier: BSD-3-Clause
  */
-var Q,X;class Y extends m{constructor(){super(...arguments),this.renderOptions={host:this},this._$Do=void 0}createRenderRoot(){var e,t;const i=super.createRenderRoot();return null!==(e=(t=this.renderOptions).renderBefore)&&void 0!==e||(t.renderBefore=i.firstChild),i}update(e){const t=this.render();this.hasUpdated||(this.renderOptions.isConnected=this.isConnected),super.update(e),this._$Do=((e,t,i)=>{var s,n;const a=null!==(s=null==i?void 0:i.renderBefore)&&void 0!==s?s:t;let l=a._$litPart$;if(void 0===l){const e=null!==(n=null==i?void 0:i.renderBefore)&&void 0!==n?n:null;a._$litPart$=l=new P(t.insertBefore(S(),e),e,void 0,null!=i?i:{})}return l._$AI(e),l})(t,this.renderRoot,this.renderOptions)}connectedCallback(){var e;super.connectedCallback(),null===(e=this._$Do)||void 0===e||e.setConnected(!0)}disconnectedCallback(){var e;super.disconnectedCallback(),null===(e=this._$Do)||void 0===e||e.setConnected(!1)}render(){return T}}Y.finalized=!0,Y._$litElement$=!0,null===(Q=globalThis.litElementHydrateSupport)||void 0===Q||Q.call(globalThis,{LitElement:Y});const ee=globalThis.litElementPolyfillSupport;null==ee||ee({LitElement:Y}),(null!==(X=globalThis.litElementVersions)&&void 0!==X?X:globalThis.litElementVersions=[]).push("3.2.2");
+var g;p.finalized=!0,p.elementProperties=new Map,p.elementStyles=[],p.shadowRootOptions={mode:"open"},null==c||c({ReactiveElement:p}),(null!==(a=l.reactiveElementVersions)&&void 0!==a?a:l.reactiveElementVersions=[]).push("1.4.2");const b=window,f=b.trustedTypes,x=f?f.createPolicy("lit-html",{createHTML:t=>t}):void 0,y=`lit$${(Math.random()+"").slice(9)}$`,w="?"+y,$=`<${w}>`,S=document,k=(t="")=>S.createComment(t),j=t=>null===t||"object"!=typeof t&&"function"!=typeof t,H=Array.isArray,A=/<(?:(!--|\/[^a-zA-Z])|(\/?[a-zA-Z][^>\s]*)|(\/?$))/g,_=/-->/g,z=/>/g,C=RegExp(">|[ \t\n\f\r](?:([^\\s\"'>=/]+)([ \t\n\f\r]*=[ \t\n\f\r]*(?:[^ \t\n\f\r\"'`<>=]|(\"|')|))|$)","g"),O=/'/g,E=/"/g,R=/^(?:script|style|textarea|title)$/i,M=(t=>(e,...i)=>({_$litType$:t,strings:e,values:i}))(1),T=Symbol.for("lit-noChange"),U=Symbol.for("lit-nothing"),N=new WeakMap,W=S.createTreeWalker(S,129,null,!1),P=(t,e)=>{const i=t.length-1,s=[];let n,r=2===e?"<svg>":"",o=A;for(let e=0;e<i;e++){const i=t[e];let a,l,h=-1,d=0;for(;d<i.length&&(o.lastIndex=d,l=o.exec(i),null!==l);)d=o.lastIndex,o===A?"!--"===l[1]?o=_:void 0!==l[1]?o=z:void 0!==l[2]?(R.test(l[2])&&(n=RegExp("</"+l[2],"g")),o=C):void 0!==l[3]&&(o=C):o===C?">"===l[0]?(o=null!=n?n:A,h=-1):void 0===l[1]?h=-2:(h=o.lastIndex-l[2].length,a=l[1],o=void 0===l[3]?C:'"'===l[3]?E:O):o===E||o===O?o=C:o===_||o===z?o=A:(o=C,n=void 0);const c=o===C&&t[e+1].startsWith("/>")?" ":"";r+=o===A?i+$:h>=0?(s.push(a),i.slice(0,h)+"$lit$"+i.slice(h)+y+c):i+y+(-2===h?(s.push(void 0),e):c)}const a=r+(t[i]||"<?>")+(2===e?"</svg>":"");if(!Array.isArray(t)||!t.hasOwnProperty("raw"))throw Error("invalid template strings array");return[void 0!==x?x.createHTML(a):a,s]};class B{constructor({strings:t,_$litType$:e},i){let s;this.parts=[];let n=0,r=0;const o=t.length-1,a=this.parts,[l,h]=P(t,e);if(this.el=B.createElement(l,i),W.currentNode=this.el.content,2===e){const t=this.el.content,e=t.firstChild;e.remove(),t.append(...e.childNodes)}for(;null!==(s=W.nextNode())&&a.length<o;){if(1===s.nodeType){if(s.hasAttributes()){const t=[];for(const e of s.getAttributeNames())if(e.endsWith("$lit$")||e.startsWith(y)){const i=h[r++];if(t.push(e),void 0!==i){const t=s.getAttribute(i.toLowerCase()+"$lit$").split(y),e=/([.?@])?(.*)/.exec(i);a.push({type:1,index:n,name:e[2],strings:t,ctor:"."===e[1]?q:"?"===e[1]?J:"@"===e[1]?K:F})}else a.push({type:6,index:n})}for(const e of t)s.removeAttribute(e)}if(R.test(s.tagName)){const t=s.textContent.split(y),e=t.length-1;if(e>0){s.textContent=f?f.emptyScript:"";for(let i=0;i<e;i++)s.append(t[i],k()),W.nextNode(),a.push({type:2,index:++n});s.append(t[e],k())}}}else if(8===s.nodeType)if(s.data===w)a.push({type:2,index:n});else{let t=-1;for(;-1!==(t=s.data.indexOf(y,t+1));)a.push({type:7,index:n}),t+=y.length-1}n++}}static createElement(t,e){const i=S.createElement("template");return i.innerHTML=t,i}}function I(t,e,i=t,s){var n,r,o,a;if(e===T)return e;let l=void 0!==s?null===(n=i._$Co)||void 0===n?void 0:n[s]:i._$Cl;const h=j(e)?void 0:e._$litDirective$;return(null==l?void 0:l.constructor)!==h&&(null===(r=null==l?void 0:l._$AO)||void 0===r||r.call(l,!1),void 0===h?l=void 0:(l=new h(t),l._$AT(t,i,s)),void 0!==s?(null!==(o=(a=i)._$Co)&&void 0!==o?o:a._$Co=[])[s]=l:i._$Cl=l),void 0!==l&&(e=I(t,l._$AS(t,e.values),l,s)),e}class G{constructor(t,e){this.u=[],this._$AN=void 0,this._$AD=t,this._$AM=e}get parentNode(){return this._$AM.parentNode}get _$AU(){return this._$AM._$AU}v(t){var e;const{el:{content:i},parts:s}=this._$AD,n=(null!==(e=null==t?void 0:t.creationScope)&&void 0!==e?e:S).importNode(i,!0);W.currentNode=n;let r=W.nextNode(),o=0,a=0,l=s[0];for(;void 0!==l;){if(o===l.index){let e;2===l.type?e=new L(r,r.nextSibling,this,t):1===l.type?e=new l.ctor(r,l.name,l.strings,this,t):6===l.type&&(e=new Z(r,this,t)),this.u.push(e),l=s[++a]}o!==(null==l?void 0:l.index)&&(r=W.nextNode(),o++)}return n}p(t){let e=0;for(const i of this.u)void 0!==i&&(void 0!==i.strings?(i._$AI(t,i,e),e+=i.strings.length-2):i._$AI(t[e])),e++}}class L{constructor(t,e,i,s){var n;this.type=2,this._$AH=U,this._$AN=void 0,this._$AA=t,this._$AB=e,this._$AM=i,this.options=s,this._$Cm=null===(n=null==s?void 0:s.isConnected)||void 0===n||n}get _$AU(){var t,e;return null!==(e=null===(t=this._$AM)||void 0===t?void 0:t._$AU)&&void 0!==e?e:this._$Cm}get parentNode(){let t=this._$AA.parentNode;const e=this._$AM;return void 0!==e&&11===t.nodeType&&(t=e.parentNode),t}get startNode(){return this._$AA}get endNode(){return this._$AB}_$AI(t,e=this){t=I(this,t,e),j(t)?t===U||null==t||""===t?(this._$AH!==U&&this._$AR(),this._$AH=U):t!==this._$AH&&t!==T&&this.g(t):void 0!==t._$litType$?this.$(t):void 0!==t.nodeType?this.T(t):(t=>H(t)||"function"==typeof(null==t?void 0:t[Symbol.iterator]))(t)?this.k(t):this.g(t)}O(t,e=this._$AB){return this._$AA.parentNode.insertBefore(t,e)}T(t){this._$AH!==t&&(this._$AR(),this._$AH=this.O(t))}g(t){this._$AH!==U&&j(this._$AH)?this._$AA.nextSibling.data=t:this.T(S.createTextNode(t)),this._$AH=t}$(t){var e;const{values:i,_$litType$:s}=t,n="number"==typeof s?this._$AC(t):(void 0===s.el&&(s.el=B.createElement(s.h,this.options)),s);if((null===(e=this._$AH)||void 0===e?void 0:e._$AD)===n)this._$AH.p(i);else{const t=new G(n,this),e=t.v(this.options);t.p(i),this.T(e),this._$AH=t}}_$AC(t){let e=N.get(t.strings);return void 0===e&&N.set(t.strings,e=new B(t)),e}k(t){H(this._$AH)||(this._$AH=[],this._$AR());const e=this._$AH;let i,s=0;for(const n of t)s===e.length?e.push(i=new L(this.O(k()),this.O(k()),this,this.options)):i=e[s],i._$AI(n),s++;s<e.length&&(this._$AR(i&&i._$AB.nextSibling,s),e.length=s)}_$AR(t=this._$AA.nextSibling,e){var i;for(null===(i=this._$AP)||void 0===i||i.call(this,!1,!0,e);t&&t!==this._$AB;){const e=t.nextSibling;t.remove(),t=e}}setConnected(t){var e;void 0===this._$AM&&(this._$Cm=t,null===(e=this._$AP)||void 0===e||e.call(this,t))}}class F{constructor(t,e,i,s,n){this.type=1,this._$AH=U,this._$AN=void 0,this.element=t,this.name=e,this._$AM=s,this.options=n,i.length>2||""!==i[0]||""!==i[1]?(this._$AH=Array(i.length-1).fill(new String),this.strings=i):this._$AH=U}get tagName(){return this.element.tagName}get _$AU(){return this._$AM._$AU}_$AI(t,e=this,i,s){const n=this.strings;let r=!1;if(void 0===n)t=I(this,t,e,0),r=!j(t)||t!==this._$AH&&t!==T,r&&(this._$AH=t);else{const s=t;let o,a;for(t=n[0],o=0;o<n.length-1;o++)a=I(this,s[i+o],e,o),a===T&&(a=this._$AH[o]),r||(r=!j(a)||a!==this._$AH[o]),a===U?t=U:t!==U&&(t+=(null!=a?a:"")+n[o+1]),this._$AH[o]=a}r&&!s&&this.j(t)}j(t){t===U?this.element.removeAttribute(this.name):this.element.setAttribute(this.name,null!=t?t:"")}}class q extends F{constructor(){super(...arguments),this.type=3}j(t){this.element[this.name]=t===U?void 0:t}}const D=f?f.emptyScript:"";class J extends F{constructor(){super(...arguments),this.type=4}j(t){t&&t!==U?this.element.setAttribute(this.name,D):this.element.removeAttribute(this.name)}}class K extends F{constructor(t,e,i,s,n){super(t,e,i,s,n),this.type=5}_$AI(t,e=this){var i;if((t=null!==(i=I(this,t,e,0))&&void 0!==i?i:U)===T)return;const s=this._$AH,n=t===U&&s!==U||t.capture!==s.capture||t.once!==s.once||t.passive!==s.passive,r=t!==U&&(s===U||n);n&&this.element.removeEventListener(this.name,this,s),r&&this.element.addEventListener(this.name,this,t),this._$AH=t}handleEvent(t){var e,i;"function"==typeof this._$AH?this._$AH.call(null!==(i=null===(e=this.options)||void 0===e?void 0:e.host)&&void 0!==i?i:this.element,t):this._$AH.handleEvent(t)}}class Z{constructor(t,e,i){this.element=t,this.type=6,this._$AN=void 0,this._$AM=e,this.options=i}get _$AU(){return this._$AM._$AU}_$AI(t){I(this,t)}}const Q=b.litHtmlPolyfillSupport;null==Q||Q(B,L),(null!==(g=b.litHtmlVersions)&&void 0!==g?g:b.litHtmlVersions=[]).push("2.4.0");
 /**
  * @license
  * Copyright 2017 Google LLC
  * SPDX-License-Identifier: BSD-3-Clause
  */
-const te=e=>t=>"function"==typeof t?((e,t)=>(customElements.define(e,t),t))(e,t):((e,t)=>{const{kind:i,elements:s}=t;return{kind:i,elements:s,finisher(t){customElements.define(e,t)}}})(e,t)
+var V,X;class Y extends p{constructor(){super(...arguments),this.renderOptions={host:this},this._$Do=void 0}createRenderRoot(){var t,e;const i=super.createRenderRoot();return null!==(t=(e=this.renderOptions).renderBefore)&&void 0!==t||(e.renderBefore=i.firstChild),i}update(t){const e=this.render();this.hasUpdated||(this.renderOptions.isConnected=this.isConnected),super.update(t),this._$Do=((t,e,i)=>{var s,n;const r=null!==(s=null==i?void 0:i.renderBefore)&&void 0!==s?s:e;let o=r._$litPart$;if(void 0===o){const t=null!==(n=null==i?void 0:i.renderBefore)&&void 0!==n?n:null;r._$litPart$=o=new L(e.insertBefore(k(),t),t,void 0,null!=i?i:{})}return o._$AI(t),o})(e,this.renderRoot,this.renderOptions)}connectedCallback(){var t;super.connectedCallback(),null===(t=this._$Do)||void 0===t||t.setConnected(!0)}disconnectedCallback(){var t;super.disconnectedCallback(),null===(t=this._$Do)||void 0===t||t.setConnected(!1)}render(){return T}}Y.finalized=!0,Y._$litElement$=!0,null===(V=globalThis.litElementHydrateSupport)||void 0===V||V.call(globalThis,{LitElement:Y});const tt=globalThis.litElementPolyfillSupport;null==tt||tt({LitElement:Y}),(null!==(X=globalThis.litElementVersions)&&void 0!==X?X:globalThis.litElementVersions=[]).push("3.2.2");
 /**
  * @license
  * Copyright 2017 Google LLC
  * SPDX-License-Identifier: BSD-3-Clause
- */,ie=(e,t)=>"method"===t.kind&&t.descriptor&&!("value"in t.descriptor)?{...t,finisher(i){i.createProperty(t.key,e)}}:{kind:"field",key:Symbol(),placement:"own",descriptor:{},originalKey:t.key,initializer(){"function"==typeof t.initializer&&(this[t.key]=t.initializer.call(this))},finisher(i){i.createProperty(t.key,e)}};function se(e){return(t,i)=>void 0!==i?((e,t,i)=>{t.constructor.createProperty(i,e)})(e,t,i):ie(e,t)
+ */
+const et=t=>e=>"function"==typeof e?((t,e)=>(customElements.define(t,e),e))(t,e):((t,e)=>{const{kind:i,elements:s}=e;return{kind:i,elements:s,finisher(e){customElements.define(t,e)}}})(t,e)
+/**
+ * @license
+ * Copyright 2017 Google LLC
+ * SPDX-License-Identifier: BSD-3-Clause
+ */,it=(t,e)=>"method"===e.kind&&e.descriptor&&!("value"in e.descriptor)?{...e,finisher(i){i.createProperty(e.key,t)}}:{kind:"field",key:Symbol(),placement:"own",descriptor:{},originalKey:e.key,initializer(){"function"==typeof e.initializer&&(this[e.key]=e.initializer.call(this))},finisher(i){i.createProperty(e.key,t)}};function st(t){return(e,i)=>void 0!==i?((t,e,i)=>{e.constructor.createProperty(i,t)})(t,e,i):it(t,e)
 /**
  * @license
  * Copyright 2021 Google LLC
  * SPDX-License-Identifier: BSD-3-Clause
- */}var ne;null===(ne=window.HTMLSlotElement)||void 0===ne||ne.prototype.assignedElements;var ae=function(e,t,i,s){for(var n,a=arguments.length,l=a<3?t:null===s?s=Object.getOwnPropertyDescriptor(t,i):s,r=e.length-1;r>=0;r--)(n=e[r])&&(l=(a<3?n(l):a>3?n(t,i,l):n(t,i))||l);return a>3&&l&&Object.defineProperty(t,i,l),l};let le=class extends Y{constructor(){super(...arguments),this.title=""}render(){return R`
+ */}var nt;null===(nt=window.HTMLSlotElement)||void 0===nt||nt.prototype.assignedElements;var rt=function(t,e,i,s){for(var n,r=arguments.length,o=r<3?e:null===s?s=Object.getOwnPropertyDescriptor(e,i):s,a=t.length-1;a>=0;a--)(n=t[a])&&(o=(r<3?n(o):r>3?n(e,i,o):n(e,i))||o);return r>3&&o&&Object.defineProperty(e,i,o),o};let ot=class extends Y{constructor(){super(...arguments),this.title=""}render(){return M`
         <div class="box">
             <span class="text">${this.title}</span>
             <div>
             <slot></slot>
             </div>
         </div>
-        `}};le.styles=a`
+        `}};ot.styles=r`
         .box {
             overflow: hidden;
             padding: 0.3rem;
@@ -60,7 +60,7 @@ const te=e=>t=>"function"==typeof t?((e,t)=>(customElements.define(e,t),t))(e,t)
               margin: 1rem;
           }
 
-    `,ae([se()],le.prototype,"title",void 0),le=ae([te("discover-card-element")],le);var re=function(e,t,i,s){for(var n,a=arguments.length,l=a<3?t:null===s?s=Object.getOwnPropertyDescriptor(t,i):s,r=e.length-1;r>=0;r--)(n=e[r])&&(l=(a<3?n(l):a>3?n(t,i,l):n(t,i))||l);return a>3&&l&&Object.defineProperty(t,i,l),l};let oe=class extends Y{constructor(){super(...arguments),this.name=""}render(){return R`
+    `,rt([st()],ot.prototype,"title",void 0),ot=rt([et("discover-card-element")],ot);var at=function(t,e,i,s){for(var n,r=arguments.length,o=r<3?e:null===s?s=Object.getOwnPropertyDescriptor(e,i):s,a=t.length-1;a>=0;a--)(n=t[a])&&(o=(r<3?n(o):r>3?n(e,i,o):n(e,i))||o);return r>3&&o&&Object.defineProperty(e,i,o),o};let lt=class extends Y{constructor(){super(...arguments),this.name=""}render(){return M`
         <a
         class="ay az ba bb bc bd be bf bg bh bi bj bk bl bm"
         rel="noopener follow"
@@ -69,7 +69,7 @@ const te=e=>t=>"function"==typeof t?((e,t)=>(customElements.define(e,t),t))(e,t)
             <div><p class="text">${this.name}</p></div>
         </div></a
         >
-    `}};oe.styles=a`
+    `}};lt.styles=r`
         .tag {
             border-radius: 3px;
             padding: 6px 16px;
@@ -96,7 +96,7 @@ const te=e=>t=>"function"==typeof t?((e,t)=>(customElements.define(e,t),t))(e,t)
             color: red;
         }
 
-    `,re([se({type:String})],oe.prototype,"name",void 0),oe=re([te("tag-element")],oe);var he=function(e,t,i,s){for(var n,a=arguments.length,l=a<3?t:null===s?s=Object.getOwnPropertyDescriptor(t,i):s,r=e.length-1;r>=0;r--)(n=e[r])&&(l=(a<3?n(l):a>3?n(t,i,l):n(t,i))||l);return a>3&&l&&Object.defineProperty(t,i,l),l};let de=class extends Y{constructor(){super(...arguments),this.name=""}render(){return R`
+    `,at([st({type:String})],lt.prototype,"name",void 0),lt=at([et("tag-element")],lt);var ht=function(t,e,i,s){for(var n,r=arguments.length,o=r<3?e:null===s?s=Object.getOwnPropertyDescriptor(e,i):s,a=t.length-1;a>=0;a--)(n=t[a])&&(o=(r<3?n(o):r>3?n(e,i,o):n(e,i))||o);return r>3&&o&&Object.defineProperty(e,i,o),o};let dt=class extends Y{constructor(){super(...arguments),this.name=""}render(){return M`
       <div
         class="card"
       >
@@ -169,7 +169,7 @@ const te=e=>t=>"function"==typeof t?((e,t)=>(customElements.define(e,t),t))(e,t)
           </div>
         </div>
       </div>
-    `}};de.styles=a`
+    `}};dt.styles=r`
 
     .card {
         max-width: 100%;
@@ -206,135 +206,114 @@ const te=e=>t=>"function"==typeof t?((e,t)=>(customElements.define(e,t),t))(e,t)
     .tag:hover p.text {
       color: red;
     }
-  `,he([se({type:String})],de.prototype,"name",void 0),de=he([te("mini-card-element")],de);var ce=function(e,t,i,s){for(var n,a=arguments.length,l=a<3?t:null===s?s=Object.getOwnPropertyDescriptor(t,i):s,r=e.length-1;r>=0;r--)(n=e[r])&&(l=(a<3?n(l):a>3?n(t,i,l):n(t,i))||l);return a>3&&l&&Object.defineProperty(t,i,l),l};let be=class extends Y{constructor(){super(...arguments),this.name=""}render(){return R`
+  `,ht([st({type:String})],dt.prototype,"name",void 0),dt=ht([et("mini-card-element")],dt);var ct=function(t,e,i,s){for(var n,r=arguments.length,o=r<3?e:null===s?s=Object.getOwnPropertyDescriptor(e,i):s,a=t.length-1;a>=0;a--)(n=t[a])&&(o=(r<3?n(o):r>3?n(e,i,o):n(e,i))||o);return r>3&&o&&Object.defineProperty(e,i,o),o};let ut=class extends Y{constructor(){super(...arguments),this.theme=""}render(){return M`
+      <div class="card-wrapper">
+        <div class="card">
+          <div class="card-image">
+            <img
+              class="image"
+              src="img/hyrox-photo-banner.jpg"
+              alt="Girl in a jacket"
+              width="${"large"===this.theme?"120":"75"}"
+              height="${"large"===this.theme?"120":"75"}"
+            />
+          </div>
+          <div class="card-text">
+            <h2 class="title">${this.item.name}</h2>
+            <div class="card-meta-wrapper">
+              <div class="card-meta">
+                ${this.item.date?M`
+                      <span class="card-meta-date">
+                        <span>${this.item.date}</span>
+                      </span>
+                      <div class="card-meta-dot" aria-hidden="true">
+                        <span>·</span>
+                      </div>
+                    `:""}
 
-        <div class="card-wrapper">
-            <div class="card">
-                <div class="card-image">
-                    <img class="image" src="img/hyrox-photo-banner.jpg" alt="Girl in a jacket" width="100" height="100">
-                </div>
-                <div class="card-text">
-                    <h2 class="title">
-                        Angular v15 is now available!
-                    </h2>
-                    <div class="card-meta"><div class="au am bq"><span class="pw-published-date kc"><span class="bv b hw bx hj"><span>Sep 3, 2019</span></span></span><div class="jc jd cx y cu ll" aria-hidden="true"><span class="y" aria-hidden="true"><span class="bv b bw bx hj">·</span></span></div><span class="kc"><span class="pw-reading-time bv b hw bx hj">13 min read</span></span><div class="jc jd cx y cu ll h" aria-hidden="true"><span class="y" aria-hidden="true"><span class="bv b bw bx hj">·</span></span></div><a class="ay az ba bb bc bd be bf bg bh bi bj bk bl bm" rel="noopener follow" href="/tag/masculinity?source=home--------------------masculinity-------0----------"><div class="lv cu en lw lx ly bv b hw bx hj kc">Masculinity</div></a><div class="jj jk y"><div class="y" aria-hidden="false" aria-describedby="4" aria-labelledby="4"><button class="y jh ji bf"><div class=""><div><div class="cp" aria-hidden="false" aria-describedby="3" aria-labelledby="3"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M12.4 12.77l-1.81 4.99a.63.63 0 0 1-1.18 0l-1.8-4.99a.63.63 0 0 0-.38-.37l-4.99-1.81a.62.62 0 0 1 0-1.18l4.99-1.8a.63.63 0 0 0 .37-.38l1.81-4.99a.63.63 0 0 1 1.18 0l1.8 4.99a.63.63 0 0 0 .38.37l4.99 1.81a.63.63 0 0 1 0 1.18l-4.99 1.8a.63.63 0 0 0-.37.38z" fill="#FFC017"></path></svg></div></div></div></button></div></div></div><div class="am"><div class="am bq"><div class="gn y lm"><div><div class="cp" aria-hidden="false" aria-describedby="34" aria-labelledby="34"><span><a class="ay az ba bb bc bd be bf bg bh bi bj bk bl bm" rel="noopener follow" href="/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Ffc422b2f3c&amp;operation=register&amp;redirect=https%3A%2F%2Fhumanparts.medium.com%2Fmiigwech-fc422b2f3c&amp;source=---------0-----------------bookmark_preview-0----------"><svg width="25" height="25" viewBox="0 0 25 25" fill="none" class="mg"><path d="M18 2.5a.5.5 0 0 1 1 0V5h2.5a.5.5 0 0 1 0 1H19v2.5a.5.5 0 1 1-1 0V6h-2.5a.5.5 0 0 1 0-1H18V2.5zM7 7a1 1 0 0 1 1-1h3.5a.5.5 0 0 0 0-1H8a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4v-8.5a.5.5 0 0 0-1 0v7.48l-5.2-4a.5.5 0 0 0-.6 0l-5.2 4V7z" fill="#292929"></path></svg></a></span></div></div></div><div class="y bp"></div></div></div></div>
-                </div>
-            </div>
-        </div>
-
-
-
-
-      <!-- <div class="card">
-        <div class="ae cx">
-          <div class="pw-trending-post gh cx ae am eq">
-            <div class="gi io y ip cu gj">
-              <span class="bv ii fi fj fk fl">01</span>
-            </div>
-            <div class="am cy">
-              <div class="hh y">
-                <div class="am bq ax">
-                  <a
-                    href="https://medium.com/angular-blog?source=home---------0---------------------3237b243_7050_40d1_b84e_5cc4834a3b77-------7"
-                    rel="noopener follow"
-                    ><img
-                      alt="Angular Blog"
-                      class="gm gp go"
-                      src="https://miro.medium.com/fit/c/40/40/1*nbJ41jD1-r2Oe6FsLjKaOg.png"
-                      width="20"
-                      height="20"
-                      loading="lazy"
-                  /></a>
-                  <div class="iq am bq er">
-                    <a
-                      class="ay az ba bb bc bd be bf bg bh bi bj bk bl bm"
-                      rel="noopener follow"
-                      href="/@mgechev?source=home---------0---------------------3237b243_7050_40d1_b84e_5cc4834a3b77-------7"
-                      ><h4 class="bv fh hw ik ct ir is it iu iv iw ix by iy">
-                        Minko Gechev
-                      </h4></a
-                    >
-                    <div class="am">
-                      <h4 class="bv fh hw ik iz iy">in</h4>
-                      <a
-                        class="ay az ba bb bc bd be bf bg bh bi bj bk bl bm cp"
-                        href="https://medium.com/angular-blog?source=home---------0---------------------3237b243_7050_40d1_b84e_5cc4834a3b77-------7"
-                        rel="noopener follow"
-                        ><h4 class="bv fh hw ik ct ir is it iu iv iw ix by">
-                          Angular Blog
-                        </h4></a
-                      >
-                    </div>
+                ${this.item.tag?M`
+                  <div class="card-meta-tag" aria-hidden="true">
+                    <div class="">${item.tag}</div>
                   </div>
-                </div>
+                `:""}
+
               </div>
-              <div class="hh y">
-                <a
-                  class="ay az ba bb bc bd be bf bg bh bi bj bk bl bm"
-                  href="https://blog.angular.io/angular-v15-is-now-available-df7be7f2f4c8?source=home---------0---------------------3237b243_7050_40d1_b84e_5cc4834a3b77-------7"
-                  rel="noopener follow"
-                  ><div class="">
-                    <h2 class="title">
-                      Angular v15 is now available!
-                    </h2>
-                  </div></a
-                >
-              </div>
-              <span class="bv b hw bx hj"
-                ><div class="am bq">
-                  <span>Nov 16</span>
-                  <div class="jc jd y" aria-hidden="true">
-                    <span class="y" aria-hidden="true"
-                      ><span class="bv b bw bx hj">·</span></span
-                    >
-                  </div>
-                  <span class="pw-reading-time bv b hw bx hj">10 min read</span>
-                </div></span
-              >
             </div>
           </div>
         </div>
-      </div> -->
-    `}};be.styles=a`
-
+      </div>
+    `}};ut.styles=r`
     .card-wrapper {
-        max-width: 100%;
-        flex-basis: 100%;
-        padding-right: 12px;
-        padding-left: 12px;
-        flex-grow: 0;
-        display: block;
-        box-sizing: inherit;
+      max-width: 100%;
+      flex-basis: 100%;
+      flex-grow: 0;
+      display: block;
+      box-sizing: inherit;
     }
 
     .card {
-        display: flex;
+      display: flex;
     }
 
-    .card-text, .card-image {
-        padding: 0.4rem;
+    .card-text,
+    .card-image {
+      padding: 0.4rem;
+    }
+
+    .card-meta-wrapper {
+      padding-top: 8px;
+      align-items: baseline;
+      justify-content: space-between;
+      display: flex;
     }
 
     .card-meta {
-        padding-top: 8px;
-        align-items: baseline;
-        justify-content: space-between;
-        display: flex;
+      align-items: center;
+      display: flex;
+      min-width: 0;
+    }
+
+    .card-meta-date {
+      font-size: 13px;
+      color: rgba(117, 117, 117, 1);
+      font-family: sohne, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      line-height: 20px;
+    }
+
+    .card-meta-dot {
+      padding-left: 6px;
+      padding-right: 6px;
+      display: block;
+      color: rgba(117, 117, 117, 1);
+      line-height: 20px;
+      font-size: 14px;
+    }
+
+    .card-meta-tag {
+      background-color: #e3e7af;
+      position: relative;
+      line-height: 20px;
+      padding: 2px 8px;
+      border-radius: 100px;
+      transition: background 300ms ease 0s;
+      white-space: nowrap;
+      font-size: 13px;
     }
 
     .title {
-        -webkit-line-clamp: 2;
-        max-height: 40px;
-        -webkit-box-orient: vertical;
-        display: -webkit-box;
-        text-overflow: ellipsis;
-        font-weight: 700;
-        letter-spacing: 0;
-        font-size: 16px;
-        overflow: hidden;
-        color: rgba(41, 41, 41, 1);
-        line-height: 20px;
-        font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      -webkit-line-clamp: 2;
+      max-height: 40px;
+      -webkit-box-orient: vertical;
+      display: -webkit-box;
+      text-overflow: ellipsis;
+      font-weight: 700;
+      letter-spacing: 0;
+      font-size: 16px;
+      overflow: hidden;
+      color: rgba(41, 41, 41, 1);
+      line-height: 20px;
+      font-family: sohne, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     }
 
     .tag {
@@ -364,17 +343,16 @@ const te=e=>t=>"function"==typeof t?((e,t)=>(customElements.define(e,t),t))(e,t)
     }
 
     .image {
-        object-fit: cover;
+      object-fit: cover;
     }
-
-  `,ce([se({type:String})],be.prototype,"name",void 0),be=ce([te("simple-mini-card-element")],be);var ve=function(e,t,i,s){for(var n,a=arguments.length,l=a<3?t:null===s?s=Object.getOwnPropertyDescriptor(t,i):s,r=e.length-1;r>=0;r--)(n=e[r])&&(l=(a<3?n(l):a>3?n(t,i,l):n(t,i))||l);return a>3&&l&&Object.defineProperty(t,i,l),l};let ue=class extends Y{constructor(){super(...arguments),this.title="",this.items=[]}render(){return R`
+  `,ct([st({type:String})],ut.prototype,"theme",void 0),ct([st({type:Object})],ut.prototype,"item",void 0),ut=ct([et("simple-mini-card-element")],ut);var mt=function(t,e,i,s){for(var n,r=arguments.length,o=r<3?e:null===s?s=Object.getOwnPropertyDescriptor(e,i):s,a=t.length-1;a>=0;a--)(n=t[a])&&(o=(r<3?n(o):r>3?n(e,i,o):n(e,i))||o);return r>3&&o&&Object.defineProperty(e,i,o),o};let vt=class extends Y{constructor(){super(...arguments),this.title="",this.items=[]}render(){return M`
       <span class="wrapper">
         <ul>
           <span class="text">${this.title}</span>
-          ${this.items.map((e=>R`<li><a href=${e.href}>${e.name}</a></li>`))}
+          ${this.items.map((t=>M`<li><a href=${t.href}>${t.name}</a></li>`))}
         </ul>
       </span>
-    `}};ue.styles=a`
+    `}};vt.styles=r`
     .wrapper {
       margin-top: 16px;
       font-size: 14px;
@@ -411,7 +389,7 @@ const te=e=>t=>"function"==typeof t?((e,t)=>(customElements.define(e,t),t))(e,t)
       text-decoration: none;
       cursor: pointer;
     }
-  `,ve([se()],ue.prototype,"title",void 0),ve([se()],ue.prototype,"items",void 0),ue=ve([te("list-element")],ue);var me=function(e,t,i,s){for(var n,a=arguments.length,l=a<3?t:null===s?s=Object.getOwnPropertyDescriptor(t,i):s,r=e.length-1;r>=0;r--)(n=e[r])&&(l=(a<3?n(l):a>3?n(t,i,l):n(t,i))||l);return a>3&&l&&Object.defineProperty(t,i,l),l};let pe=class extends Y{render(){return R`
+  `,mt([st()],vt.prototype,"title",void 0),mt([st()],vt.prototype,"items",void 0),vt=mt([et("list-element")],vt);var pt=function(t,e,i,s){for(var n,r=arguments.length,o=r<3?e:null===s?s=Object.getOwnPropertyDescriptor(e,i):s,a=t.length-1;a>=0;a--)(n=t[a])&&(o=(r<3?n(o):r>3?n(e,i,o):n(e,i))||o);return r>3&&o&&Object.defineProperty(e,i,o),o};let gt=class extends Y{render(){return M`
       <div class="info-box">
 
         <div class="info-col-4">
@@ -419,29 +397,31 @@ const te=e=>t=>"function"==typeof t?((e,t)=>(customElements.define(e,t),t))(e,t)
             <list-element title="Welcome" .items=${[{name:"What is Hyrox?",href:""},{name:"How hard is Hyrox?",href:""},{name:"Can a begineer do a Hyrox?",href:""},{name:"A begineer guide to Hyrox",href:""},{name:"The history of hyrox",href:""}]}></list-element>
           </div>
           <div class="section ">
-            <list-element title="Guides" .items=${[{name:"How to Structure you Hyrox Training",href:""},{name:"Ultimate Hyrox Training Guide",href:""},{name:"Hyrox Q & A",href:""},{name:"Training Guide",href:""},{name:"Tips & Tricks Per Station",href:""},{name:"Movement Standards",href:""},{name:"Hyrox PFT Guide",href:""},{name:"Ultimate List of Hyrox Workouts",href:""},{name:"A begineer guide to Hyrox",href:""}]}></list-element>
+            <list-element title="Guides" .items=${[{name:"How to Structure you Hyrox Training",href:""},{name:"Ultimate Hyrox Training Guide",href:""},{name:"Who you should be following",href:""},{name:"Hyrox Q & A",href:""},{name:"Training Guide",href:""},{name:"Tips & Tricks Per Station",href:""},{name:"Movement Standards",href:""},{name:"Hyrox PFT Guide",href:""},{name:"Ultimate List of Hyrox Workouts",href:""},{name:"A begineer guide to Hyrox",href:""}]}></list-element>
           </div>
           <div class="section no-border">
-            <list-element title="Resources" .items=${[{name:"Hyrox Rules",href:""},{name:"Hyrox Double Rules",href:""},{name:"Hyrox Relay Rules",href:""},{name:"Hyrox Training Plan",href:""},{name:"Hyrox Workouts",href:""}]}></list-element>
+            <list-element title="Resources" .items=${[{name:"Hyrox Rules",href:""},{name:"Hyrox Double Rules",href:""},{name:"Hyrox Relay Rules",href:""},{name:"Hyrox Training Plan",href:""},{name:"Hyrox Workouts",href:""},{name:"Hyrox Podcasts",href:""}]}></list-element>
           </div>
         </div>
 
-        <div class="info-col-4">
-          <list-element title="Must Reads" .items=${[{name:"Hyrox London 2022: The Aftermath",href:""},{name:"Running Gear",href:""}]}></list-element>
+        <div class="info-col-4-greater">
+        <span class="section-title">Must Reads</span>
+
+          ${[{name:"Hyrox London 2022: The Aftermath",href:""},{name:"Running Gear",href:""}].map((t=>M`<simple-mini-card-element theme="large" .item=${t}></simple-mini-card-element>`))}
+
         </div>
 
-        <div class="info-col-4">
+        <div class="info-col-4-less">
             <div class="section">
                 <span class="section-title">Hyrox Workouts</span>
-                <simple-mini-card-element></simple-mini-card-element>
-                <simple-mini-card-element></simple-mini-card-element>
-                <simple-mini-card-element></simple-mini-card-element>
+                ${[{name:"Strength Workout",href:"",date:" "},{name:"60m AMRAP",href:"",date:" "}].map((t=>M`<simple-mini-card-element .item=${t}></simple-mini-card-element>`))}
             </div>
         </div>
 
         <div class="info-col-4">
             <div class="section">
                 <discover-card-element title="Discover">
+                    <tag-element name="Mobility"></tag-element>
                     <tag-element name="Motivation"></tag-element>
                     <tag-element name="Hyrox Comp Analysis"></tag-element>
                     <tag-element name="Tips & Tricks"></tag-element>
@@ -466,7 +446,7 @@ const te=e=>t=>"function"==typeof t?((e,t)=>(customElements.define(e,t),t))(e,t)
 
 
           <div class="section">
-            <list-element title="Recovery & Health" .items=${[{name:"How to maximum recovery",href:""},{name:"Supplements we use",href:""},{name:"Tech we use",href:""}]}></list-element>
+            <list-element title="Recovery & Health" .items=${[{name:"How to maximise recovery",href:""},{name:"Supplements we use",href:""},{name:"Tech we use",href:""}]}></list-element>
           </div>         
           <div class="section no-border">
             <list-element title="Gear" .items=${[{name:"Shoes",href:""},{name:"Running Gear",href:""}]}></list-element>
@@ -479,7 +459,7 @@ const te=e=>t=>"function"==typeof t?((e,t)=>(customElements.define(e,t),t))(e,t)
           <!-- <mini-card-element></mini-card-element> -->
         </div>
       </div>
-    `}};pe.styles=a`
+    `}};gt.styles=r`
     .info-box {
       overflow: hidden;
       border-bottom: 1px solid rgba(230, 230, 230, 1);
@@ -506,12 +486,33 @@ const te=e=>t=>"function"==typeof t?((e,t)=>(customElements.define(e,t),t))(e,t)
     .info-box .info-col-4 {
         box-sizing: border-box;
         float: left;
-        width: 25%;
+        width: 22%;
         padding: 0;
         min-height: 50px;
         padding-left: 0.5rem;
         padding-right: 0.5rem;
       }
+
+    .info-box .info-col-4-greater {
+      box-sizing: border-box;
+      float: left;
+      width: 38%;
+      padding: 0;
+      min-height: 50px;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+    }
+
+    .info-box .info-col-4-less {
+      box-sizing: border-box;
+      float: left;
+      width: 18%;
+      padding: 0;
+      min-height: 50px;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+    }
+
 
     .section {
       display: block;
@@ -536,23 +537,23 @@ const te=e=>t=>"function"==typeof t?((e,t)=>(customElements.define(e,t),t))(e,t)
       }
   
 
-  `,pe=me([te("dashboard-element")],pe);
+  `,gt=pt([et("dashboard-element")],gt);
 /**
  * @license
  * Copyright 2019 Google LLC
  * SPDX-License-Identifier: BSD-3-Clause
  */
-var ge=function(e,t,i,s){for(var n,a=arguments.length,l=a<3?t:null===s?s=Object.getOwnPropertyDescriptor(t,i):s,r=e.length-1;r>=0;r--)(n=e[r])&&(l=(a<3?n(l):a>3?n(t,i,l):n(t,i))||l);return a>3&&l&&Object.defineProperty(t,i,l),l};let fe=class extends Y{constructor(){super(...arguments),this.name="World",this.count=0}render(){return R`
+var bt=function(t,e,i,s){for(var n,r=arguments.length,o=r<3?e:null===s?s=Object.getOwnPropertyDescriptor(e,i):s,a=t.length-1;a>=0;a--)(n=t[a])&&(o=(r<3?n(o):r>3?n(e,i,o):n(e,i))||o);return r>3&&o&&Object.defineProperty(e,i,o),o};let ft=class extends Y{constructor(){super(...arguments),this.name="World",this.count=0}render(){return M`
       <h1>${this.sayHello(this.name)}!</h1>
       <button @click=${this._onClick} part="button">
         Click Count: ${this.count}
       </button>
       <slot></slot>
-    `}_onClick(){this.count++,this.dispatchEvent(new CustomEvent("count-changed"))}sayHello(e){return`Hello, ${e}`}};fe.styles=a`
+    `}_onClick(){this.count++,this.dispatchEvent(new CustomEvent("count-changed"))}sayHello(t){return`Hello, ${t}`}};ft.styles=r`
     :host {
       display: block;
       border: solid 1px gray;
       padding: 16px;
       max-width: 800px;
     }
-  `,ge([se()],fe.prototype,"name",void 0),ge([se({type:Number})],fe.prototype,"count",void 0),fe=ge([te("my-element")],fe);
+  `,bt([st()],ft.prototype,"name",void 0),bt([st({type:Number})],ft.prototype,"count",void 0),ft=bt([et("my-element")],ft);

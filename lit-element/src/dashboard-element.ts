@@ -36,12 +36,33 @@ export class DashboardElement extends LitElement {
     .info-box .info-col-4 {
         box-sizing: border-box;
         float: left;
-        width: 25%;
+        width: 22%;
         padding: 0;
         min-height: 50px;
         padding-left: 0.5rem;
         padding-right: 0.5rem;
       }
+
+    .info-box .info-col-4-greater {
+      box-sizing: border-box;
+      float: left;
+      width: 38%;
+      padding: 0;
+      min-height: 50px;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+    }
+
+    .info-box .info-col-4-less {
+      box-sizing: border-box;
+      float: left;
+      width: 18%;
+      padding: 0;
+      min-height: 50px;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+    }
+
 
     .section {
       display: block;
@@ -80,6 +101,7 @@ export class DashboardElement extends LitElement {
     const items_guides = [
       {name: 'How to Structure you Hyrox Training', href: ''},
       {name: 'Ultimate Hyrox Training Guide', href: ''},
+      {name: 'Who you should be following', href: ''},
       {name: 'Hyrox Q & A', href: ''},
       {name: 'Training Guide', href: ''},
       {name: 'Tips & Tricks Per Station', href: ''},
@@ -95,6 +117,7 @@ export class DashboardElement extends LitElement {
         {name: 'Hyrox Relay Rules', href: ''},
         {name: 'Hyrox Training Plan', href: ''},
         {name: 'Hyrox Workouts', href: ''},
+        {name: 'Hyrox Podcasts', href: ''},
       ];
   
 
@@ -104,7 +127,7 @@ export class DashboardElement extends LitElement {
     ];
 
     const items_recovery = [
-        {name: 'How to maximum recovery', href: ''},
+        {name: 'How to maximise recovery', href: ''},
         {name: 'Supplements we use', href: ''},
         {name: 'Tech we use', href: ''},
     ];
@@ -114,6 +137,10 @@ export class DashboardElement extends LitElement {
         {name: 'Running Gear', href: ''},
     ];
 
+    const items_workouts = [
+      {name: 'Strength Workout', href: '', date: " "},
+      {name: '60m AMRAP', href: '', date: " "},
+  ];
 
 
 
@@ -132,22 +159,28 @@ export class DashboardElement extends LitElement {
           </div>
         </div>
 
-        <div class="info-col-4">
-          <list-element title="Must Reads" .items=${items_must_read}></list-element>
+        <div class="info-col-4-greater">
+        <span class="section-title">Must Reads</span>
+
+          ${items_must_read.map(
+            (item) => html`<simple-mini-card-element theme="large" .item=${item}></simple-mini-card-element>`
+          )}
+
         </div>
 
-        <div class="info-col-4">
+        <div class="info-col-4-less">
             <div class="section">
                 <span class="section-title">Hyrox Workouts</span>
-                <simple-mini-card-element></simple-mini-card-element>
-                <simple-mini-card-element></simple-mini-card-element>
-                <simple-mini-card-element></simple-mini-card-element>
+                ${items_workouts.map(
+            (item) => html`<simple-mini-card-element .item=${item}></simple-mini-card-element>`
+          )}
             </div>
         </div>
 
         <div class="info-col-4">
             <div class="section">
                 <discover-card-element title="Discover">
+                    <tag-element name="Mobility"></tag-element>
                     <tag-element name="Motivation"></tag-element>
                     <tag-element name="Hyrox Comp Analysis"></tag-element>
                     <tag-element name="Tips & Tricks"></tag-element>
