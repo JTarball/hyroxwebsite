@@ -146,13 +146,15 @@ export class SimpleMiniCardElement extends LitElement {
   `;
 
   override render() {
+    console.log(this.item.image)
+
     return html`
       <div class="card-wrapper">
         <div class="card">
           <div class="card-image">
             <img
               class="image"
-              src="img/hyrox-photo-banner.jpg"
+              src="${this.item.image ? this.item.image : 'img/hyrox-photo-banner.jpg'}"
               alt="Girl in a jacket"
               width="${this.theme === 'large' ? '100%' : '100'}"
               height="${this.theme === 'large' ? '300' : '100'}"

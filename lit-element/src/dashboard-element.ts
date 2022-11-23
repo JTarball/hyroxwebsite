@@ -109,7 +109,7 @@ export class DashboardElement extends LitElement {
     ];
 
     const items_resources = [
-      {name: 'Hyrox Rules', href: ''},
+      {name: 'Hyrox Rules', href: 'how-hard-is-hyrox'},
       {name: 'Hyrox Double Rules', href: ''},
       {name: 'Hyrox Relay Rules', href: ''},
       {name: 'Hyrox Training Plan', href: ''},

@@ -213,13 +213,13 @@ const it=t=>i=>"function"==typeof i?((t,i)=>(customElements.define(t,i),i))(t,i)
     .tag:hover p.text {
       color: red;
     }
-  `,ht([st({type:String})],dt.prototype,"name",void 0),dt=ht([it("mini-card-element")],dt);var ct=function(t,i,e,s){for(var n,o=arguments.length,r=o<3?i:null===s?s=Object.getOwnPropertyDescriptor(i,e):s,a=t.length-1;a>=0;a--)(n=t[a])&&(r=(o<3?n(r):o>3?n(i,e,r):n(i,e))||r);return o>3&&r&&Object.defineProperty(i,e,r),r};let ut=class extends Y{constructor(){super(...arguments),this.theme="",this.tagDisplayCount=3}render(){return U`
+  `,ht([st({type:String})],dt.prototype,"name",void 0),dt=ht([it("mini-card-element")],dt);var ct=function(t,i,e,s){for(var n,o=arguments.length,r=o<3?i:null===s?s=Object.getOwnPropertyDescriptor(i,e):s,a=t.length-1;a>=0;a--)(n=t[a])&&(r=(o<3?n(r):o>3?n(i,e,r):n(i,e))||r);return o>3&&r&&Object.defineProperty(i,e,r),r};let ut=class extends Y{constructor(){super(...arguments),this.theme="",this.tagDisplayCount=3}render(){return console.log(this.item.image),U`
       <div class="card-wrapper">
         <div class="card">
           <div class="card-image">
             <img
               class="image"
-              src="img/hyrox-photo-banner.jpg"
+              src="${this.item.image?this.item.image:"img/hyrox-photo-banner.jpg"}"
               alt="Girl in a jacket"
               width="${"large"===this.theme?"100%":"100"}"
               height="${"large"===this.theme?"300":"100"}"
@@ -441,7 +441,7 @@ const it=t=>i=>"function"==typeof i?((t,i)=>(customElements.define(t,i),i))(t,i)
           <div class="section no-border">
             <list-element
               title="Resources"
-              .items=${[{name:"Hyrox Rules",href:""},{name:"Hyrox Double Rules",href:""},{name:"Hyrox Relay Rules",href:""},{name:"Hyrox Training Plan",href:""},{name:"Hyrox Workouts",href:""},{name:"Hyrox Podcasts",href:""}]}
+              .items=${[{name:"Hyrox Rules",href:"how-hard-is-hyrox"},{name:"Hyrox Double Rules",href:""},{name:"Hyrox Relay Rules",href:""},{name:"Hyrox Training Plan",href:""},{name:"Hyrox Workouts",href:""},{name:"Hyrox Podcasts",href:""}]}
             ></list-element>
           </div>
         </div>
