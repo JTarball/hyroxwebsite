@@ -27,7 +27,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Intro Blurb", name: "description", widget: "text"}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Tags", name: "tags", summary: '{{fields.name}}', widget: list, max: 3, min: 0, default: ["news"], allow_add: false}
+      - {label: "Tags", name: "tags", summary: '{{fields.name}}', widget: select, options: ["welcome", "general"], multiple: true}
 
   # Main Pages
   - name: "pages"
