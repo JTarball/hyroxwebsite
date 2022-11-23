@@ -182,27 +182,6 @@ export class DashboardElement extends LitElement {
          
           <div class="section">
             <slot name="fourth"></slot>
-            <!-- <discover-card-element title="Discover">
-              <tag-element name="Mobility"></tag-element>
-              <tag-element name="Motivation"></tag-element>
-              <tag-element name="Hyrox Comp Analysis"></tag-element>
-              <tag-element name="Tips & Tricks"></tag-element>
-              <tag-element name="Movement Standards"></tag-element>
-              <tag-element name="Power Endurance"></tag-element>
-              <tag-element name="Max Strength"></tag-element>
-              <tag-element name="Full Body"></tag-element>
-              <tag-element name="Hyrox Workouts"></tag-element>
-              <tag-element name="Running"></tag-element>
-              <tag-element name="Ski Erg"></tag-element>
-              <tag-element name="Sled Push"></tag-element>
-              <tag-element name="Sled Pull"></tag-element>
-              <tag-element name="Burpee Broad Jumps"></tag-element>
-              <tag-element name="Rowing"></tag-element>
-              <tag-element name="Farmers Carry"></tag-element>
-              <tag-element name="Sandbag Lunges"></tag-element>
-              <tag-element name="Wall Balls"></tag-element>
-              <tag-element name="Must Reads"></tag-element>
-            </discover-card-element> -->
           </div>
 
           <div class="section">

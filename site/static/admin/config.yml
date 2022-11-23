@@ -105,9 +105,6 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Heading, name: heading, widget: string}
               - {label: Text, name: text, widget: text}
               - {label: Image, name: imageUrl, widget: image}
-      - file: "site/content/discover/_index.md"
-        label: "Discover"
-        name: "discover"
   - name: "discover" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Discover" # Used in the UI, ie.: "New Post"
     folder: "site/content/discover" # The path to the folder where the documents are stored
