@@ -38,7 +38,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "home"
         fields:
           - {label: description, name: description, widget: string}
-           - {label: Tags, name: "tags", summary: '{{fields.name}}', widget: list, max: 3, min: 0, default: ["news"]}
+          - {label: Tags, name: "tags", summary: '{{fields.name}}', widget: list, max: 3, min: 0, default: ["news"]}
 
   # - name: "pages"
   #   label: "Pages"
