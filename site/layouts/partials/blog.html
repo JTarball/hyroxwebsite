@@ -5,11 +5,14 @@
 			<img src="/img/main-latest-stories.svg" alt="" style="width: 240px">
 		</div>
 
-		<div class="w-100 flex-ns mhn1-ns flex-wrap mb3">
+
+		<div class="w-100 flex-ns mhn1-ns flex-wrap mb3" style="border-top: 1px solid var(--black);">
 			{{ range first 4 (where .Data.Pages "Type" "post") }}
+				{{ range (.Paginator 4).Pages.ByPublishDate.Reverse }}
 				<div class="ph1-ns w-50-ns flex">
 					{{ .Render "li" }}
 				</div>
+				{{ end }}
 			{{ end }}
 		</div>
 	</div>

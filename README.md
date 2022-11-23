@@ -44,3 +44,10 @@ All SVG icons stored in `site/static/img/icons` are automatically optimized with
   <use xlink:href="#SVG-ID"></use>
 </svg>
 ```
+
+
+
+## Debug Hugo Templates
+
+	{{ .Params.tags | jsonify (dict "indent" " ") }}
+  https://discourse.gohugo.io/t/advice-on-how-to-inspect-a-page-context/35504

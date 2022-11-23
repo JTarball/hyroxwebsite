@@ -4,10 +4,9 @@ import {customElement, property} from 'lit/decorators.js';
 @customElement('simple-mini-card-element')
 export class SimpleMiniCardElement extends LitElement {
   @property({type: String})
-  theme: string = "";
+  theme: string = '';
 
-
-  @property({type: Object})
+  @property({type: Object, reflect: false})
   item: object;
 
   static override styles = css`
@@ -29,7 +28,7 @@ export class SimpleMiniCardElement extends LitElement {
     }
 
     .card-meta-wrapper {
-      padding-top: 8px;
+      padding-top: 0px;
       align-items: baseline;
       justify-content: space-between;
       display: flex;
@@ -58,8 +57,24 @@ export class SimpleMiniCardElement extends LitElement {
       font-size: 14px;
     }
 
+    .card-meta-tags {
+      list-style-type: none;
+      padding-left: 6px;
+      padding-right: 6px;
+      display: block;
+      color: rgba(117, 117, 117, 1);
+      line-height: 20px;
+      font-size: 14px;
+    }
+
+    .card-meta-tags li {
+      padding-right: 0.1rem;
+      display: inline;
+    }
+
     .card-meta-tag {
       background-color: #e3e7af;
+      color: rgba(117, 117, 117, 1);
       position: relative;
       line-height: 20px;
       padding: 2px 8px;
@@ -67,6 +82,7 @@ export class SimpleMiniCardElement extends LitElement {
       transition: background 300ms ease 0s;
       white-space: nowrap;
       font-size: 13px;
+      text-decoration: none;
     }
 
     .title {
@@ -82,7 +98,14 @@ export class SimpleMiniCardElement extends LitElement {
       color: rgba(41, 41, 41, 1);
       line-height: 20px;
       font-family: sohne, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      padding-bottom: 0px;
     }
+
+    h2 {
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+    }
+
 
     .tag {
       border-radius: 3px;
@@ -117,8 +140,6 @@ export class SimpleMiniCardElement extends LitElement {
 
   override render() {
 
-
-
     return html`
       <div class="card-wrapper">
         <div class="card">
@@ -127,8 +148,8 @@ export class SimpleMiniCardElement extends LitElement {
               class="image"
               src="img/hyrox-photo-banner.jpg"
               alt="Girl in a jacket"
-              width="${this.theme === 'large' ? '120': '75'}"
-              height="${this.theme === 'large' ? '120': '75'}"
+              width="${this.theme === 'large' ? '120' : '100'}"
+              height="${this.theme === 'large' ? '120' : '100'}"
             />
           </div>
           <div class="card-text">
@@ -145,13 +166,15 @@ export class SimpleMiniCardElement extends LitElement {
                       </div>
                     `
                   : ''}
-
-                ${this.item.tags ? html`
-                  <div class="card-meta-tag" aria-hidden="true">
-                    <div class="">${item.tags }</div>
-                  </div>
-                ` : ""}
-
+                ${this.item.tags
+                  ? html`
+                      <ul class="card-meta-tags">
+                          ${this.item.tags.map(
+                            (tag) => html`<li><a class="card-meta-tag" aria-hidden="true" href="tags/${tag}">${tag}</a></li>`
+                          )}
+                      </ul>
+                    `
+                  : ''}
               </div>
             </div>
           </div>
