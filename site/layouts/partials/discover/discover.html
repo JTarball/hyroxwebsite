@@ -1,0 +1,54 @@
+<div class="bg-off-white pv4">
+	<div class="ph3 mw7 center">
+        {{ $tag :=  .Params.title }}
+
+		<div class="b lh-title mb2 mt5">
+			<img src="/img/discover.svg" alt="" style="width: 240px">
+            {{ if $tag }}
+            <a style="font-family: Hiragino Maru Gothic ProN; font-weight: 500; font-size: 36px; line-height: 36px;">{{$tag}}.</a>
+            {{ end }}
+		</div>
+        {{ if .Description }}
+        <a style="font-family: Hiragino Maru Gothic ProN; font-weight: 500; font-size: 16px; color: var(--grey-3)">{{.Description}}.</a>
+        {{ end }}
+
+        <discover-card-element title="">
+			{{ range (where .Site.RegularPages "Type" "discover" ) }}
+                {{ $active := cond (eq $tag .Title) true false  }}
+                {{ if $active }}
+                    <tag-element name={{.Title}} active></tag-element>
+                {{ else }}
+                    <tag-element name={{.Title}}></tag-element>
+                {{ end }}
+			{{ end }}
+        </discover-card-element>
+
+		<div class="w-100 flex-ns mhn1-ns flex-wrap mb3" style="border-top: 1px solid var(--black);">
+
+            {{ $.Scratch.Set "counter" 0 }}
+			{{ range (where .Site.RegularPages "Type" "post" ) }}	
+                {{ if in .Params.tags $tag }}
+                    <div class="ph1-ns w-50-ns flex">
+                        {{ .Render "li" }}
+                        {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+                    </div>
+                {{ end }}
+
+			{{ end }}
+
+            {{ if eq ($.Scratch.Get "counter")  0 }}
+                <div class="ph1-ns pt3-m flex center">
+                    <span class="ph3 mw7 center no-underline pa3  br1 mb2 mt2 db raise w-100">
+                        <img src="/img/skull-grey.svg" alt="" width="200px" style="display: block; margin-left: auto;margin-right: auto;">
+                        <span style="color: var(--grey-2)">Munch, Munch... Still working on Articles..</span>
+                    </span>
+                </div>
+            {{end}}
+
+
+
+		</div>
+	</div>
+</div>
+
+<script type="module" src="/js/my-element.bundled.js"></script>

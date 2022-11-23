@@ -34,14 +34,14 @@ export class DashboardElement extends LitElement {
     }
 
     .info-box .info-col-4 {
-        box-sizing: border-box;
-        float: left;
-        width: 22%;
-        padding: 0;
-        min-height: 50px;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
-      }
+      box-sizing: border-box;
+      float: left;
+      width: 22%;
+      padding: 0;
+      min-height: 50px;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+    }
 
     .info-box .info-col-4-greater {
       box-sizing: border-box;
@@ -63,7 +63,6 @@ export class DashboardElement extends LitElement {
       padding-right: 0.5rem;
     }
 
-
     .section {
       display: block;
       flex-direction: column;
@@ -76,17 +75,15 @@ export class DashboardElement extends LitElement {
     }
 
     .section-title {
-        font-family: 'Segoe UI Web (West European)', 'Segoe UI', -apple-system,
-          BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif;
-          text-transform: uppercase;
-          letter-spacing: 0.083em;
-          line-height: 18px;
-          font-size: 12px;
-          font-weight: 700;
-          color: rgba(41, 41, 41, 1);
-      }
-  
-
+      font-family: 'Segoe UI Web (West European)', 'Segoe UI', -apple-system,
+        BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.083em;
+      line-height: 18px;
+      font-size: 12px;
+      font-weight: 700;
+      color: rgba(41, 41, 41, 1);
+    }
   `;
 
   override render() {
@@ -112,14 +109,13 @@ export class DashboardElement extends LitElement {
     ];
 
     const items_resources = [
-        {name: 'Hyrox Rules', href: ''},
-        {name: 'Hyrox Double Rules', href: ''},
-        {name: 'Hyrox Relay Rules', href: ''},
-        {name: 'Hyrox Training Plan', href: ''},
-        {name: 'Hyrox Workouts', href: ''},
-        {name: 'Hyrox Podcasts', href: ''},
-      ];
-  
+      {name: 'Hyrox Rules', href: ''},
+      {name: 'Hyrox Double Rules', href: ''},
+      {name: 'Hyrox Relay Rules', href: ''},
+      {name: 'Hyrox Training Plan', href: ''},
+      {name: 'Hyrox Workouts', href: ''},
+      {name: 'Hyrox Podcasts', href: ''},
+    ];
 
     const items_must_read = [
       {name: 'Hyrox London 2022: The Aftermath', href: ''},
@@ -127,26 +123,23 @@ export class DashboardElement extends LitElement {
     ];
 
     const items_recovery = [
-        {name: 'How to maximise recovery', href: ''},
-        {name: 'Supplements we use', href: ''},
-        {name: 'Tech we use', href: ''},
+      {name: 'How to maximise recovery', href: ''},
+      {name: 'Supplements we use', href: ''},
+      {name: 'Tech we use', href: ''},
     ];
 
     const items_gear = [
-        {name: 'Shoes', href: ''},
-        {name: 'Running Gear', href: ''},
+      {name: 'Shoes', href: ''},
+      {name: 'Running Gear', href: ''},
     ];
 
     const items_workouts = [
-      {name: 'Strength Workout', href: '', date: " "},
-      {name: '60m AMRAP', href: '', date: " "},
-  ];
-
-
+      {name: 'Strength Workout', href: '', date: ' '},
+      {name: '60m AMRAP', href: '', date: ' '},
+    ];
 
     return html`
       <div class="info-box">
-
         <div class="info-col-4">
           <div class="section">
             <list-element title="Welcome" .items=${items}></list-element>
@@ -155,67 +148,72 @@ export class DashboardElement extends LitElement {
             <list-element title="Guides" .items=${items_guides}></list-element>
           </div>
           <div class="section no-border">
-            <list-element title="Resources" .items=${items_resources}></list-element>
+            <list-element
+              title="Resources"
+              .items=${items_resources}
+            ></list-element>
           </div>
         </div>
 
         <div class="info-col-4-greater">
-        <span class="section-title">Must Reads</span>
+          <span class="section-title">Must Reads</span>
 
           ${items_must_read.map(
-            (item) => html`<simple-mini-card-element theme="large" .item=${item}></simple-mini-card-element>`
+            (item) =>
+              html`<simple-mini-card-element
+                .item=${item}
+              ></simple-mini-card-element>`
           )}
-
         </div>
 
         <div class="info-col-4-less">
-            <div class="section">
-                <span class="section-title">Hyrox Workouts</span>
-                ${items_workouts.map(
-            (item) => html`<simple-mini-card-element .item=${item}></simple-mini-card-element>`
-          )}
-            </div>
+          <div class="section">
+            <span class="section-title">Hyrox Workouts</span>
+            ${items_workouts.map(
+              (item) =>
+                html`<simple-mini-card-element
+                  .item=${item}
+                ></simple-mini-card-element>`
+            )}
+          </div>
         </div>
 
         <div class="info-col-4">
-            <div class="section">
-                <discover-card-element title="Discover">
-                    <tag-element name="Mobility"></tag-element>
-                    <tag-element name="Motivation"></tag-element>
-                    <tag-element name="Hyrox Comp Analysis"></tag-element>
-                    <tag-element name="Tips & Tricks"></tag-element>
-                    <tag-element name="Movement Standards"></tag-element>
-                    <tag-element name="Power Endurance"></tag-element>
-                    <tag-element name="Max Strength"></tag-element>
-                    <tag-element name="Full Body"></tag-element>
-                    <tag-element name="Hyrox Workouts"></tag-element>
-                    <tag-element name="Running"></tag-element>
-                    <tag-element name="Ski Erg"></tag-element>
-                    <tag-element name="Sled Push"></tag-element>
-                    <tag-element name="Sled Pull"></tag-element>
-                    <tag-element name="Burpee Broad Jumps"></tag-element>
-                    <tag-element name="Rowing"></tag-element>
-                    <tag-element name="Farmers Carry"></tag-element>
-                    <tag-element name="Sandbag Lunges"></tag-element>
-                    <tag-element name="Wall Balls"></tag-element>
-                    <tag-element name="Must Reads"></tag-element>
-                </discover-card-element>
-            </div> 
-
-
+         
+          <div class="section">
+            <slot name="fourth"></slot>
+            <!-- <discover-card-element title="Discover">
+              <tag-element name="Mobility"></tag-element>
+              <tag-element name="Motivation"></tag-element>
+              <tag-element name="Hyrox Comp Analysis"></tag-element>
+              <tag-element name="Tips & Tricks"></tag-element>
+              <tag-element name="Movement Standards"></tag-element>
+              <tag-element name="Power Endurance"></tag-element>
+              <tag-element name="Max Strength"></tag-element>
+              <tag-element name="Full Body"></tag-element>
+              <tag-element name="Hyrox Workouts"></tag-element>
+              <tag-element name="Running"></tag-element>
+              <tag-element name="Ski Erg"></tag-element>
+              <tag-element name="Sled Push"></tag-element>
+              <tag-element name="Sled Pull"></tag-element>
+              <tag-element name="Burpee Broad Jumps"></tag-element>
+              <tag-element name="Rowing"></tag-element>
+              <tag-element name="Farmers Carry"></tag-element>
+              <tag-element name="Sandbag Lunges"></tag-element>
+              <tag-element name="Wall Balls"></tag-element>
+              <tag-element name="Must Reads"></tag-element>
+            </discover-card-element> -->
+          </div>
 
           <div class="section">
-            <list-element title="Recovery & Health" .items=${items_recovery}></list-element>
-          </div>         
+            <list-element
+              title="Recovery & Health"
+              .items=${items_recovery}
+            ></list-element>
+          </div>
           <div class="section no-border">
             <list-element title="Gear" .items=${items_gear}></list-element>
-          </div>   
-
-
-
-
-          
-          <!-- <mini-card-element></mini-card-element> -->
+          </div>
         </div>
       </div>
     `;

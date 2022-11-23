@@ -1,21 +1,26 @@
 {{ define "main" }}
-<!-- 
-{{ partial "jumbotron" (dict "imageUrl" "/img/blog-index.jpg" "title" "Late") }}
 
- -->
-
-{{ partial "hyrox/dashboard" }}
-
+<dashboard-element>
+  <div slot="fourth">
+    <discover-card-element title="Discover">
+			{{ range (where .Site.RegularPages "Type" "discover" ) }}
+        <tag-element name={{.Title}}></tag-element>
+			{{ end }}
+    </discover-card-element>
+  </div>
+</dashboard-element>
 
 <div class="mw7 center">
   <ul id="blog-list" class="flex-ns flex-wrap mhn1-ns pa3">
-      {{ range (.Paginator 4).Pages.ByPublishDate.Reverse }}
+      {{ range (where .Site.RegularPages "Type" "post" ) }}
           <li class="w-50-ns ph1-ns flex">
-            {{ .Render "li"}}
+            {{ .Render "li-big"}}
           </li>
       {{ end }}
   </ul>
   {{ partial "pagination" . }}
 </div>
+
+<script type="module" src="/js/my-element.bundled.js"></script>
 
 {{end}}

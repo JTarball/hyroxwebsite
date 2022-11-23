@@ -6,6 +6,9 @@ export class TagElement extends LitElement {
     
     @property({type: String})
     name: string = ""
+
+    @property({type: Boolean, reflect: true})
+    active: boolean = false;
     
     static override styles = css`
         .tag {
@@ -26,9 +29,10 @@ export class TagElement extends LitElement {
             margin: 0;
         }
 
-        .tag:hover {
+        .tag:hover, :host([active]) .tag {
             border: 1px solid red;
         }
+     
 
        .tag:hover p.text {
             color: red;
@@ -37,11 +41,12 @@ export class TagElement extends LitElement {
     `;
 
     override render() {
+
     return html`
         <a
         class="ay az ba bb bc bd be bf bg bh bi bj bk bl bm"
         rel="noopener follow"
-        href="/tag/programming?source=home-------------------------------------"
+        href="/discover/${this.name.replace(/\s+/g, '-').toLowerCase()}"
         ><div class="tag">
             <div><p class="text">${this.name}</p></div>
         </div></a

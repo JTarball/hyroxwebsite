@@ -1,14 +1,14 @@
 <div class="bg-off-white pv4">
 	<div class="ph3 mw7 center">
 
-		<div class="b lh-title mb2 mt5">
-			<img src="/img/main-latest-stories.svg" alt="" style="width: 240px">
+		<div class="b lh-title mb2 mt5" style="cursor: pointer;">
+			<img src="/img/main-latest-stories.svg" alt="" style="width: 240px" onclick="window.location.href='/post'" >
 		</div>
 
 
 		<div class="w-100 flex-ns mhn1-ns flex-wrap mb3" style="border-top: 1px solid var(--black);">
-			{{ range first 4 (where .Data.Pages "Type" "post") }}
-				{{ range (.Paginator 4).Pages.ByPublishDate.Reverse }}
+			{{ range first 8 (where .Data.Pages "Type" "post") }}
+				{{ range (.Paginator 8).Pages.ByPublishDate.Reverse }}
 				<div class="ph1-ns w-50-ns flex">
 					{{ .Render "li" }}
 				</div>

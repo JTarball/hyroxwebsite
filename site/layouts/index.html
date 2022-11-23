@@ -1,9 +1,6 @@
 {{ define "main" }}
 
-<!-- <script type="module" src="/js/my-element.bundled.js"></script> -->
 
-
-{{.IsHome}}
 
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "description" .Params.description "IsHome" .IsHome) }}
 
@@ -14,5 +11,7 @@
 {{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }} -->
 
 {{ partial "blog" . }}
+
+<script type="module" src="/js/my-element.bundled.js"></script>
 
 {{ end }}

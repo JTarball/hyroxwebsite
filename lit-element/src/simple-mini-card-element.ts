@@ -9,6 +9,9 @@ export class SimpleMiniCardElement extends LitElement {
   @property({type: Object, reflect: false})
   item: object;
 
+  @property({type: Number})
+  tagDisplayCount: number = 3;
+
   static override styles = css`
     .card-wrapper {
       max-width: 100%;
@@ -20,6 +23,11 @@ export class SimpleMiniCardElement extends LitElement {
 
     .card {
       display: flex;
+    }
+
+
+    :host([theme=large]) .card {
+      flex-direction: column;
     }
 
     .card-text,
@@ -106,7 +114,6 @@ export class SimpleMiniCardElement extends LitElement {
       margin-bottom: 0px;
     }
 
-
     .tag {
       border-radius: 3px;
       padding: 6px 16px;
@@ -139,7 +146,6 @@ export class SimpleMiniCardElement extends LitElement {
   `;
 
   override render() {
-
     return html`
       <div class="card-wrapper">
         <div class="card">
@@ -148,8 +154,8 @@ export class SimpleMiniCardElement extends LitElement {
               class="image"
               src="img/hyrox-photo-banner.jpg"
               alt="Girl in a jacket"
-              width="${this.theme === 'large' ? '120' : '100'}"
-              height="${this.theme === 'large' ? '120' : '100'}"
+              width="${this.theme === 'large' ? '100%' : '100'}"
+              height="${this.theme === 'large' ? '300' : '100'}"
             />
           </div>
           <div class="card-text">
@@ -169,9 +175,20 @@ export class SimpleMiniCardElement extends LitElement {
                 ${this.item.tags
                   ? html`
                       <ul class="card-meta-tags">
-                          ${this.item.tags.map(
-                            (tag) => html`<li><a class="card-meta-tag" aria-hidden="true" href="tags/${tag}">${tag}</a></li>`
-                          )}
+                        ${this.item.tags.map((tag, index) => {
+                          if (index < this.tagDisplayCount) {
+                            return html`<li>
+                              <a
+                                class="card-meta-tag"
+                                aria-hidden="true"
+                                href="tags/${tag}"
+                                >${tag}</a
+                              >
+                            </li>`;
+                          } else {
+                            return '';
+                          }
+                        })}
                       </ul>
                     `
                   : ''}

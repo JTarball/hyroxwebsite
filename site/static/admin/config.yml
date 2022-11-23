@@ -108,3 +108,11 @@ collections: # A list of collections the CMS should be able to edit
       - file: "site/content/discover/_index.md"
         label: "Discover"
         name: "discover"
+  - name: "discover" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Discover" # Used in the UI, ie.: "New Post"
+    folder: "site/content/discover" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "text"}

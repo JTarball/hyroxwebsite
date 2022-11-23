@@ -1,17 +1,5 @@
 {{ define "main" }}
 
-
-<div class="ph3 bg-off-white">
-	<div class="center mw6 pv3">
-
-discover
-
-		{{ .Content }}
-
-
-	{{ .Site | jsonify (dict "indent" " ") }}
-
-	</div>
-</div>
+{{ partial "discover/discover" . }}
 
 {{ end }}
