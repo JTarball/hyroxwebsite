@@ -2,7 +2,10 @@
 
 <!-- <script type="module" src="/js/my-element.bundled.js"></script> -->
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "description" .Params.description ) }}
+
+{{.IsHome}}
+
+{{ partial "jumbotron" (dict "imageUrl" .Params.image "description" .Params.description "IsHome" .IsHome) }}
 
 <!-- {{ partial "short-text" .Params.blurb}} -->
 

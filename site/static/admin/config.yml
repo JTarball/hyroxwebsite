@@ -27,12 +27,11 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Intro Blurb", name: "description", widget: "text"}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Tags", name: "tags", summary: '{{fields.name}}', widget: list, max: 3, min: 0, default: ["news"]}
+      - {label: "Tags", name: "tags", summary: '{{fields.name}}', widget: list, max: 3, min: 0, default: ["news"], allow_add: false}
 
   # Main Pages
   - name: "pages"
     label: "Pages"
-    create: true
     files:
       - file: "site/content/_index.md"
         label: "Home Page"
@@ -106,3 +105,6 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Heading, name: heading, widget: string}
               - {label: Text, name: text, widget: text}
               - {label: Image, name: imageUrl, widget: image}
+      - file: "site/content/discover/_index.md"
+        label: "Discover"
+        name: "discover"

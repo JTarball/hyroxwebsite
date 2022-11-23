@@ -8,7 +8,8 @@
               <h3 class="main-banner-text">{{ .description }}</h3>
             </span>
           </div>
-          <div class="main-enter-button-container"><span><button class="main-enter-button">Feed me!</button></span></div>
+
+          {{ if .IsHome }}  <div class="main-enter-button-container"><span><button class="main-enter-button">Feed me!</button></span></div> {{ end }}
 
         </h1>
       </div>
