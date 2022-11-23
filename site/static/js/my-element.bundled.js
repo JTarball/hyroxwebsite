@@ -231,9 +231,9 @@ const et=t=>e=>"function"==typeof e?((t,e)=>(customElements.define(t,e),e))(t,e)
                       </div>
                     `:""}
 
-                ${this.item.tag?M`
+                ${this.item.tags?M`
                   <div class="card-meta-tag" aria-hidden="true">
-                    <div class="">${item.tag}</div>
+                    <div class="">${item.tags}</div>
                   </div>
                 `:""}
 

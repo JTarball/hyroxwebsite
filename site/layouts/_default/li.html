@@ -3,9 +3,9 @@
 	<p class="mid-gray lh-title mb2">{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
 	<p class="mb0">{{ .Description }}</p>
 	<p class="link b dib black mb0">Read more →</p>
-	
+	{{ .Tags }}
 	{{ $theme := dict "name" "large" }}
 	{{ $date := .Date.Format "Mon, Jan 2, 2006"  }}
-	<simple-mini-card-element item={{ dict "name" .Title "content" .Plain "date" $date "tag" .Tag | jsonify }}></simple-mini-card-element>
+	<simple-mini-card-element item={{ dict "name" .Title "content" .Plain "date" $date | jsonify }}></simple-mini-card-element>
 </a>
 <script type="module" src="/js/my-element.bundled.js"></script>

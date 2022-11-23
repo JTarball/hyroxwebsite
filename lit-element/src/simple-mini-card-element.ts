@@ -146,9 +146,9 @@ export class SimpleMiniCardElement extends LitElement {
                     `
                   : ''}
 
-                ${this.item.tag ? html`
+                ${this.item.tags ? html`
                   <div class="card-meta-tag" aria-hidden="true">
-                    <div class="">${item.tag}</div>
+                    <div class="">${item.tags }</div>
                   </div>
                 ` : ""}
 
