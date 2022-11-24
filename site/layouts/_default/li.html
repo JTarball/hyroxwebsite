@@ -1,6 +1,6 @@
 <a href="{{ .RelPermalink }}" class="no-underline pa3  br1 mb2 mt2 db raise w-100">
 	{{ $theme := dict "name" "large" }}
 	{{ $date := .Date.Format "Mon, Jan 2, 2006"  }}
-	<simple-mini-card-element item={{ dict "name" .Title "content" .Plain "date" $date "tags" .Params.tags "image" .Params.image | jsonify }}></simple-mini-card-element>
+	<simple-mini-card-element item={{ dict "name" .Title "content" .Plain "href" .RelPermalink "date" $date "tags" .Params.tags "image" .Params.image | jsonify }}></simple-mini-card-element>
 </a>
 <script type="module" src="/js/my-element.bundled.js"></script>

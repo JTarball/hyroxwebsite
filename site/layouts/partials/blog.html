@@ -6,21 +6,14 @@
 		</div>
 
 
-		{{ $items_post := slice }} 
-		{{ range (where .Site.RegularPages.ByPublishDate.Reverse "Type" "post" ) }}
-			{{ $items_post = $items_post | append (dict "name" .Title "href" .RelPermalink )  }}
-		{{ end }}
 
 		<div class="w-100 flex-ns mhn1-ns flex-wrap mb3" style="border-top: 1px solid var(--black); display: flex; flex-direction: row;">
 
-
-
-			{{ range first 8 (where .Data.Pages "Type" "post") }}
-				{{ range (.Paginator 8).Pages.ByPublishDate.Reverse }}
+			{{ $paged := (where .Site.Pages.ByPublishDate.Reverse "Type" "post") }} {{ $paginator := .Paginate $paged }}
+			{{ range $paginator.Pages }}
 				<div class="ph1-ns w-50-ns flex">
 					{{ .Render "li" }}
 				</div>
-				{{ end }}
 			{{ end }}
 
 			{{ partial "pagination" . }}
