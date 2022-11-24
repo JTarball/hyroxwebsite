@@ -7,5 +7,6 @@ description: Ouch...
 image: img/8629_20221119_153523_259542266_socialmedia.jpg
 tags:
   - Hyrox Comp Analysis
+draft: false
 ---
-\-
+> I﻿t's a marathon not a sprint
