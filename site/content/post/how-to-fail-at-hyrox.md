@@ -4,10 +4,11 @@ title: How to fail at Hyrox
 metaDescription: What not to do at a Hyrox event
 date: 2022-11-24T13:30:33.650Z
 description: '"Success is always less funny than failure"'
+draft: true
+publish: true
 image: img/no-rep-origional-shirt-design-black-shirt-design.png
 tags:
   - Must Reads
-publish: true
 ---
 Y﻿ou can't really even fail at HYROX unless you give up which if you are reading this article you are mostly likely not going to do. 
 
