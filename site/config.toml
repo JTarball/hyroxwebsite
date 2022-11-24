@@ -10,3 +10,4 @@ description = "A resource for people looking to improve their functional fitness
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 enableRobotsTXT = true
+disqusShortname = 'compromisedrunning'
