@@ -6,6 +6,12 @@ export class SimpleMiniCardElement extends LitElement {
   @property({type: String})
   theme: string = '';
 
+  @property({type: String})
+  ignoreTagText: string = '';
+
+  @property({type: Boolean, reflect: true})
+  hideDate: boolean = false;
+
   @property({type: Object, reflect: false})
   item: object;
 
@@ -24,7 +30,6 @@ export class SimpleMiniCardElement extends LitElement {
     .card {
       display: flex;
     }
-
 
     :host([theme=large]) .card {
       flex-direction: column;
@@ -93,6 +98,14 @@ export class SimpleMiniCardElement extends LitElement {
       text-decoration: none;
     }
 
+    :host([theme="minimal-small"]) .card-meta-tag {
+      background-color: var(--grey-2);
+      line-height: 12px;
+      padding: 2px 8px;
+      font-size: 10px;
+      text-decoration: none;
+    }
+
     .title {
       -webkit-line-clamp: 2;
       max-height: 40px;
@@ -107,6 +120,11 @@ export class SimpleMiniCardElement extends LitElement {
       line-height: 20px;
       font-family: sohne, 'Helvetica Neue', Helvetica, Arial, sans-serif;
       padding-bottom: 0px;
+    }
+
+    :host([theme="minimal-small"]) .title {
+      font-size: 14px;
+      line-height: 14px;
     }
 
     h2 {
@@ -146,7 +164,16 @@ export class SimpleMiniCardElement extends LitElement {
   `;
 
   override render() {
-    console.log(this.item.image)
+
+    var width = "100";
+    var height = "100";
+    if (this.theme == 'minimal-small') {
+      width = "75px";
+      height = "75px";
+    } else if (this.theme == 'large') { 
+      width = "100%";
+      height = "300";
+    }
 
     return html`
       <div class="card-wrapper">
@@ -156,15 +183,15 @@ export class SimpleMiniCardElement extends LitElement {
               class="image"
               src="${this.item.image ? this.item.image : 'img/hyrox-photo-banner.jpg'}"
               alt="Girl in a jacket"
-              width="${this.theme === 'large' ? '100%' : '100'}"
-              height="${this.theme === 'large' ? '300' : '100'}"
+              width="${width}"
+              height="${height}"
             />
           </div>
           <div class="card-text">
             <h2 class="title">${this.item.name}</h2>
             <div class="card-meta-wrapper">
               <div class="card-meta">
-                ${this.item.date
+                ${this.item.date && !this.hideDate
                   ? html`
                       <span class="card-meta-date">
                         <span>${this.item.date}</span>
@@ -178,12 +205,16 @@ export class SimpleMiniCardElement extends LitElement {
                   ? html`
                       <ul class="card-meta-tags">
                         ${this.item.tags.map((tag, index) => {
+                          if (tag === this.ignoreTagText) {
+                            return "";
+                          }
+
                           if (index < this.tagDisplayCount) {
                             return html`<li>
                               <a
                                 class="card-meta-tag"
                                 aria-hidden="true"
-                                href="tags/${tag}"
+                                href="discover/${tag}"
                                 >${tag}</a
                               >
                             </li>`;

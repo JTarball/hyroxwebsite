@@ -15,10 +15,12 @@
         <discover-card-element title="">
 			{{ range (where .Site.RegularPages "Type" "discover" ) }}
                 {{ $active := cond (eq $tag .Title) true false  }}
-                {{ if $active }}
-                    <tag-element name={{.Title}} active></tag-element>
-                {{ else }}
-                    <tag-element name={{.Title}}></tag-element>
+                {{ if .Params.display }}
+                    {{ if $active }}
+                        <tag-element name={{.Title}} active></tag-element>
+                    {{ else }}
+                        <tag-element name={{.Title}}></tag-element>
+                    {{ end }}
                 {{ end }}
 			{{ end }}
         </discover-card-element>

@@ -1,10 +1,14 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" "/img/blog-index.jpg" "title" "Latest stories") }}
-
 <div class="mw7 center">
-  <ul id="blog-list" class="flex-ns flex-wrap mhn1-ns pa3">
-      {{ range (.Paginator 3).Pages.ByPublishDate.Reverse }}
+
+  <div class="b lh-title mb2 mt5" style="cursor: pointer;">
+    <img src="/img/main-latest-stories.svg" alt="" style="width: 240px" onclick="window.location.href='/post'" >
+  </div>
+  
+
+  <ul id="blog-list" class="flex-ns flex-wrap mhn1-ns pa3" style="border-top: 1px solid var(--black);">
+      {{ range (.Paginator 1).Pages.ByPublishDate.Reverse }}
           <li class="w-50-ns ph1-ns flex">
             {{ .Render "li"}}
           </li>

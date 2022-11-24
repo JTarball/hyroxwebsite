@@ -13,30 +13,19 @@ export class DashboardElement extends LitElement {
     .info-box {
       overflow: hidden;
       border-bottom: 1px solid rgba(230, 230, 230, 1);
+      display: flex;
+      flex-direction: row;
     }
 
-    .info-box .info-col-2 {
-      box-sizing: border-box;
-      float: left;
-      width: 50%;
-      padding: 0;
-      min-height: 50px;
-    }
-
-    .info-box .info-col-3 {
-      box-sizing: border-box;
-      float: left;
-      width: 33.3%;
-      padding: 0;
-      min-height: 50px;
-      padding-left: 0.5rem;
-      padding-right: 0.5rem;
+    @media only screen and (max-width: 500px)  {
+      .info-box {
+        flex-direction: column;
+      }
     }
 
     .info-box .info-col-4 {
+      display: block;
       box-sizing: border-box;
-      float: left;
-      width: 22%;
       padding: 0;
       min-height: 50px;
       padding-left: 0.5rem;
@@ -44,9 +33,8 @@ export class DashboardElement extends LitElement {
     }
 
     .info-box .info-col-4-greater {
+      display: block;
       box-sizing: border-box;
-      float: left;
-      width: 38%;
       padding: 0;
       min-height: 50px;
       padding-left: 0.5rem;
@@ -54,9 +42,8 @@ export class DashboardElement extends LitElement {
     }
 
     .info-box .info-col-4-less {
+      display: block;
       box-sizing: border-box;
-      float: left;
-      width: 18%;
       padding: 0;
       min-height: 50px;
       padding-left: 0.5rem;
@@ -142,58 +129,42 @@ export class DashboardElement extends LitElement {
       <div class="info-box">
         <div class="info-col-4">
           <div class="section">
-            <list-element title="Welcome" .items=${items}></list-element>
+            <slot name="first-1"></slot>
           </div>
           <div class="section ">
-            <list-element title="Guides" .items=${items_guides}></list-element>
+            <slot name="first-2"></slot>
           </div>
           <div class="section no-border">
-            <list-element
-              title="Resources"
-              .items=${items_resources}
-            ></list-element>
+            <slot name="first-3"></slot>
           </div>
         </div>
 
         <div class="info-col-4-greater">
           <span class="section-title">Must Reads</span>
-
-          ${items_must_read.map(
-            (item) =>
-              html`<simple-mini-card-element
-                .item=${item}
-              ></simple-mini-card-element>`
-          )}
+          <slot name="second"></slot>
         </div>
 
         <div class="info-col-4-less">
           <div class="section">
             <span class="section-title">Hyrox Workouts</span>
-            ${items_workouts.map(
-              (item) =>
-                html`<simple-mini-card-element
-                  .item=${item}
-                ></simple-mini-card-element>`
-            )}
+            <slot name="third"></slot>
           </div>
         </div>
 
         <div class="info-col-4">
-         
           <div class="section">
-            <slot name="fourth"></slot>
+            <slot name="fourth-1"></slot>
           </div>
 
           <div class="section">
-            <list-element
-              title="Recovery & Health"
-              .items=${items_recovery}
-            ></list-element>
+            <slot name="fourth-2"></slot>
           </div>
+
           <div class="section no-border">
-            <list-element title="Gear" .items=${items_gear}></list-element>
+            <slot name="fourth-3"></slot>
           </div>
         </div>
+
       </div>
     `;
   }

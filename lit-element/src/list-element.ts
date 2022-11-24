@@ -6,7 +6,7 @@ export class ListElement extends LitElement {
   @property()
   override title: string = '';
 
-  @property()
+  @property({type: Array, reflect: false})
   items = [];
 
   static override styles = css`
@@ -49,12 +49,13 @@ export class ListElement extends LitElement {
   `;
 
   override render() {
+    console.log("list-element", this.items)
     return html`
       <span class="wrapper">
         <ul>
           <span class="text">${this.title}</span>
           ${this.items.map(
-            (item) => html`<li><a href=${item.href}>${item.name}</a></li>`
+            (item) => html`<li><a href=${item?.href}>${item?.name}</a></li>`
           )}
         </ul>
       </span>

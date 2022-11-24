@@ -7,9 +7,15 @@ export class TagElement extends LitElement {
     @property({type: String})
     name: string = ""
 
+    @property({type: String})
+    href: string = ""
+
     @property({type: Boolean, reflect: true})
     active: boolean = false;
     
+    @property({type: Boolean, reflect: true})
+    huge: boolean = false;
+
     static override styles = css`
         .tag {
             border-radius: 3px;
@@ -29,6 +35,11 @@ export class TagElement extends LitElement {
             margin: 0;
         }
 
+        :host([huge]) .text {
+            font-size: 20px;
+            line-height: 30px;
+        }
+
         .tag:hover, :host([active]) .tag {
             border: 1px solid red;
         }
@@ -46,7 +57,7 @@ export class TagElement extends LitElement {
         <a
         class="ay az ba bb bc bd be bf bg bh bi bj bk bl bm"
         rel="noopener follow"
-        href="/discover/${this.name.replace(/\s+/g, '-').toLowerCase()}"
+        href='${this.href ? this.href : "/discover/${this.name.replace(/\s+/g, '-').toLowerCase()}"}'
         ><div class="tag">
             <div><p class="text">${this.name}</p></div>
         </div></a

@@ -135,3 +135,20 @@
     font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
 }
+
+@media only screen and (max-width: 500px)  {
+    .main-banner-text-wrapper {
+        margin-bottom: 0px;
+        display: block;
+        width: 100%;
+        position: relative;
+        top: 160px;
+    }
+    .main-enter-button-container {
+        float: right;
+        vertical-align: bottom;
+        position: relative;
+        top: 20px;
+    }
+  }
+

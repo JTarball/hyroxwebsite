@@ -1,7 +1,8 @@
 ---
 title: wcwwcwc
-date: 2022-11-23T14:57:05.406Z
-description: sasddsa
+date: 2022-11-23T19:51:24.127Z
+description: "Bloody Hard.asdadas "
+image: 
 tags:
   - eef
   - scs
@@ -9,7 +10,8 @@ tags:
   - scs1
   - eef22
   - scs2
-  - eef3
-  - scs3
+  - Resources
+  - Welcome
+  - Must Reads
 ---
-d﻿sadsa
+S﻿ometimes in life you need to test your yourself, throw yourself out of your comfort zone. I did it and you can too.

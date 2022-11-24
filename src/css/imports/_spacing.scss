@@ -107,6 +107,14 @@
   padding-right: var(--spacing-extra-large);
 }
 
+
+@media only screen and (max-width: 600px)  {
+  .ph5 {
+    padding-left: var(--spacing-small);
+    padding-right: var(--spacing-small);
+  }
+}
+
 .ph6 {
   padding-left: var(--spacing-extra-extra-large);
   padding-right: var(--spacing-extra-extra-large);

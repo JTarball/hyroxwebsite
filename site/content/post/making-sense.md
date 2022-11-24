@@ -5,6 +5,7 @@ description: The Coffee Taster’s Flavor Wheel, the official resource used by c
 image: /img/blog-flavor_wheel.jpg
 tags: 
   - Full Body
+  - Must Reads
 ---
 
 The SCAA updated the wheel to reflect the finer nuances needed to describe flavors more precisely. The new descriptions are more detailed and hence allow cuppers to distinguish between more flavors.
