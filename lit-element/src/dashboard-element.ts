@@ -120,15 +120,15 @@ export class DashboardElement extends LitElement {
     //   {name: 'Tech we use', href: ''},
     // ];
 
-    const items_gear = [
-      {name: 'Shoes', href: ''},
-      {name: 'Running Gear', href: ''},
-    ];
+    // const items_gear = [
+    //   {name: 'Shoes', href: ''},
+    //   {name: 'Running Gear', href: ''},
+    // ];
 
-    const items_workouts = [
-      {name: 'Strength Workout', href: '', date: ' '},
-      {name: '60m AMRAP', href: '', date: ' '},
-    ];
+    // const items_workouts = [
+    //   {name: 'Strength Workout', href: '', date: ' '},
+    //   {name: '60m AMRAP', href: '', date: ' '},
+    // ];
 
     return html`
       <div class="info-box">

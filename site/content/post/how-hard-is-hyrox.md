@@ -9,4 +9,4 @@ tags:
   - Must Reads
   - Running
 ---
-S﻿ometimes in life you need to test your yourself, throw yourself out of your comfort zone. I did it and you can too.
+Sometimes in life you need to test your yourself, throw yourself out of your comfort zone. I did it and you can too.

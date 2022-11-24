@@ -1,34 +1,51 @@
 {{ define "main" }}
 
+{{ $items_hyrox_welcome := slice }} 
+{{ $items_hyrox_guides := slice }} 
+{{ $items_hyrox_resources := slice }}
+{{ $items_hyrox_must_reads := slice }} 
+{{ $items_hyrox_recovery := slice }}
+{{ $items_hyrox_gear := slice }} 
+{{ range (where .Site.RegularPages "Type" "post" ) }}
+
+  {{ if in .Params.tags "Welcome"   }}
+    {{ $items_hyrox_welcome = $items_hyrox_welcome | append (dict "name" .Title "href" .RelPermalink )  }}
+  {{ end }}
+
+  {{ if in .Params.tags "Guides"   }}
+    {{ $items_hyrox_guides = $items_hyrox_guides | append (dict "name" .Title "href" .RelPermalink )  }}
+  {{ end }}
+
+  {{ if in .Params.tags "Resources"   }}
+    {{ $items_hyrox_resources = $items_hyrox_resources | append (dict "name" .Title "href" .RelPermalink )  }}
+  {{ end }}
+
+  {{ if in .Params.tags "Must Reads"   }}
+    {{ $items_hyrox_must_reads = $items_hyrox_must_reads | append (dict "name" .Title "href" .RelPermalink )  }}
+  {{ end }}
+
+  {{ if in .Params.tags "Recovery and Health"   }}
+    {{ $items_hyrox_recovery = $items_hyrox_recovery | append (dict "name" .Title "href" .RelPermalink )  }}
+  {{ end }}
+
+  {{ if in .Params.tags "Gear"   }}
+    {{ $items_hyrox_gear = $items_hyrox_gear | append (dict "name" .Title "href" .RelPermalink )  }}
+  {{ end }}
+
+{{ end }}
+
+
 <dashboard-element>
   <div slot="first-1">
-    {{ $items_welcome := slice }} 
-    {{ range first 10 (where .Site.RegularPages "Type" "post") }}
-      {{ if in .Params.tags "Welcome" }}
-        {{ $items_welcome = $items_welcome | append (dict "name" .Title "href" .RelPermalink )  }}
-      {{ end }}
-    {{ end }}
-    <list-element title="Welcome" items={{ $items_welcome | jsonify }}></list-element>
+    <list-element title="Welcome" items={{ $items_hyrox_welcome | jsonify }}></list-element>
   </div>
 
   <div slot="first-2">
-    {{ $items_welcome := slice }} 
-    {{ range first 10 (where .Site.RegularPages "Type" "post" ) }}
-      {{ if in .Params.tags "Guides" }}
-        {{ $items_welcome = $items_welcome | append (dict "name" .Title "href" .RelPermalink )  }}
-      {{ end }}
-    {{ end }}
-    <list-element title="Guides" items={{ $items_welcome | jsonify }}></list-element>
+    <list-element title="Guides" items={{ $items_hyrox_guides | jsonify }}></list-element>
   </div>
 
   <div slot="first-3">
-    {{ $items_welcome := slice }} 
-    {{ range first 10 (where .Site.RegularPages "Type" "post" ) }}
-      {{ if in .Params.tags "Resources" }}
-        {{ $items_welcome = $items_welcome | append (dict "name" .Title "href" .RelPermalink )  }}
-      {{ end }}
-    {{ end }}
-    <list-element title="Resources" items={{ $items_welcome | jsonify }}></list-element>
+    <list-element title="Resources" items={{ $items_hyrox_resources | jsonify }}></list-element>
   </div>
 
   <div slot="second">
