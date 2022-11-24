@@ -8,7 +8,7 @@ image: img/8629_20221119_083300_259579732_socialmedia.jpg
 tags:
   - General
   - Must Reads
-draft: true
+draft: false
 ---
 I﻿ thought Indians were good at squats
 
