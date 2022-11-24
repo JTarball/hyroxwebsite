@@ -2,20 +2,19 @@
 
 	<!-- Logo -->
 	<a href="/" class="pa3 db mr4 h-100  flex-none">
-		<img src='{{ .Params.logo | default "/img/logo.svg" }}' height="40px" alt="Compromised Running" class="br0 db mb0 w-150"/>
+		<img src='{{ .Params.logo | default "/img/logo.svg" }}' height="40px" alt="Compromised Running" class="br0 db mb0 w-150 hidden-mobile"/>
+		<img src="/img/logo-mobile.svg" height="40px" alt="Compromised Running" class="br0 db mb0 w-150 hidden-desktop"/>
 	</a>
 
 	<!-- Primary Nav -->
 	<div class="primary-nav">
 		<ul class="flex b grey-3">
+			{{ $isHyrox := cond (eq .Type "hyrox") true false }}
+			<li><a href="/hyrox" class='pa2 no-underline db {{ if $isHyrox }} nav-active {{ end }}'>Hyrox</a></li>
+			{{ $isRunning := cond (eq .Type "running") true false }}
+			<li><a href="/running" class='pa2 no-underline db {{ if $isRunning }} nav-active {{ end }}'>Running</a></li>
 
-		{{ $isHyrox := cond (eq .Type "hyrox") true false }}
-		<li><a href="/hyrox" class='pa2 no-underline db {{ if $isHyrox }} nav-active {{ end }}'>Hyrox</a></li>
-
-
-		<!-- TODO: Implement search
-			 https://github.com/reuixiy/hugo-theme-meme/blob/2dc1f8bb184c36329375af3b4bafc445e2c2210d/layouts/partials/menu.html -->
-
+			<!-- TODO: Implement search: https://github.com/reuixiy/hugo-theme-meme/blob/2dc1f8bb184c36329375af3b4bafc445e2c2210d/layouts/partials/menu.html -->
 		</ul>
 	</div>
 

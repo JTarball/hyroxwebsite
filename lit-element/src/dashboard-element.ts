@@ -1,5 +1,5 @@
 import {LitElement, html, css} from 'lit';
-import {customElement} from 'lit/decorators.js';
+import {customElement, property} from 'lit/decorators.js';
 
 import './discover-card-element';
 import './tag-element';
@@ -9,6 +9,10 @@ import './list-element';
 
 @customElement('dashboard-element')
 export class DashboardElement extends LitElement {
+
+  @property({type: Boolean, reflect: true})
+  hideThirdSection: boolean = false;
+
   static override styles = css`
     .info-box {
       overflow: hidden;
@@ -144,12 +148,17 @@ export class DashboardElement extends LitElement {
           <slot name="second"></slot>
         </div>
 
-        <div class="info-col-4-less">
-          <div class="section">
-            <span class="section-title">Hyrox Workouts</span>
-            <slot name="third"></slot>
+        ${this.hideThirdSection ? html `
+        
+          <div class="info-col-4-less">
+            <div class="section">
+              <span class="section-title">Hyrox Workouts</span>
+              <slot name="third"></slot>
+            </div>
           </div>
-        </div>
+        
+        `: ""}
+
 
         <div class="info-col-4">
           <div class="section">

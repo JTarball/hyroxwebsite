@@ -1,0 +1,104 @@
+{{ define "main" }}
+
+{{ $items_running_welcome := slice }} 
+{{ $items_running_guides := slice }} 
+{{ $items_running_resources := slice }}
+{{ $items_running_must_reads := slice }} 
+{{ $items_running_recovery := slice }}
+{{ $items_running_gear := slice }} 
+{{ range (where .Site.RegularPages "Type" "post" ) }}
+
+  {{ if ( and (in .Params.tags "Welcome") (in .Params.tags "Running") )  }}
+    {{ $items_running_welcome = $items_running_welcome | append (dict "name" .Title "href" .RelPermalink )  }}
+  {{ end }}
+
+  {{ if ( and (in .Params.tags "Guides") (in .Params.tags "Running") )  }}
+    {{ $items_running_guides = $items_running_guides | append (dict "name" .Title "href" .RelPermalink )  }}
+  {{ end }}
+
+  {{ if ( and (in .Params.tags "Resources") (in .Params.tags "Running") )  }}
+    {{ $items_running_resources = $items_running_resources | append (dict "name" .Title "href" .RelPermalink )  }}
+  {{ end }}
+
+  {{ if ( and (in .Params.tags "Recovery and Health") (in .Params.tags "Running") )  }}
+    {{ $items_running_must_reads = $items_running_must_reads | append (dict "name" .Title "href" .RelPermalink )  }}
+  {{ end }}
+
+  {{ if ( and (in .Params.tags "Recovery and Health") (in .Params.tags "Running") )  }}
+    {{ $items_running_recovery = $items_running_recovery | append (dict "name" .Title "href" .RelPermalink )  }}
+  {{ end }}
+
+  {{ if ( and (in .Params.tags "Gear") (in .Params.tags "Running") )  }}
+    {{ $items_running_gear = $items_running_gear | append (dict "name" .Title "href" .RelPermalink )  }}
+  {{ end }}
+
+{{ end }}
+
+
+<dashboard-element>
+  <div slot="first-1">
+    <list-element title="Welcome" items={{ $items_running_welcome | jsonify }}></list-element>
+  </div>
+
+  <div slot="first-2">
+    <list-element title="Guides" items={{ $items_running_guides | jsonify }}></list-element>
+  </div>
+
+  <div slot="first-3">
+    <list-element title="Resources" items={{ $items_running_resources | jsonify }}></list-element>
+  </div>
+
+  <div slot="second">
+    {{ range first 5 $items_running_must_reads }}
+        {{ $date := .Date.Format "Mon, Jan 2, 2006"  }}
+        <simple-mini-card-element item={{ dict "name" .Title "content" .Plain "date" $date "tags" .Params.tags "image" .Params.image | jsonify }}></simple-mini-card-element>
+    {{ end }}
+    <tag-element name="more" href="/discover/running"></tag-element>
+  </div>
+
+  <!-- <div slot="third">
+    {{ range first 1 (where .Site.RegularPages "Type" "post" ) }}
+      {{ if in .Params.tags "Must Reads" }}
+        {{ $date := .Date.Format "Mon, Jan 2, 2006"  }}
+        <simple-mini-card-element hideDate tagDisplayCount=2 ignoreTagText="Hyrox Workouts" theme="minimal-small" item={{ dict "name" .Title "content" .Plain "date" $date "tags" .Params.tags "image" .Params.image | jsonify }}></simple-mini-card-element>
+      {{ end }}
+    {{ end }}
+    <tag-element name="more" href="/discover/hyrox-workouts"></tag-element>
+    {{ partial "pagination" . }}
+  </div> -->
+
+
+  <div slot="fourth-1">
+    <discover-card-element title="Discover">
+			{{ range (where .Site.RegularPages "Type" "discover" ) }}
+        {{ if .Params.display }}
+          <tag-element name={{.Title}}></tag-element>
+        {{ end }}
+			{{ end }}
+    </discover-card-element>
+  </div>
+
+  <div slot="fourth-2">
+    <list-element title="Recovery & Health" items={{ $items_running_recovery | jsonify }}></list-element>
+  </div>
+
+  <div slot="fourth-3">
+    <list-element title="Gear" items={{ $items_running_gear | jsonify }}></list-element>
+  </div>
+
+</dashboard-element>
+
+<div class="mw7 center">
+  <ul id="blog-list" class="flex-ns flex-wrap mhn1-ns pa3">
+      {{ range (where .Site.RegularPages "Type" "post" ) }}
+          <li class="w-50-ns ph1-ns flex">
+            {{ .Render "li-big"}}
+          </li>
+      {{ end }}
+  </ul>
+  {{ partial "pagination" . }}
+</div>
+
+<script type="module" src="/js/my-element.bundled.js"></script>
+
+{{end}}

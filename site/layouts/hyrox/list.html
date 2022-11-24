@@ -3,7 +3,7 @@
 <dashboard-element>
   <div slot="first-1">
     {{ $items_welcome := slice }} 
-    {{ range first 10 (where .Site.RegularPages "Type" "post" ) }}
+    {{ range first 10 (where .Site.RegularPages "Type" "post") }}
       {{ if in .Params.tags "Welcome" }}
         {{ $items_welcome = $items_welcome | append (dict "name" .Title "href" .RelPermalink )  }}
       {{ end }}

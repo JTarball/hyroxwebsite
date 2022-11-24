@@ -94,6 +94,11 @@
     margin-right: auto;
 }
 
+.primary-nav li a {
+    font-family: Hiragino Maru Gothic ProN;
+    font-weight: 300;
+}
+
 .main-banner-text-wrapper {
     margin-bottom: 50px;
     display: block;
@@ -150,5 +155,16 @@
         position: relative;
         top: 20px;
     }
-  }
+}
 
+@media all and (min-width: 768px) {
+    .hidden-desktop {
+        display: none !important;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .hidden-mobile {
+        display: none !important;
+    }
+}
