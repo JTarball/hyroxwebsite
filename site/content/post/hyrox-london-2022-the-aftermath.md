@@ -11,3 +11,9 @@ tags:
 draft: true
 ---
 I﻿ thought Indians were good at squats
+
+
+
+![After ski erg](img/8629_20221119_140040_259496930_socialmedia.jpg "Why didn't I wear a cap like the other guys")
+
+> W﻿hy didn't I wear a cap like the other guys
