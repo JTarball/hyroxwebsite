@@ -30,6 +30,13 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: description, name: description, widget: string}
           - {label: "Tags", name: "tags", summary: '{{fields.name}}', widget: select, options: ["welcome", "general"], multiple: true}
+      - file: "site/content/privacy/_index.md"
+        label: "Privacy Page"
+        name: "privacy"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Logo, name: logo, widget: image}
+          - {label: Body, name: body, widget: markdown}
       - file: "site/content/contact/_index.md"
         label: "Contact Page"
         name: "contact"
