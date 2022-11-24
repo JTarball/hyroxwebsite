@@ -20,7 +20,7 @@
     {{ $items_running_resources = $items_running_resources | append (dict "name" .Title "href" .RelPermalink )  }}
   {{ end }}
 
-  {{ if ( and (in .Params.tags "Recovery and Health") (in .Params.tags "Running") )  }}
+  {{ if ( and (in .Params.tags "Must Reads") (in .Params.tags "Running") )  }}
     {{ $items_running_must_reads = $items_running_must_reads | append (dict "name" .Title "href" .RelPermalink )  }}
   {{ end }}
 

@@ -83,23 +83,11 @@
   </div>
 
   <div slot="fourth-2">
-    {{ $items_welcome := slice }} 
-    {{ range first 10 (where .Site.RegularPages "Type" "post" ) }}
-      {{ if in .Params.tags "Welcome" }}
-        {{ $items_welcome = $items_welcome | append (dict "name" .Title "href" .RelPermalink )  }}
-      {{ end }}
-    {{ end }}
-    <list-element title="Recovery & Health" items={{ $items_welcome | jsonify }}></list-element>
+    <list-element title="Recovery & Health" items={{ $items_hyrox_recovery | jsonify }}></list-element>
   </div>
 
   <div slot="fourth-3">
-    {{ $items_welcome := slice }} 
-    {{ range first 10 (where .Site.RegularPages "Type" "post" ) }}
-      {{ if in .Params.tags "Welcome" }}
-        {{ $items_welcome = $items_welcome | append (dict "name" .Title "href" .RelPermalink )  }}
-      {{ end }}
-    {{ end }}
-    <list-element title="Gear" items={{ $items_welcome | jsonify }}></list-element>
+    <list-element title="Gear" items={{ $items_hyrox_gear | jsonify }}></list-element>
   </div>
 
 </dashboard-element>
