@@ -56,3 +56,12 @@ All SVG icons stored in `site/static/img/icons` are automatically optimized with
   - comments add 
   - share on twitter, facebook
   - https://www.thesocialmediahat.com/blog/how-bloggers-can-leverage-instagram/
+
+
+
+# TODO
+ - social media account
+ - Finish Running Page
+ - Hyrox Analyser 
+ - Normal pages like privacy etc 
+ - why localhost different to website
