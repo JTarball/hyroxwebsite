@@ -78,26 +78,26 @@ export class DashboardElement extends LitElement {
   `;
 
   override render() {
-    const items = [
-      {name: 'What is Hyrox?', href: ''},
-      {name: 'How hard is Hyrox?', href: ''},
-      {name: 'Can a begineer do a Hyrox?', href: ''},
-      {name: 'A begineer guide to Hyrox', href: ''},
-      {name: 'The history of hyrox', href: ''},
-    ];
+    // const items = [
+    //   {name: 'What is Hyrox?', href: ''},
+    //   {name: 'How hard is Hyrox?', href: ''},
+    //   {name: 'Can a begineer do a Hyrox?', href: ''},
+    //   {name: 'A begineer guide to Hyrox', href: ''},
+    //   {name: 'The history of hyrox', href: ''},
+    // ];
 
-    const items_guides = [
-      {name: 'How to Structure you Hyrox Training', href: ''},
-      {name: 'Ultimate Hyrox Training Guide', href: ''},
-      {name: 'Who you should be following', href: ''},
-      {name: 'Hyrox Q & A', href: ''},
-      {name: 'Training Guide', href: ''},
-      {name: 'Tips & Tricks Per Station', href: ''},
-      {name: 'Movement Standards', href: ''},
-      {name: 'Hyrox PFT Guide', href: ''},
-      {name: 'Ultimate List of Hyrox Workouts', href: ''},
-      {name: 'A begineer guide to Hyrox', href: ''},
-    ];
+    // const items_guides = [
+    //   {name: 'How to Structure you Hyrox Training', href: ''},
+    //   {name: 'Ultimate Hyrox Training Guide', href: ''},
+    //   {name: 'Who you should be following', href: ''},
+    //   {name: 'Hyrox Q & A', href: ''},
+    //   {name: 'Training Guide', href: ''},
+    //   {name: 'Tips & Tricks Per Station', href: ''},
+    //   {name: 'Movement Standards', href: ''},
+    //   {name: 'Hyrox PFT Guide', href: ''},
+    //   {name: 'Ultimate List of Hyrox Workouts', href: ''},
+    //   {name: 'A begineer guide to Hyrox', href: ''},
+    // ];
 
     const items_resources = [
       {name: 'Hyrox Rules', href: 'how-hard-is-hyrox'},
@@ -108,16 +108,17 @@ export class DashboardElement extends LitElement {
       {name: 'Hyrox Podcasts', href: ''},
     ];
 
-    const items_must_read = [
-      {name: 'Hyrox London 2022: The Aftermath', href: ''},
-      {name: 'Running Gear', href: ''},
-    ];
 
-    const items_recovery = [
-      {name: 'How to maximise recovery', href: ''},
-      {name: 'Supplements we use', href: ''},
-      {name: 'Tech we use', href: ''},
-    ];
+    // const items_must_read = [
+    //   {name: 'Hyrox London 2022: The Aftermath', href: ''},
+    //   {name: 'Running Gear', href: ''},
+    // ];
+
+    // const items_recovery = [
+    //   {name: 'How to maximise recovery', href: ''},
+    //   {name: 'Supplements we use', href: ''},
+    //   {name: 'Tech we use', href: ''},
+    // ];
 
     const items_gear = [
       {name: 'Shoes', href: ''},
