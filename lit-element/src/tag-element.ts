@@ -8,6 +8,9 @@ export class TagElement extends LitElement {
     name: string = ""
 
     @property({type: String})
+    hoverColour: string = "red"
+
+    @property({type: String})
     href: string = ""
 
     @property({type: Boolean, reflect: true})
@@ -17,6 +20,10 @@ export class TagElement extends LitElement {
     huge: boolean = false;
 
     static override styles = css`
+        :host {
+            --color: black;
+        }
+
         .tag {
             border-radius: 3px;
             padding: 6px 16px;
@@ -41,15 +48,19 @@ export class TagElement extends LitElement {
         }
 
         .tag:hover, :host([active]) .tag {
-            border: 1px solid red;
+            border: 1px solid var(--color);
         }
      
 
        .tag:hover p.text {
-            color: red;
+            color: var(--color);
         }
 
     `;
+
+    firstUpdated() {
+        this.style.setProperty('--color', this.hoverColour);
+    }
 
     override render() {
 

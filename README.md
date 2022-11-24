@@ -66,3 +66,4 @@ All SVG icons stored in `site/static/img/icons` are automatically optimized with
  - Normal pages like privacy etc 
  - why localhost different to website 
  - affliate 
+ https://roneo.org/en/a-newsletter-with-hugo-buttondown-and-netlify/

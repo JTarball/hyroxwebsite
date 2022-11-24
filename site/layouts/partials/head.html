@@ -24,11 +24,10 @@
 	<meta name="theme-color" content="#fff">
 
 	{{- if .IsHome -}}
-  	<meta name="description" content="{{ site.Params.Description }}" />
+  	<meta name="description" content="{{ site.Params.Description |  default .Params.Description  }}" />
 	{{- else -}}
 	<meta name="description" content="{{ .Params.metaDescription | default .Params.Description }}" />
 	{{- end }}
-
 
 	<!-- Open Graph -->
 	<meta property="og:locale" content="en_GB" />

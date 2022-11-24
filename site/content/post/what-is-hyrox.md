@@ -1,4 +1,5 @@
 ---
+weight: 1
 title: What is Hyrox?
 date: 2022-11-24T12:04:48.187Z
 description: Functional Fitness Racing .... urmm... What?
