@@ -76,7 +76,7 @@
     <discover-card-element title="Discover">
 			{{ range (where .Site.RegularPages "Type" "discover" ) }}
         {{ if .Params.display }}
-          <tag-element name={{.Title}}></tag-element>
+          <tag-element name="{{.Title}}"></tag-element>
         {{ end }}
 			{{ end }}
     </discover-card-element>
