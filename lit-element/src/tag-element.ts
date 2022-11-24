@@ -53,11 +53,13 @@ export class TagElement extends LitElement {
 
     override render() {
 
+        console.warn(this.name)
+
     return html`
         <a
         class="ay az ba bb bc bd be bf bg bh bi bj bk bl bm"
         rel="noopener follow"
-        href='${this.href ? this.href : "/discover/${this.name.replace(/\s+/g, '-').toLowerCase()}"}'
+        href=${this.href ? this.href : "/discover/${this.name.replace(/\s+/g, '-').toLowerCase()}" }
         ><div class="tag">
             <div><p class="text">${this.name}</p></div>
         </div></a
