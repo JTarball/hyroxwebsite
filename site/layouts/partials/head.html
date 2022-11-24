@@ -23,11 +23,30 @@
 	<link rel="canonical" href="{{ .Permalink }}" />
 	<meta name="theme-color" content="#fff">
 
+	{{- if .IsHome -}}
+  	<meta name="description" content="{{ site.Params.Description }}" />
+	{{- else -}}
+	<meta name="description" content="{{ .Params.metaDescription | default .Params.Description }}" />
+	{{- end }}
+
+
 	<!-- Open Graph -->
-	<meta property="og:type" content="website">
-	<meta property="og:title" content="Compromised Running | A resource for people looking to improve their functional fitness & racing">
-	<meta property="og:url" content="/">
-	<meta property="og:image" content="/img/og-image.jpg">
+	<meta property="og:locale" content="en_GB" />
+	
+	{{- if .IsHome -}}
+		<meta property="og:url" content="/">
+		<meta property="og:type" content="website">
+		<meta property="og:image" content="/img/og-image.jpg">
+		<meta property="og:title" content="Compromised Running | A resource for people looking to improve their functional fitness & racing">
+		<meta property="og:description" content="{{ site.Params.Description }}">
+	{{- else -}}
+		<meta property="og:url" content="https://www.compromisedrunning.com/{{ .RelPermalink }}">
+		<meta property="og:type" content="article" />
+		<meta property="og:image" content='{{ .Params.image | default "/img/og-image.jpg" }}'>
+		<meta property="og:title" content="{{ .Params.title }}">
+		<meta property="og:description" content="{{ .Params.metaDescription | default .Params.Description }}">
+	{{- end }}
+
 
   {{ if .IsHome }}
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
