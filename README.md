@@ -64,4 +64,5 @@ All SVG icons stored in `site/static/img/icons` are automatically optimized with
  - Finish Running Page
  - Hyrox Analyser 
  - Normal pages like privacy etc 
- - why localhost different to website
+ - why localhost different to website 
+ - affliate 
