@@ -11,8 +11,9 @@
       {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
       {{ .Content }}
     </div>
+    {{ template "_internal/disqus.html" . }}
   </div>
 
-  {{ template "_internal/disqus.html" . }}
+  
 
 {{ end }}
