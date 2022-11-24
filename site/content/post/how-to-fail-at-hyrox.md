@@ -18,9 +18,10 @@ H﻿ere is my top ten things to do on Hyrox Race Day so
 1.  **Taper**
 
    U﻿ntrained and push too hard in the week before your race day
-2. **E﻿xperiment with new equipment**
-3. **T﻿ry foodspring supplements for the first time on race day**
-4. R﻿un out the Tunnel thinking its a 400m sprint
+2. H﻿ave no mental game or game plan at all
+3. **E﻿xperiment with new equipment**
+4. **T﻿ry foodspring supplements for the first time on race day**
+5. R﻿un out the Tunnel thinking its a 400m sprint
 
 I﻿gnore all sane advice and run your PB in your first K
 
