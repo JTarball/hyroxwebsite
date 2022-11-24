@@ -9,7 +9,7 @@
 
 		<div class="w-100 flex-ns mhn1-ns flex-wrap mb3" style="border-top: 1px solid var(--black); display: flex; flex-direction: row;">
 
-			{{ $paged := (where .Site.Pages.ByPublishDate.Reverse "Type" "post") }} {{ $paginator := .Paginate $paged }}
+			{{ $paged := ( where (where .Site.Pages.ByPublishDate.Reverse "Type" "post") "Draft" false ) }} {{ $paginator := .Paginate $paged }}
 			{{ range $paginator.Pages }}
 				<div class="ph1-ns w-50-ns flex">
 					{{ .Render "li" }}

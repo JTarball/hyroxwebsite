@@ -7,7 +7,7 @@
 {{ $items_hyrox_workouts := slice }}
 {{ $items_hyrox_recovery := slice }}
 {{ $items_hyrox_gear := slice }} 
-{{ range (where .Site.RegularPages.ByWeight "Type" "post" ) }}
+{{ range (where (where .Site.RegularPages.ByWeight "Type" "post" ) "Draft" false ) }}
 
   {{ if in .Params.tags "Welcome"   }}
     {{ $items_hyrox_welcome = $items_hyrox_welcome | append (dict "name" .Title "href" .RelPermalink )  }}

@@ -14,7 +14,8 @@
       class="w-100 flex-ns mhn1-ns flex-wrap mb3"
       style="border-top: 1px solid var(--black);display: flex;flex-direction: row;"
     >
-      {{ range (.Paginator 12).Pages.ByPublishDate.Reverse }}
+      {{ $paged := ( where (where .Site.Pages.ByPublishDate.Reverse "Type" "post") "Draft" false ) }} {{ $paginator := .Paginate $paged 20 }}
+      {{ range $paginator.Pages }}
         <div class="w-50-ns ph1-ns flex">{{ .Render "li"}}</div>
       {{ end }}
       {{ partial "pagination" . }}
