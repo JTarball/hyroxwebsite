@@ -19,6 +19,10 @@ export class SimpleMiniCardElement extends LitElement {
   tagDisplayCount: number = 3;
 
   static override styles = css`
+    a {
+      text-decoration: none;
+    }
+
     .card-wrapper {
       max-width: 100%;
       flex-basis: 100%;
@@ -31,7 +35,7 @@ export class SimpleMiniCardElement extends LitElement {
       display: flex;
     }
 
-    :host([theme=large]) .card {
+    :host([theme='large']) .card {
       flex-direction: column;
     }
 
@@ -98,7 +102,7 @@ export class SimpleMiniCardElement extends LitElement {
       text-decoration: none;
     }
 
-    :host([theme="minimal-small"]) .card-meta-tag {
+    :host([theme='minimal-small']) .card-meta-tag {
       background-color: var(--grey-2);
       line-height: 12px;
       padding: 2px 8px;
@@ -122,7 +126,7 @@ export class SimpleMiniCardElement extends LitElement {
       padding-bottom: 0px;
     }
 
-    :host([theme="minimal-small"]) .title {
+    :host([theme='minimal-small']) .title {
       font-size: 14px;
       line-height: 14px;
     }
@@ -164,24 +168,25 @@ export class SimpleMiniCardElement extends LitElement {
   `;
 
   override render() {
-
-    var width = "100";
-    var height = "100";
+    var width = '100';
+    var height = '100';
     if (this.theme == 'minimal-small') {
-      width = "75px";
-      height = "75px";
-    } else if (this.theme == 'large') { 
-      width = "100%";
-      height = "300";
+      width = '75px';
+      height = '75px';
+    } else if (this.theme == 'large') {
+      width = '100%';
+      height = '300';
     }
 
     return html`
       <div class="card-wrapper">
-        <div class="card">
+        <a class="card" href="${this.item.href}">
           <div class="card-image">
             <img
               class="image"
-              src="${this.item.image ? this.item.image : 'img/hyrox-photo-banner.jpg'}"
+              src="${this.item.image
+                ? this.item.image
+                : 'img/hyrox-photo-banner.jpg'}"
               alt="Girl in a jacket"
               width="${width}"
               height="${height}"
@@ -206,7 +211,7 @@ export class SimpleMiniCardElement extends LitElement {
                       <ul class="card-meta-tags">
                         ${this.item.tags.map((tag, index) => {
                           if (tag === this.ignoreTagText) {
-                            return "";
+                            return '';
                           }
 
                           if (index < this.tagDisplayCount) {
@@ -228,7 +233,7 @@ export class SimpleMiniCardElement extends LitElement {
               </div>
             </div>
           </div>
-        </div>
+        </a>
       </div>
     `;
   }

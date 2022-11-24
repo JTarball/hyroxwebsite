@@ -220,7 +220,7 @@ const it=t=>i=>"function"==typeof i?((t,i)=>(customElements.define(t,i),i))(t,i)
     }
   `,ht([st({type:String})],dt.prototype,"name",void 0),dt=ht([it("mini-card-element")],dt);var ct=function(t,i,e,s){for(var o,n=arguments.length,r=n<3?i:null===s?s=Object.getOwnPropertyDescriptor(i,e):s,l=t.length-1;l>=0;l--)(o=t[l])&&(r=(n<3?o(r):n>3?o(i,e,r):o(i,e))||r);return n>3&&r&&Object.defineProperty(i,e,r),r};let pt=class extends Y{constructor(){super(...arguments),this.theme="",this.ignoreTagText="",this.hideDate=!1,this.tagDisplayCount=3}render(){var t="100",i="100";return"minimal-small"==this.theme?(t="75px",i="75px"):"large"==this.theme&&(t="100%",i="300"),H`
       <div class="card-wrapper">
-        <div class="card">
+        <a class="card" href="${this.item.href}">
           <div class="card-image">
             <img
               class="image"
@@ -257,9 +257,13 @@ const it=t=>i=>"function"==typeof i?((t,i)=>(customElements.define(t,i),i))(t,i)
               </div>
             </div>
           </div>
-        </div>
+        </a>
       </div>
     `}};pt.styles=n`
+    a {
+      text-decoration: none;
+    }
+
     .card-wrapper {
       max-width: 100%;
       flex-basis: 100%;
@@ -272,7 +276,7 @@ const it=t=>i=>"function"==typeof i?((t,i)=>(customElements.define(t,i),i))(t,i)
       display: flex;
     }
 
-    :host([theme=large]) .card {
+    :host([theme='large']) .card {
       flex-direction: column;
     }
 
@@ -339,7 +343,7 @@ const it=t=>i=>"function"==typeof i?((t,i)=>(customElements.define(t,i),i))(t,i)
       text-decoration: none;
     }
 
-    :host([theme="minimal-small"]) .card-meta-tag {
+    :host([theme='minimal-small']) .card-meta-tag {
       background-color: var(--grey-2);
       line-height: 12px;
       padding: 2px 8px;
@@ -363,7 +367,7 @@ const it=t=>i=>"function"==typeof i?((t,i)=>(customElements.define(t,i),i))(t,i)
       padding-bottom: 0px;
     }
 
-    :host([theme="minimal-small"]) .title {
+    :host([theme='minimal-small']) .title {
       font-size: 14px;
       line-height: 14px;
     }
