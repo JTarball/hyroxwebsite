@@ -9,7 +9,6 @@ import './list-element';
 
 @customElement('dashboard-element')
 export class DashboardElement extends LitElement {
-
   @property({type: Boolean, reflect: true})
   hideThirdSection: boolean = false;
 
@@ -21,9 +20,15 @@ export class DashboardElement extends LitElement {
       flex-direction: row;
     }
 
-    @media only screen and (max-width: 500px)  {
+    @media only screen and (max-width: 500px) {
       .info-box {
         flex-direction: column;
+      }
+    }
+
+    @media only screen and (min-width: 500px) {
+      .max-width-desktop {
+        width: 30%;
       }
     }
 
@@ -108,7 +113,6 @@ export class DashboardElement extends LitElement {
       {name: 'Hyrox Podcasts', href: ''},
     ];
 
-
     // const items_must_read = [
     //   {name: 'Hyrox London 2022: The Aftermath', href: ''},
     //   {name: 'Running Gear', href: ''},
@@ -149,19 +153,18 @@ export class DashboardElement extends LitElement {
           <slot name="second"></slot>
         </div>
 
-        ${this.hideThirdSection ? html `
-        
-          <div class="info-col-4-less">
-            <div class="section">
-              <span class="section-title">Hyrox Workouts</span>
-              <slot name="third"></slot>
-            </div>
-          </div>
-        
-        `: ""}
+        ${this.hideThirdSection
+          ? html``
+          : html`
+              <div class="info-col-4-less">
+                <div class="section">
+                  <span class="section-title">Hyrox Workouts</span>
+                  <slot name="third"></slot>
+                </div>
+              </div>
+            `}
 
-
-        <div class="info-col-4">
+        <div class="info-col-4 max-width-desktop">
           <div class="section">
             <slot name="fourth-1"></slot>
           </div>
@@ -174,7 +177,6 @@ export class DashboardElement extends LitElement {
             <slot name="fourth-3"></slot>
           </div>
         </div>
-
       </div>
     `;
   }
