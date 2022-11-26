@@ -13,6 +13,14 @@ F﻿ounded by Christian Toetzke, together with the marketing icon Michael Trautm
 
 Christian Toetzke having spent years organising mass pariticipant cycling events came around a piece of research in Germany stating that over 50% of people now say their sport is working out. 
 
+
+
+
+
+It was monkey bars 
+
+
+
 The lightbulb moment was that there was no competition designed for people that would train fitness every day in the gym .
 
 The first ever Hyrox was held in Hamburg, Germany in 2018.
@@ -21,8 +29,46 @@ Of course as an indoor event Covid was a large blow to large indoor events busin
 
 He really believes HYROX is a new global Sport of Fitness racing.
 
+> “There is an appetite for these kinds of things I am seeing now that I have never seen before in my life.”  
+>
+>
+
+
+
+## In 2019 
+
+
+
+
+
+## 2023 onwards
+
 In 2023 there will be big expansions into Denmark and Sweden, Greece and Middle East all with first events next season. Spain is growing from one event this past season to now 5 including iconic Barcelona.
+
+
+
+“People have a much deeper awareness of their fitness and health now,” he added, noting he has also seen an increased education level when it comes to nutrition and recovery as well. “And they want to stay in shape for their livelihood, and they also want to join or rejoin communities that are associated with fitness.” 
+
+
+
+
+
+{{< youtube kjm8X8znAMs >}}
+
+
+
+
+
+
 
 Watch hyrox the documentary on youtube:
 
 {{< youtube OWrfPCWlDo4 >}}
+
+
+
+
+
+
+
+https://www.youtube.com/watch?v=kjm8X8znAMs
