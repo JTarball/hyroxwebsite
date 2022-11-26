@@ -11,7 +11,7 @@
 
 			{{ $paged := ( where (where .Site.Pages.ByPublishDate.Reverse "Type" "post") "Draft" false ) }} {{ $paginator := .Paginate $paged }}
 			{{ range $paginator.Pages }}
-				<div class="ph1-ns w-50-ns flex">
+				<div class="ph1-ns w-50-ns col2">
 					{{ .Render "li" }}
 				</div>
 			{{ end }}

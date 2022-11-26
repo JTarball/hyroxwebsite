@@ -215,3 +215,13 @@
 #TableOfContents li a {
     text-decoration: none;
 }
+
+.col2 {
+    max-width: 50%;
+}
+
+@media all and (max-width: 767px) {
+    .col2 {
+        max-width: 90%;
+    }
+}
