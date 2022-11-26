@@ -116,6 +116,14 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Meta Description", name: "metaDescription", widget: "string"}
           - {label: Logo, name: logo, widget: image}
           - {label: Body, name: body, widget: markdown}
+      - file: "site/content/subscribe/_index.md"
+        label: "Subscribe Page"
+        name: "subscribe"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: "Meta Description", name: "metaDescription", widget: "string"}
+          - {label: Logo, name: logo, widget: image}
+          - {label: Body, name: body, widget: markdown}
 
   # Used for Tag Definitions, note that you need to manually add above for admin posts to see them
   - name: "discover" # Used in routes, ie.: /admin/collections/:slug/edit
