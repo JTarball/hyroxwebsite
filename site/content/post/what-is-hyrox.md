@@ -79,15 +79,17 @@ F﻿ounded by Christian Toetzke, together with the marketing icon Michael Trautm
 
 As of 2022  - Hyrox is in 8 markets (Netherlands, UK, Germany, Austria etc) and has plans to take over the entire world!
 
+[History of Hyrox](http://localhost:3000/post/the-history-of-hyrox/)
+
 ## W﻿here does Hyrox take place?
 
 H﻿yrox is an indoor event taking places in multiple countries. You can find a race near to you: <https://hyrox.com/find-my-race/>
 
 ## W﻿hich Format should I do?
 
-For begineers I would recommend the doubles unless you a numpty like me.
+For beginners I would recommend the doubles unless you a numpty like me.
 
-As stated before the demands are high and mostly likely as a begineer the doubles will be a better introduction to Hyrox.
+As stated before the demands are high and mostly likely as a beginner the doubles will be a better introduction to Hyrox.
 
 For regular gym goers or strong runners an individual race in the open is totally possible
 
