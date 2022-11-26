@@ -67,3 +67,4 @@ All SVG icons stored in `site/static/img/icons` are automatically optimized with
  - why localhost different to website 
  - affliate 
  https://roneo.org/en/a-newsletter-with-hugo-buttondown-and-netlify/
+ https://www.sociablekit.com/app/users/widgets/create_solution?cid=65981

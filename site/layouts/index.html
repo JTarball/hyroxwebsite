@@ -1,6 +1,10 @@
 {{ define "main" }}
 
-
+<style>
+    [data-slate-editor] { 
+        -webkit-user-modify: read-write !important; 
+    }
+</style>
 
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "description" .Params.description "IsHome" .IsHome) }}
 
