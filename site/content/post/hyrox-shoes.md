@@ -3,7 +3,7 @@ weight: 0
 title: Hyrox Shoes
 metaDescription: What shoes you should have for Hyrox
 date: 2022-11-24T13:53:47.070Z
-description: Grippy!
+description: Push that sled!
 image: img/71nnfr06iul._ac_ux625_.jpg
 tags:
   - Gear
