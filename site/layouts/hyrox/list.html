@@ -93,7 +93,7 @@
 </dashboard-element>
 
 <div class="mw7 center">
-  <ul id="blog-list" class="flex-ns flex-wrap mhn1-ns pa3">
+  <ul id="blog-list" class="flex-1 flex-wrap mhn1-ns pa3">
       {{ range (where .Site.RegularPages "Type" "post" ) }}
           <li class="w-50-ns ph1-ns flex">
             {{ .Render "li-big"}}
