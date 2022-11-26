@@ -8,7 +8,7 @@ image: img/8629_20221119_084137_259567464_original.jpg
 tags:
   - General
   - Welcome
-draft: false
+draft: true
 ---
 D﻿escribed as:
 
@@ -40,9 +40,31 @@ H﻿yrox has several different formats:
 
 
 
+## H﻿ow do I explain this to my friends?
+
+U﻿rm.. it is difficult. 
+
+I﻿t's a functional fitness race that is mostly closely aligned to crossfit, spartan, tough mudder however it takes place indoors with a closer alignment to what people are doing in the gym.
+
+\
+I﻿ often just explain the race format that's often enough to get it across to the person that its bloody hard! 
+
+\
+*P﻿ro tip: It's a great way to memorise the station order!*
+
+
+
+## W﻿hy is it called Hyrox?
+
+
+
+H﻿yrox is an indoor event taking places in multiple countries. You can find a race near to you: <https://hyrox.com/find-my-race/>
+
+
+
 ## W﻿here did Hyrox come from?
 
-F﻿ounded by Christian Toetzke, together with the marketing icon Michael Trautmann and x3 Olympic Medallist and World Champion, Moritz Fuerste, orignating in Germany it has experienced massive growth in Europe and the US.
+F﻿ounded by Christian Toetzke, together with the marketing icon Michael Trautmann and x3 Olympic Medallist and World Champion, Moritz Fuerste, originating in Germany it has experienced massive growth in Europe and the US.
 
 ## W﻿here does Hyrox take place?
 
@@ -50,6 +72,12 @@ H﻿yrox is an indoor event taking places in multiple countries. You can find a 
 
 
 
+
+
+
+
 ##### Further Reading:
 
-#####  <https://hyrox.com/about-hyrox/>
+[Find your Race](https://hyrox.com/about-hyrox/)
+
+[Podcast with Christian Toetzke](https://www.youtube.com/watch?v=3leTKmIBG04)
