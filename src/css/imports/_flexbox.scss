@@ -53,6 +53,12 @@
 
 @media (--breakpoint-not-small) {
   .flex-ns { display: flex; }
+  .flex-1 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
   .inline-flex-ns { display: inline-flex; }
   .flex-auto-ns {
     flex: 1 1 auto;
