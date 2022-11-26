@@ -7,7 +7,7 @@ description: World Series of Fitness Racing
 image: img/maxresdefault.jpeg
 tags:
   - Welcome
-draft: false
+draft: true
 ---
 F﻿ounded by Christian Toetzke, together with the marketing icon Michael Trautmann and x3 Olympic Medallist and World Champion, Moritz Fuerste, originating in Germany it has experienced massive growth in Europe and the US.
 
