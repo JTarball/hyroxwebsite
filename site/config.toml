@@ -11,3 +11,8 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 enableRobotsTXT = true
 disqusShortname = 'compromisedrunning'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
