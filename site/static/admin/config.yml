@@ -94,15 +94,15 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Logo, name: logo, widget: image}
-      - file: "site/content/privacy/_index.md"
-        label: "Privacy Page"
-        name: "privacy"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Logo, name: logo, widget: image}
       - file: "site/content/about/_index.md"
         label: "About Page"
         name: "about"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Logo, name: logo, widget: image}
+      - file: "site/content/contribute/_index.md"
+        label: "Contribute Page"
+        name: "contribute"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Logo, name: logo, widget: image}
