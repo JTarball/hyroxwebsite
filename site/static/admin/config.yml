@@ -37,6 +37,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "privacy"
         fields:
           - {label: Title, name: title, widget: string}
+          - {label: "Meta Description", name: "metaDescription", widget: "string"}
           - {label: Logo, name: logo, widget: image}
           - {label: Body, name: body, widget: markdown}
       - file: "site/content/contact/_index.md"
@@ -44,6 +45,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "contact"
         fields:
           - {label: Title, name: title, widget: string}
+          - {label: "Meta Description", name: "metaDescription", widget: "string"}
           - {label: Logo, name: logo, widget: image}
           - {label: Body, name: body, widget: markdown}
           - label: Contact Entries
@@ -61,6 +63,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "products"
         fields:
           - {label: Title, name: title, widget: string}
+          - {label: "Meta Description", name: "metaDescription", widget: "string"}
           - {label: Image, name: image, widget: image}
           - {label: Heading, name: heading, widget: string}
           - {label: Description, name: description, widget: string}
@@ -74,6 +77,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "values"
         fields:
           - {label: Title, name: title, widget: string}
+          - {label: "Meta Description", name: "metaDescription", widget: "string"}
           - {label: Image, name: image, widget: image}
           - label: Values
             name: values
@@ -87,18 +91,21 @@ collections: # A list of collections the CMS should be able to edit
         name: "hyrox"
         fields:
           - {label: Title, name: title, widget: string}
+          - {label: "Meta Description", name: "metaDescription", widget: "string"}
           - {label: Logo, name: logo, widget: image}
       - file: "site/content/running/_index.md"
         label: "Running Page"
         name: "running"
         fields:
           - {label: Title, name: title, widget: string}
+          - {label: "Meta Description", name: "metaDescription", widget: "string"}
           - {label: Logo, name: logo, widget: image}
       - file: "site/content/about/_index.md"
         label: "About Page"
         name: "about"
         fields:
           - {label: Title, name: title, widget: string}
+          - {label: "Meta Description", name: "metaDescription", widget: "string"}
           - {label: Logo, name: logo, widget: image}
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "site/content/contribute/_index.md"
@@ -106,6 +113,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "contribute"
         fields:
           - {label: Title, name: title, widget: string}
+          - {label: "Meta Description", name: "metaDescription", widget: "string"}
           - {label: Logo, name: logo, widget: image}
           - {label: Body, name: body, widget: markdown}
 
