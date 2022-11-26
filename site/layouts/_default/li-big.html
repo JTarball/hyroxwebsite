@@ -1,4 +1,4 @@
-<a href="{{ .RelPermalink }}" class="no-underline pa3  br1 mb2 mt2 db raise w-100">
+<a href="{{ .RelPermalink }}" class="no-underline pa3  br1 mb2 mt2 db raise">
 	{{ $date := .Date.Format "Mon, Jan 2, 2006"  }}
 	<simple-mini-card-element theme="large" item={{ dict "name" .Title "content" .Plain "href" .RelPermalink "date" $date "tags" .Params.tags "image" .Params.image | jsonify }}></simple-mini-card-element>
 </a>
