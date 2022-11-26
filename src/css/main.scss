@@ -225,3 +225,20 @@
         width: unset;
     }
 }
+
+#followButton {
+    background: var(--grey-3);
+}
+
+
+@media all and (max-width: 767px) {
+    #followButton {}
+}
+
+
+.navInstagram {
+    display: inline-block;
+    padding: 2px;
+    background: white;
+    color: white;
+}
