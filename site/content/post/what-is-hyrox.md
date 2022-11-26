@@ -34,8 +34,6 @@ H﻿yrox has several different formats:
 
 **N﻿ote**: There is different standards for men / women e.g. 4kg wall ball vs 6kg
 
-
-
 ## W﻿hat is a Hyrox Race?
 
 T﻿he demands of race require a good combination of strength, cardio and lower body pull.
@@ -43,15 +41,11 @@ T﻿he demands of race require a good combination of strength, cardio and lower 
 Requiring over 8k running making it an endurance race \
 I﻿t is a power endurance race, requiring sustained power for extended periods of time.
 
-
-
 ## W﻿hat is the average time for Hyrox?
 
 N﻿ormally the race will take between 1h - 1h 30.
 
 G﻿iven the sport is rather new, standards are tightening meaning averages are changing.
-
-
 
 ## H﻿ow do I explain this to my friends?
 
@@ -66,6 +60,8 @@ I﻿ often just explain the race format that's often enough to get it across to 
 *P﻿ro tip: It's a great way to memorise the station order!*
 
 ## W﻿hy is it called Hyrox?
+
+
 
 
 
@@ -86,6 +82,16 @@ As of 2022  - Hyrox is in 8 markets (Netherlands, UK, Germany, Austria etc) and 
 ## W﻿here does Hyrox take place?
 
 H﻿yrox is an indoor event taking places in multiple countries. You can find a race near to you: <https://hyrox.com/find-my-race/>
+
+## W﻿hich Format should I do?
+
+For begineers I would recommend the doubles unless you a numpty like me.
+
+As stated before the demands are high and mostly likely as a begineer the doubles will be a better introduction to Hyrox.
+
+For regular gym goers or strong runners an individual race in the open is totally possible
+
+
 
 ##### Further Reading:
 
