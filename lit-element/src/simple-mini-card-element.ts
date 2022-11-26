@@ -94,11 +94,11 @@ export class SimpleMiniCardElement extends LitElement {
       color: rgba(117, 117, 117, 1);
       position: relative;
       line-height: 20px;
-      padding: 2px 8px;
+      padding: 4px 8px;
       border-radius: 100px;
       transition: background 300ms ease 0s;
       white-space: nowrap;
-      font-size: 13px;
+      font-size: 12px;
       text-decoration: none;
     }
 
