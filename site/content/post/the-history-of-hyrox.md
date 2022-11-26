@@ -37,9 +37,11 @@ He really believes HYROX is a new global Sport of Fitness racing.
 
 ## In 2019 
 
+Last year, the competition held a couple of U.S. events to test the market on the other side of the pond. In 2019, Miami (October) and New York City (December) held the first U.S. events.
 
+To kickoff the 2020 season, Chicago held the first event in the States on January 25th.
 
-
+{{< youtube gpWVKZSULbk >}}
 
 ## 2023 onwards
 
