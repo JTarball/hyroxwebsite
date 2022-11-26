@@ -17,8 +17,6 @@ D﻿escribed as:
 
 ![Hyrox Race Format](img/hyrox-competition.webp)
 
-
-
 ## H﻿yrox Race Format
 
 H﻿yrox has several different formats:
@@ -28,8 +26,6 @@ H﻿yrox has several different formats:
 * D﻿oubles
 * R﻿elay
 
-
-
 **O﻿pen**:  Individually take on the Hyrox Standard Format
 
 **P﻿ro**: For experienced racers, this format introduces heavier weights to provide more of a challenge
@@ -38,13 +34,11 @@ H﻿yrox has several different formats:
 
 **N﻿ote**: There is different standards for men / women e.g. 4kg wall ball vs 6kg
 
-
-
 ## H﻿ow do I explain this to my friends?
 
 U﻿rm.. it is difficult. 
 
-I﻿t's a functional fitness race that is mostly closely aligned to crossfit, spartan, tough mudder however it takes place indoors with a closer alignment to what people are doing in the gym.
+I﻿t's a functional fitness race that is most closely aligned to crossfit, spartan, tough mudder however it takes place indoors with a closer alignment to what people are doing in the gym.
 
 \
 I﻿ often just explain the race format that's often enough to get it across to the person that its bloody hard! 
@@ -52,13 +46,11 @@ I﻿ often just explain the race format that's often enough to get it across to 
 \
 *P﻿ro tip: It's a great way to memorise the station order!*
 
-
-
 ## W﻿hy is it called Hyrox?
 
 
 
-H﻿yrox is an indoor event taking places in multiple countries. You can find a race near to you: <https://hyrox.com/find-my-race/>
+
 
 
 
@@ -66,15 +58,11 @@ H﻿yrox is an indoor event taking places in multiple countries. You can find a 
 
 F﻿ounded by Christian Toetzke, together with the marketing icon Michael Trautmann and x3 Olympic Medallist and World Champion, Moritz Fuerste, originating in Germany it has experienced massive growth in Europe and the US.
 
+As of 2022  - Hyrox is in 8 markets (Netherlands, UK, Austria etc) and has plans to take over the entire world!
+
 ## W﻿here does Hyrox take place?
 
 H﻿yrox is an indoor event taking places in multiple countries. You can find a race near to you: <https://hyrox.com/find-my-race/>
-
-
-
-
-
-
 
 ##### Further Reading:
 
