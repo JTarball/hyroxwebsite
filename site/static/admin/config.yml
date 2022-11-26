@@ -106,6 +106,7 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Logo, name: logo, widget: image}
+          - {label: Body, name: body, widget: markdown}
 
   # Used for Tag Definitions, note that you need to manually add above for admin posts to see them
   - name: "discover" # Used in routes, ie.: /admin/collections/:slug/edit
