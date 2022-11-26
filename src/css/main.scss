@@ -189,4 +189,29 @@
     .hidden-mobile {
         display: none !important;
     }
+
+    #TableOfContents {
+        display: none  !important;
+    }
+}
+
+#TableOfContents {
+    text-decoration: none;
+    font-size: 13px;
+    color: rgba(117, 117, 117, 1);
+    line-height: 20px;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    margin: 0;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+
+#TableOfContents ul {
+    margin: 0.4rem;
+}
+
+#TableOfContents li a {
+    text-decoration: none;
 }
