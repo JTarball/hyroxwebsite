@@ -10,6 +10,10 @@ I have learnt a lot in my journey in functional fitness already and hopefully yo
 
   <img src="/img/8629_20221119_155120_259563459_socialmedia.jpg" alt="Wall ball" width="400px;" /></div>
 
+
+
+![Wall Ball](img/8629_20221119_155120_259563459_socialmedia.jpg)
+
 This site aims to help people with that are new to fitness racing and as well as those looking to improve in events such as Hyrox.
 
 I hope you find the website useful.
