@@ -48,17 +48,11 @@ I﻿ often just explain the race format that's often enough to get it across to 
 
 ## W﻿hy is it called Hyrox?
 
-
-
-
-
-
-
 ## W﻿here did Hyrox come from?
 
 F﻿ounded by Christian Toetzke, together with the marketing icon Michael Trautmann and x3 Olympic Medallist and World Champion, Moritz Fuerste, originating in Germany it has experienced massive growth in Europe and the US.
 
-As of 2022  - Hyrox is in 8 markets (Netherlands, UK, Austria etc) and has plans to take over the entire world!
+As of 2022  - Hyrox is in 8 markets (Netherlands, UK, Germany, Austria etc) and has plans to take over the entire world!
 
 ## W﻿here does Hyrox take place?
 
