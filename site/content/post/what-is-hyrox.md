@@ -8,7 +8,7 @@ image: img/8629_20221119_084137_259567464_original.jpg
 tags:
   - General
   - Welcome
-draft: true
+draft: false
 ---
 D﻿escribed as:
 
@@ -58,11 +58,6 @@ I﻿ often just explain the race format that's often enough to get it across to 
 
 \
 *P﻿ro tip: It's a great way to memorise the station order!*
-
-## W﻿hy is it called Hyrox?
-
-
-
 
 
 ## W﻿hy is Hyrox becoming so popular?
