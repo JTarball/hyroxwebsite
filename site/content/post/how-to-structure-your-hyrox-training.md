@@ -85,6 +85,36 @@ See article: Does max strength correlate to strength endurance
 
 
 
+The best way 
+
+General strength not specific strength 
+
+Standard lift 
+
+
+
+
+
+Bench Press
+
+Deadlifts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Analyse how much time you have and demands?
