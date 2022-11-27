@@ -1,28 +1,11 @@
 ---
-weight: 0
-title: Ultimate Hyrox Training Guide
-metaDescription: The ultimate hyrox training guide
-date: 2022-11-24T12:39:04.201Z
-description: "Push "
-image: img/fit-one-fitnessstudio-event-ingolstadt-hyrox_03.jpeg
+weight: 2
+title: The Ultimate Hyrox Training Guide
+metaDescription: A training guide for Hyrox
+date: 2022-11-27T20:58:13.868Z
+description: .
 tags:
   - Guides
 draft: true
 ---
-
-
-## Types of Hyrox Workouts
-
-Hyrox workouts use similar priniciples to Crossfit style workouts however they are often longer in format to better simulate Hyrox.
-
-
-
-### EMOM
-
-
-
-### AMRAP 
-
-
-
-### For Time
+https://www.themovementblueprint.co/blog/hyrox-training-plan/
