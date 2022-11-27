@@ -9,7 +9,7 @@ tags:
   - Gear
 draft: false
 ---
-## What shoes should you wear 
+## What shoes should you wear
 
 Hyrox being sponsored by Puma you will find a lot of people recommending them (I am not going to). 
 
@@ -21,10 +21,12 @@ Lets keep this simple, do not wear Nike vaporflys or any running shoes that has 
 * No Nike ZoomX / [Vaporflys](https://www.nike.com/gb/running/vaporfly)
 * No metcon shoes it's not crossfit!
 
-
-
 Test out your shoes with Hyrox Level Weight or higher on the sled in the gym. Done!
 
 I personally love the nike pegasus series, no nonsense ... good to run and gets the job done.
 
 <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:400px;height:480px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=compromisedru-21&language=en_GB&marketplace=amazon&region=GB&placement=B09XXYK8DB&asins=B09XXYK8DB&linkId=0d21a47c51ce5e4920075cacee55eac4&show_border=true&link_opens_in_new_window=true"></iframe>
+
+
+
+https://www.hyperwear.com/blog/what-is-hyrox/
