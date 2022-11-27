@@ -93,15 +93,11 @@ How much time do you have before your race? Ideally you will have between 8-12 w
 
 Note: Ideally if you are begineer or lacking in strength you may need a lot longer. Do not use this as an excuse not to do Hyrox I am just saying this is about the journey not the destination. Maximising strength can take a year or two, often connective tissues take this long to see results. The good news is that if you are new to strength exercises you will mostly likely see massive gains as a novice, it's a lot harder for experienced gym goers.
 
-
-
-
-
-
-
-
-
 If you have less than 8 weeks I am sorry to say that's not enough time in my opinion excluding if you are an experienced athlete or have strong core competanecies in running or strength. Don't get me wrong you can muddle your way through Hyrox but you won't see the results of any of your work.  With less than 8 weeks you are likely to overtrain or risk injury in order to speed up your training before your race.
+
+You may ask yourself what do I need to be to compete as a Hyrox athlete. Being from the UK, I think the easiest answer that question would be to say that you want the characteristics of a rugby player. Rugby players need to be able to run for the entire game, show explosive speed at time, core strength and power in various stages of a match. This amounts to **power endurance**, this is exactly what the demands of Hyrox.
+
+Does that mean you should start playing Rugby.. well no but hopefully I have gotten my point across.
 
 
 
