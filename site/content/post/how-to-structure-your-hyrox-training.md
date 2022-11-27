@@ -93,13 +93,11 @@ Standard lift
 
 
 
-
-
 Bench Press
 
 Deadlifts
 
-
+Back Squat / Front Squat
 
 
 
