@@ -12,7 +12,29 @@ tags:
   - Running
 draft: true
 ---
-In order to answer this question we can look at whats needed 
+In order to answer this question we can look at whats needed. A hyrox is a power endurance race but you 
+
+Endurance 
+
+You will need to run ~8.7k if you can't do that you will struggle
+
+ Strength
+
+Pushing sleds on hyrox carpet requires significiant single leg strength 
+
+Lunges requires 
+
+
+
+
+
+
+
+**Pacing**
+
+Pacing your Hyrox is very hard, you will likely not run a Hyrox at your 10k pace and you need to be very careful not to red line your heart rate. If you for example go to hard on the sleds and can't run after you have effectively ruined your race very early. On the other hand, if you are taking breaks it is very easy to take way too long. You need a game plan and you need to stick to it.
+
+Remember over 50% of the race is running ... you need to be able to run ... compromised!
 
 
 
