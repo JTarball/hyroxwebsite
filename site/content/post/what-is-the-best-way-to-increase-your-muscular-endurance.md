@@ -8,16 +8,16 @@ tags:
   - General
 draft: false
 ---
-
-
 You will need muscular endurance in order to survive the sandbag lunges and wall balls.
 
 How do you actually increase your muscular endurance 
 
-1.  Max Strength
+1. Max Strength
 2. Hard Work
 3. Pyramids
 
-
-
 {{< youtube Ii845pDRC2c >}}
+
+**Max Strength**
+
+**Maximum**
