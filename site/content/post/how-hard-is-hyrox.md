@@ -12,4 +12,36 @@ tags:
   - Running
 draft: true
 ---
-Sometimes in life you need to test your yourself, throw yourself out of your comfort zone. I did it and you can too.
+In order to answer this question we can look at whats needed 
+
+
+
+
+
+## Stations
+
+You will likely have stations because of your physical attributes (short, tall, skinny, heavy etc) that you are good and others that you are bad at.
+
+I don't believe I have ever met someone that says they like wall balls and thats their best exercise. Because of the positioning of this exercise it is even worse.
+
+The wall balls are hard and you will need to give them significiant atttention.
+
+
+
+Generally if you are tall you have advantages in ski erg, wall balls   you will have some advantage.
+
+If you are strong you are hammer the sleds then you are have an advantage over others.
+
+If you are short burpees will likely be easier on you then the bigger.
+
+
+
+
+
+
+
+Don't make it harder on yourself on competition day make sure you train your weakness more than your strengths
+
+
+
+> Sometimes in life you need to test your yourself, throw yourself out of your comfort zone. I did it and you can too.
