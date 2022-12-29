@@ -55,7 +55,7 @@ London will have a double weekend for the first time ever in Kensington Olympia 
 
 You can watch the official Hyrox documentary on YouTube:
 
-{{< youtube OWrfPCWlDo4 >}}
+<div style="width:50%;">{{< youtube OWrfPCWlDo4 >}}</div>
 
 ## Further Resources
 
