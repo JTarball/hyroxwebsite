@@ -3,7 +3,7 @@ weight: 0
 title: What is Compromised Running?
 metaDescription: What is compromised running and why is it important for hyrox
 date: 2022-11-24T12:04:48.187Z
-last_updated: 2022-12-29T21:47:05+00:00
+last_updated: 2022-12-29T21:53:47+00:00
 description: Run, something else, run
 image: img/sled-mard.jpg
 tags:
@@ -35,13 +35,25 @@ You must understand the feeling and mentally be prepared for how to overcome it.
 
 ### Compromised Example 1
 
+
+
+<div class="img-m">
+
 ![](img/compromised-running-workout-example-1.png "Compromised Running Example 1 - Beginner Sled AMRAP")
 
-A beginner sled workout with compromised running, as you can see this is not the full weight or distances but rather you have split up the distances into blocks. 
+</div>
+
+A beginner sled workout with compromised running, you perform a sled push then a run as many as possible in the 20 minutes. As you take no breaks it simulates the fatigue you feel in a race from not being able to take breaks however as you perform only part of the full distance so that it is easier as a beginner.
+
+
 
 ### Compromised Example 2
 
+<div class="img-m">
+
 ![](img/compromised-running-workout-example-2.png "Compromised Running Example 2 - Ladder Bodyweight Workout")
+
+</div>
 
 A ladder workout where you run 500m then do 20 Burpees then 20 Lunges, then 500m run 19 Burpees + 19 Lunges ... until you reach 1 rep for the burpees & lunges
 
