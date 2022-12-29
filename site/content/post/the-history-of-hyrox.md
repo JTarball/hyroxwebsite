@@ -37,7 +37,7 @@ He really believes HYROX is a new global Sport of Fitness racing.
 
 > “There is an appetite for these kinds of things I am seeing now that I have never seen before in my life.”  
 
-### In 2019
+### 2019
 
 In order to test the market in the USA Hyrox staged a number of competitions across various states. 
 
