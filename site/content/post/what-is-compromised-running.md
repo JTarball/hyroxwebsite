@@ -3,7 +3,7 @@ weight: 0
 title: What is Compromised Running?
 metaDescription: What is compromised running and why is it important for hyrox
 date: 2022-11-24T12:04:48.187Z
-last_updated: 2022-12-29T21:24:39+00:00
+last_updated: 2022-12-29T21:33:36+00:00
 description: Run, something else, run
 image: img/sled-mard.jpg
 tags:
@@ -11,13 +11,11 @@ tags:
   - Welcome
 draft: false
 ---
-Coined supposedly by The Running Public's Brakken Kraker, 
+Coined supposedly by The Running Public's Brakken Kraker, compromised running essentially means doing running before and after doing something else, this could be strength based, bodyweight or anything that is a different discipline really. 
 
-It essentially means doing running before and after doing something else, this could be strength based, bodyweight, anything that is a different discipline really. 
+Running after doing "something else" is a different feeling, quite often you can't run at the same intensity. Your legs could be very tired from the "something else" or your heart rate could have jumped in a red zone.
 
-Running after doing "something else" is a different feeling, quite often you can't run at the same intensity. Your legs could be very tired from the "something else" or your heart rate could have jumped in a stressful zone.
-
-For those that have even "hit the wall" during a marathon, it's very hard to run as you were before .. you need to be aware of that 'feeling' in order to know you can mentally get through it and be physically prepared. Few people can run a marathon off the cuff without training without some serious suffering!
+For those that have even "hit the wall" during a marathon, it's very hard to run as you were before .. you need to be aware of that 'feeling' in order to know you can mentally get through it as well as being physically prepared. Few people can run a marathon off the cuff without training without some serious suffering... compromised running is the same!
 
 ## Why is it so important for Hyrox?
 
@@ -27,7 +25,7 @@ When you push the sled, your heart rate will spike and overtime your legs will b
 
 If you can't run afterwards or do not understand the feeling you will find Hyrox very difficult.
 
-It has be known to ruin people hyrox race, 
+It has be known to ruin peoples' races, you must master compromised running. 
 
 It's important to understand that you are not running a 8k race in Hyrox ... you are running 8k compromised. This means you will not run Hyrox at your 10k pace most likely .. you will probably be slower.
 
@@ -37,7 +35,7 @@ You must understand the feeling and mentally be prepared for how to overcome it.
 
 ![](img/compromised-running-workout-example-1.png "Compromised Running Example 1 - Sled AMRAP")
 
-A beginner sled workout with compromised running, as you can see this is not the full weight or distances. 
+A beginner sled workout with compromised running, as you can see this is not the full weight or distances but rather you have split up the distances into blocks. 
 
 ![](img/compromised-running-workout-example-2.png "Compromised Running Example 2 - Ladder Bodyweight Workout")
 
@@ -45,7 +43,7 @@ A ladder workout where you run 500m then do 20 Burpees then 20 Lunges, then 500m
 
 ## How do I get better at compromised running?
 
-You will need to experience the sensation and both your mind and your body will need to adapt. 
+You will need to experience the sensation and both your mind and your body will need to adapt. Running after sleds can feel horrific but you need to know you can recover back into your threshold/steady state running.
 
 Much like running with a heavy rucksack or backpack you might find your running form is slightly different when compromised to ensure efficiency. Don't worry too much about that.
 
