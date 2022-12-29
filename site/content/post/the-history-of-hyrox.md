@@ -17,33 +17,29 @@ Since it's first event it has experienced massive growth in Europe and the US.
 
 ### Origins
 
-> “People have a much deeper awareness of their fitness and health now,” 
-
-he added, noting he has also seen an increased education level when it comes to nutrition and recovery as well. 
-
-> “And they want to stay in shape for their livelihood, and they also want to join or rejoin communities that are associated with fitness.” 
-
 Christian Toetzke having spent years organising mass participant cycling events came across an intriguing piece of research in Germany stating that over 50% of people now say their sport is "working out". 
 
-The lightbulb moment was that there was no competition designed for people that would train fitness every day in the gym .
+> “People have a much deeper awareness of their fitness and health now,” 
+>
+> “And they want to stay in shape for their livelihood, and they also want to join or rejoin communities that are associated with fitness.” 
+
+The lightbulb moment was that there was no competition designed for people that would train fitness every day in the gym even though this was their 'sport'.
 
 After some trial and error the Hyrox competition format was formed. The key was designing a format that everyone can do (if needed with significant time) and not including stations that people were physically incapable of doing e.g. monkey bars. If you don't have the physical pulling strength no matter the time you will not be able to get pass the station.
 
-The first ever Hyrox was held in Hamburg, Germany in 2018.
-
-Of course as an indoor event Covid was a large blow to large indoor events business but lessons were learnt.
-
-He really believes HYROX is a new global Sport of Fitness racing.
+The first ever Hyrox event was held in Hamburg, Germany in 2018.
 
 > “There is an appetite for these kinds of things I am seeing now that I have never seen before in my life.”  
 
-### 2019
+### 2019-2023
 
 In order to test the market in the USA Hyrox staged a number of competitions across various states. 
 
 In late 2019, Miami (October) and New York City (December) held their first U.S. events. Chicago then followed kicking off the 2020 season.
 
 {{< youtube gpWVKZSULbk >}}
+
+Of course as an indoor event Covid was a large blow to large indoor events business but lessons were learnt.
 
 ### 2023 onwards
 
