@@ -27,13 +27,21 @@ He really believes HYROX is a new global Sport of Fitness racing.
 
 ## In 2019
 
-In order to test the market in the USA they staged a number of competitions across various states. In late 2019, Miami (October) and New York City (December) held their first U.S. events. Chicago then kicked off the 2020 season on January 25th.
+In order to test the market in the USA they staged a number of competitions across various states. 
+
+In late 2019, Miami (October) and New York City (December) held their first U.S. events. Chicago then kicked off the 2020 season on January 25th 2020.
 
 {{< youtube gpWVKZSULbk >}}
 
 ## 2023 onwards
 
-In 2023 there will be big expansions into Denmark and Sweden, Greece and Middle East all with first events next season. Spain is growing from one event this past season to now 5 including iconic Barcelona.
+In 2023 there will be expansions into Denmark, Sweden, Greece and the Middle East. 
+
+Spain will continue growing with 5 events planned including Barcelona.
+
+London will have a double weekend for the first time in Kensington Olympia London
+
+## Documentary
 
 “People have a much deeper awareness of their fitness and health now,” he added, noting he has also seen an increased education level when it comes to nutrition and recovery as well. “And they want to stay in shape for their livelihood, and they also want to join or rejoin communities that are associated with fitness.” 
 
