@@ -3,7 +3,7 @@ weight: 0
 title: How Hard is Hyrox?
 metaDescription: How hard is Hyrox event?
 date: 2022-11-23T19:51:24.127Z
-last_updated: 2022-12-29T22:30:04+00:00
+last_updated: 2022-12-29T22:30:42+00:00
 description: "Bloody Hard. "
 image: img/8629_20221119_080034_259471440_original.jpg
 tags:
@@ -23,7 +23,7 @@ A Hyrox is actually a power endurance race but it's made up of a number of areas
 
 You will need to run ~8.7k if you can't do that you will struggle!
 
-100m Lunges and wall balls requires muscular endurance.
+100m Lunges, rowing and wall balls requires muscular endurance.
 
  **Push / Pull Strength**
 
