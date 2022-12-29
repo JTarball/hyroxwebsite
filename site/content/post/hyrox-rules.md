@@ -6,6 +6,7 @@ description: There are different rules for singles, doubles and relay
 image: img/screenshot-2022-11-24-at-14.16.59.png
 tags:
   - Resources
+draft: true
 ---
 \
 Y﻿ou can find the rules for hyrox in pdf here:\

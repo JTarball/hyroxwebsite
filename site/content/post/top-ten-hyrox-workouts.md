@@ -6,5 +6,6 @@ description: "-"
 image: img/hyrox_pft_01_kl.jpeg
 tags:
   - Hyrox Workouts
+draft: true
 ---
 \-
