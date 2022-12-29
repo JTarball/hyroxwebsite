@@ -7,7 +7,7 @@ description: '"Success is always less funny than failure"'
 image: img/no-rep-origional-shirt-design-black-shirt-design.png
 tags:
   - Must Reads
-draft: false
+draft: true
 ---
 Y﻿ou can't really even fail at HYROX unless you give up which if you are reading this article you are mostly likely not going to do. 
 
