@@ -9,7 +9,9 @@ tags:
   - Welcome
 draft: false
 ---
-Hyrox was f﻿ounded by Christian Toetzke, together with the marketing icon Michael Trautmann and x3 Olympic Medallist and World Champion, Moritz Fuerste in Germany. Since it's first event it has experienced massive growth in Europe and the US.
+Hyrox was f﻿ounded by Christian Toetzke, together with the marketing icon Michael Trautmann and x3 Olympic Medallist Moritz Fuerste in Germany. 
+
+Since it's first event it has experienced massive growth in Europe and the US.
 
 ### Origins
 
@@ -35,19 +37,19 @@ He really believes HYROX is a new global Sport of Fitness racing.
 
 ### In 2019
 
-In order to test the market in the USA they staged a number of competitions across various states. 
+In order to test the market in the USA Hyrox staged a number of competitions across various states. 
 
-In late 2019, Miami (October) and New York City (December) held their first U.S. events. Chicago then kicked off the 2020 season on January 25th 2020.
+In late 2019, Miami (October) and New York City (December) held their first U.S. events. Chicago then followed kicking off the 2020 season.
 
 {{< youtube gpWVKZSULbk >}}
 
 ### 2023 onwards
 
-In 2023 there will be expansions into Denmark, Sweden, Greece and the Middle East. 
+In 2023, there will be expansions into Denmark, Sweden, Greece and the Middle East. 
 
-Spain will continue growing with 5 events planned including Barcelona.
+Spain will continue its grown with 5 events planned (including Barcelona).
 
-London will have a double weekend for the first time in Kensington Olympia London
+London will have a double weekend for the first time ever in Kensington Olympia London
 
 ### Hyrox the Documentary
 
