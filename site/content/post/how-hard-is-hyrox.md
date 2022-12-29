@@ -3,7 +3,7 @@ weight: 0
 title: How Hard is Hyrox?
 metaDescription: How hard is Hyrox event?
 date: 2022-11-23T19:51:24.127Z
-last_updated: 2022-12-29T22:29:34+00:00
+last_updated: 2022-12-29T22:30:04+00:00
 description: "Bloody Hard. "
 image: img/8629_20221119_080034_259471440_original.jpg
 tags:
@@ -51,7 +51,7 @@ Don't be under the false impression, consecutive fatigue completely changes the 
 
 * Pushing/Pulling @ Hyrox Weight on carpet feels soo much harder
 * Wall balls at the end of Hyrox will not feel like the weight specified. Train with 9kg or greater (mens) to get a similar feeling after fatiguing your shoulder muscles with e.g. hand release pushups.
-* Running the distance is harder because it's compromised. Run after lifting very heavy for similar feeling.
+* Running the distance is harder because it's compromised. Run after lifting very heavy for a similar feeling.
 * Farmers carry weight will feel heavier
 * Burpees will be harder after the sleds. Do Hand Release pushups or shoulder press to pre-fatigue.
 
