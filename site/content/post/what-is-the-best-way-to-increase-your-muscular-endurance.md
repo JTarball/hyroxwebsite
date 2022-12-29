@@ -3,7 +3,7 @@ weight: 0
 title: "What is the best way to increase your muscular endurance "
 metaDescription: What is the best way to increase your muscular endurance
 date: 2022-11-27T20:48:23.892Z
-description: .
+description: ""
 tags:
   - General
   - Max Strength
@@ -18,7 +18,7 @@ How do you actually increase your muscular endurance (In no particular order)
 3. Pyramids
 4. Pavel's way
 
-{{< youtube Ii845pDRC2c >}}
+
 
 **Max Strength**
 
@@ -38,13 +38,7 @@ I can tell you from first hand experience just trying to do 100 sandbag lunges e
 
 **Maximum**
 
-
-
-
-
-
-
-## **Hard Work** 
+## **Hard Work**
 
 When you think .. you may become efficient at the
 
@@ -56,46 +50,50 @@ Increase your volume over time and make sure that you are mentally strong in any
 
 You can apply the same technique to that when running longer distances you can build up your endurance over time. With strength exercises you can break up a long rep count into sets 
 
-
-
 E.g. Farmers carry 
-
-
 
 Knowing the feeling when you are 75 reps into the sandbag lunges and 
 
-
-
-
-
 ### \
+
 Mental Techniques
 
 Everyone has different coping methods when in the 'pain zone'
 
 Here are a few that I have heard or used in the past:
 
-
-
 * Maths
 * Sets of X 
 * See the finish line / Focus Point
-
-
 * Affirmattions 
 
   Look up David Goggins and you will understand the power of the mind when it comes to endurance efforts. 
 
-
-
-
-
-
-
-## Pyramids 
-
-
-
-
+## Pyramids
 
 You will likely notice this in crossfit or hyrox wods as a result; You now know why.
+
+
+
+
+
+
+
+Pavel's way\
+\
+{{< youtube Ii845pDRC2c >}}
+
+The aim is to develop mitochondria in slow and fast twitch fibres so you can generate power without acid and less fatigue metabolites.
+
+\
+You need to workout 30-40+ mins 
+
+Method 1 - For slow fibre muscles you are working right below your anaerobic threshold (How do you know you fail the talking test - You should be able to talk while doing this)
+
+Method 2 - For fast fibre muscles you use repeat training. Sprint intensely just until slight fatigue but before any actual fatigue then rest (could be walking) and repeat.\
+  You can then play around with the following rest periods:\
+    1. Low rest - next is more difficult i.e. interval training
+
+\    2. Medium rest - Same level of performance expected after the training 
+
+\    3. High rest - Super compensation occurs from the rest and you can perform the exercise with same ease or it is easier
