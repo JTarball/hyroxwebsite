@@ -38,7 +38,7 @@ In order to test the market in the USA Hyrox staged a number of competitions acr
 
 In late 2019, Miami and New York City held their first U.S. events. Chicago then followed kicking off the 2020 season.
 
-{{< youtube gpWVKZSULbk >}}
+<div class="img-m">{{< youtube gpWVKZSULbk >}}</div>
 
 As 2020 season continued Covid came as a large blow to large indoor events like Hyrox, however lessons were learnt leading to better events in 21/22 seasons. 
 
@@ -56,10 +56,10 @@ London will have a double weekend for the first time ever in Kensington Olympia 
 
 You can watch the official Hyrox documentary on YouTube:
 
-<div class="img50">{{< youtube OWrfPCWlDo4 >}}</div>
+<div class="img-m">{{< youtube OWrfPCWlDo4 >}}</div>
 
 ## Further Watchs
 
-<div class="img50">{{< youtube kjm8X8znAMs >}}</div>
+<div class="img-s">{{< youtube kjm8X8znAMs >}}</div>
 
-<div class="img50">{{< youtube 3leTKmIBG04 >}}</div>
+<div class="img-s">{{< youtube 3leTKmIBG04 >}}</div>
