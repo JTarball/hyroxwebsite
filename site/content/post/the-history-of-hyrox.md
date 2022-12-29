@@ -21,9 +21,7 @@ Since it's first event it has experienced massive growth in Europe and the US.
 Christian Toetzke having spent years organising mass participant cycling events came across an intriguing piece of research in Germany stating that over 50% of people now say their sport is "working out". 
 
 > “People have a much deeper awareness of their fitness and health now,” 
-
-
-
+>
 > “And they want to stay in shape for their livelihood, and they also want to join or rejoin communities that are associated with fitness.” 
 
 The lightbulb moment was that there was no competition designed for people that would train fitness every day in the gym even though this was their 'sport'.
@@ -38,7 +36,7 @@ The first ever Hyrox event was held in Hamburg, Germany in 2018.
 
 In order to test the market in the USA Hyrox staged a number of competitions across various states. 
 
-In late 2019, Miami (October) and New York City (December) held their first U.S. events. Chicago then followed kicking off the 2020 season.
+In late 2019, Miami and New York City held their first U.S. events. Chicago then followed kicking off the 2020 season.
 
 {{< youtube gpWVKZSULbk >}}
 
@@ -58,12 +56,10 @@ London will have a double weekend for the first time ever in Kensington Olympia 
 
 You can watch the official Hyrox documentary on YouTube:
 
-<div style="width:50%;">{{< youtube OWrfPCWlDo4 >}}</div>
+<div class="img50">{{< youtube OWrfPCWlDo4 >}}</div>
 
 ## Further Resources
 
-{{< youtube kjm8X8znAMs >}}
+<div class="img50">{{< youtube kjm8X8znAMs >}}</div>
 
-<br />
-
-{{< youtube 3leTKmIBG04 >}}
+<div class="img50">{{< youtube 3leTKmIBG04 >}}</div>
