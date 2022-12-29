@@ -8,7 +8,7 @@ image: img/8629_20221119_084137_259567464_original.jpg
 tags:
   - General
   - Welcome
-draft: true
+draft: false
 ---
 D﻿escribed as:
 
