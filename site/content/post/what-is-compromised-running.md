@@ -3,7 +3,7 @@ weight: 0
 title: What is Compromised Running?
 metaDescription: What is compromised running and why is it important for hyrox
 date: 2022-11-24T12:04:48.187Z
-last_updated: 2022-12-29T21:37:10+00:00
+last_updated: 2022-12-29T21:39:44+00:00
 description: Run, something else, run
 image: img/sled-mard.jpg
 tags:
@@ -33,7 +33,7 @@ You must understand the feeling and mentally be prepared for how to overcome it.
 
 ## What are some compromised running workouts?
 
-![](img/compromised-running-workout-example-1.png "Compromised Running Example 1 - Sled AMRAP")
+![](img/compromised-running-workout-example-1.png "Compromised Running Example 1 - Beginner Sled AMRAP")
 
 A beginner sled workout with compromised running, as you can see this is not the full weight or distances but rather you have split up the distances into blocks. 
 
