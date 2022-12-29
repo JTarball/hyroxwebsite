@@ -3,7 +3,7 @@ weight: 0
 title: What is Compromised Running?
 metaDescription: What is compromised running and why is it important for hyrox
 date: 2022-11-24T12:04:48.187Z
-last_updated: 2022-12-29T21:40:22+00:00
+last_updated: 2022-12-29T21:47:05+00:00
 description: Run, something else, run
 image: img/sled-mard.jpg
 tags:
@@ -33,9 +33,13 @@ You must understand the feeling and mentally be prepared for how to overcome it.
 
 ## What are some compromised running workouts?
 
+### Compromised Example 1
+
 ![](img/compromised-running-workout-example-1.png "Compromised Running Example 1 - Beginner Sled AMRAP")
 
 A beginner sled workout with compromised running, as you can see this is not the full weight or distances but rather you have split up the distances into blocks. 
+
+### Compromised Example 2
 
 ![](img/compromised-running-workout-example-2.png "Compromised Running Example 2 - Ladder Bodyweight Workout")
 
@@ -53,8 +57,6 @@ It is dependent on the athlete but just like an interval speed run you do NOT wa
 
 Once a week is more than enough. 
 
-When we talk compromised the classic/sexy association is that of a strength/power based exercise & run. Most closely aligned with Crossfit however that doesn't need to be the case. 
+When we talk compromised running the classic/sexy association is that of a strength/power based exercise & running e.g with sleds. While this is can make you feel like a hero make sure you don't go overboard with this. You can be smart and do some workouts as recovery as some Hyrox stations can be more cardio that strength based. If you still need to do some compromised workouts through the week that have less impact physically you can include burpees, ski erg & rowing with running increasing your cardio and compromised running at the same time.
 
-You can be smart and do some workouts as recovery as some Hyrox stations are more cardio that strength based. If you still do some compromised works that have less impact physically you can include burpees, ski erg & rowing with running increasing your cardio and compromised running.
-
-E.g. If you are legs are hammered from the impact of a long run you can mix ski ergs, cycle and a run on the treadmill to increase your cardio without the impact and pounding of a run outside.
+i.e. If you are legs are hammered from the impact of a long run you can mix ski ergs, cycle and a run on the treadmill to increase your cardio without the impact and pounding of a run outside.
