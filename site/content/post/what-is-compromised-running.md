@@ -1,10 +1,11 @@
 ---
 weight: 0
 title: What is Compromised Running?
-metaDescription: What is compromised running and why is it important
+metaDescription: What is compromised running and why is it important for hyrox
 date: 2022-11-24T12:04:48.187Z
+last_updated: 2022-12-29T20:46:09+00:00
 description: Run, something else, run
-image: img/8629_20221119_084137_259567464_original.jpg
+image: img/sled-mard.jpg
 tags:
   - General
   - Welcome
@@ -12,17 +13,15 @@ draft: true
 ---
 Coined supposedly by The Running Public's Brakken Kraker, 
 
-It esentially means doing running before and after doing something else, this could be sterngth based, bodyweight, anything that is a different discipline. 
+It essentially means doing running before and after doing something else, this could be strength based, bodyweight, anything that is a different discipline really. 
 
-Running after doing "something else" is a different feeling quite often you can't run at the same intensity if you hadn't done the "something else". Your legs could be very tired or your heart rate could have jumped.
+Running after doing "something else" is a different feeling, quite often you can't run at the same intensity. Your legs could be very tired from the "something else" or your heart rate could have jumped in a stressful zone.
 
-For those that have even "hit the wall" during a marathon, it's very hard to run as you were before.
-
-
+For those that have even "hit the wall" during a marathon, it's very hard to run as you were before .. you need to be aware of that 'feeling' in order to know you can mentally get through it and be physically prepared. Few people can run a marathon off the cuff without training without some serious suffering!
 
 ## Why is it so important for Hyrox?
 
-You need to be able to run after 
+You need to be able to run after sleds. You are only on the second & third station and you can't afford to destroy your race.
 
 When you push the sled, your heart rate will spike and overtime your legs will build lactic.  
 
@@ -30,23 +29,11 @@ If you can't run afterwards or do not understand the feeling you will find Hyrox
 
 It has be known to ruin people hyrox race, 
 
-
-
 It's important to understand that you are not running a 8k race in Hyrox ... you are running 8k compromised. This means you will not run Hyrox at your 10k pace most likely .. you will probably be slower.
 
 You must understand the feeling and mentally be prepared for how to overcome it. This takes practice and mental fortitude.
 
-
-
-
-
-
-
-
-
 ## What are some compromised running workouts?
-
-
 
 20 AMRAP  
 
@@ -54,11 +41,7 @@ You must understand the feeling and mentally be prepared for how to overcome it.
 
 200m run 
 
-
-
 \-----
-
-
 
 500m run 
 
@@ -82,25 +65,19 @@ You must understand the feeling and mentally be prepared for how to overcome it.
 
 under 1 Burpee / 1 Lunge
 
-
-
-
-
-
-
 ## How do I get better at compromised running?
 
+You will need to experience the sensation and both your mind and your body will need to adapt. 
 
-
-
+Much like running with a heavy rucksack or backpack you might find your running form is slightly different when compromised to ensure efficiency. Don't worry too much about that.
 
 ## How often
 
-It is dependent on the athlete but just like an interval speed run when running training you do NOT want to do it everyday and you will play with intensity/volume depending on what cycle of training. 
+It is dependent on the athlete but just like an interval speed run when running training you do NOT want to do it everyday and you will need to play with intensity/volume depending on what cycle of training. 
 
 Once a week is more than enough. 
 
-When we talk compromised the classic/sexy association is that of a strength/power based exercise with that of a run. Most closely aligned with crossfit however that doesn't need to be the case. 
+When we talk compromised the classic/sexy association is that of a strength/power based exercise & run. Most closely aligned with Crossfit however that doesn't need to be the case. 
 
 You can be smart and do some workouts as recovery as some Hyrox stations are more cardio that strength based. If you still do some compromised works that have less impact physical but help to increase your cardio specifically with burpees, ski erg, rowing. 
 
