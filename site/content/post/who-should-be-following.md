@@ -50,14 +50,17 @@ The highly above average Mark Lewis
 
 > "Why would anyone do this, this is nuts, there is noone here, I am in a field."" ~ Mark Lewis 2021
 
-Now a fulltime health and fitness youtuber. Stupidly entertaining and a fan of Hyrox and ultramarathon (sort of).
+Now a fulltime health and fitness youtuber. Stupidly entertaining and a fan of Hyrox and ultramarathons (..sort of).
 
 {{< youtube XMq6xxFDh_s >}}
 
-Subscribe to his channel for gems 
+Subscribe to his channel for some gems. A must have on anyone list.
 
-A must have on anyone lists 
-https://www.youtube.com/@MarkLewisfitness
+
+<https://www.youtube.com/@MarkLewisfitness>\
+<https://www.instagram.com/marklewispics/?hl=en>
+
+
 
 ### Woodsy Workout
 
@@ -66,6 +69,8 @@ https://www.youtube.com/@MarkLewisfitness
 ### Mastering Fitness
 
 ### GMB Fitness
+
+An old favourite of mine, although it focuses on bodyweight this is a great source for training for longevity and mobility. (Great mobility is so important for burpees, wall balls and lunges)
 
 ### Markus Frison
 
