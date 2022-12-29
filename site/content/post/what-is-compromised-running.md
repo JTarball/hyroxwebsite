@@ -3,7 +3,7 @@ weight: 0
 title: What is Compromised Running?
 metaDescription: What is compromised running and why is it important for hyrox
 date: 2022-11-24T12:04:48.187Z
-last_updated: 2022-12-29T21:53:47+00:00
+last_updated: 2022-12-29T21:54:48+00:00
 description: Run, something else, run
 image: img/sled-mard.jpg
 tags:
@@ -59,7 +59,7 @@ A ladder workout where you run 500m then do 20 Burpees then 20 Lunges, then 500m
 
 ## How do I get better at compromised running?
 
-You will need to experience the sensation and both your mind and your body will need to adapt. Running after sleds can feel horrific but you need to know you can recover back into your threshold/steady state running.
+You will need to experience the sensation in both your mind and your body in order to adapt. Running after sleds can feel horrific at times but you need to know you can recover back into your threshold/steady state running given enough time.
 
 Much like running with a heavy rucksack or backpack you might find your running form is slightly different when compromised to ensure efficiency. Don't worry too much about that.
 
