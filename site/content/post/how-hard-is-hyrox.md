@@ -3,7 +3,7 @@ weight: 0
 title: How Hard is Hyrox?
 metaDescription: How hard is Hyrox event?
 date: 2022-11-23T19:51:24.127Z
-last_updated: 2022-12-29T22:08:16+00:00
+last_updated: 2022-12-29T22:20:44+00:00
 description: "Bloody Hard. "
 image: img/8629_20221119_080034_259471440_original.jpg
 tags:
@@ -17,21 +17,27 @@ The hardest thing I have ever done but...
 
 In order to answer this question we can look at whats needed. 
 
-A hyrox is a power endurance race but you 
+A Hyrox is actually a power endurance race but it's made up of a number of areas:
 
-Endurance 
+**Endurance** 
 
-You will need to run ~8.7k if you can't do that you will struggle
+You will need to run ~8.7k if you can't do that you will struggle!
 
- Strength
+100m Lunges and wall balls requires muscular endurance.
 
-Pushing sleds on hyrox carpet requires significiant single leg strength 
+ **Push / Pull Strength**
 
-Lunges requires 
+Pushing sleds on Hyrox carpet requires significant single leg strength. The wall balls and burpees also require some push strength combined with endurance in the motion.
+
+Significant pulling endurance will be required for both the skierg, sled pull & farmers carry.
+
+**Mobility**
+
+You must be able to squat and get into a burpee position
 
 
 
-
+If you are deficiency in one area you will be found out!
 
 
 
@@ -73,4 +79,8 @@ If you are short burpees will likely be easier on you then if you are bigger.
 
 Don't make it harder on yourself on competition day make sure you train your weakness more than your strengths
 
-> Sometimes in life you need to test your yourself, throw yourself out of your comfort zone. I did it and you can too.
+## Bottom Line
+
+It is extremely hard and you will need to 'recreate the feeling of a Hyrox' so you can gauge when you are at and what to work on but if you can't run and are weak you will need to put some serious effort to build that foundation to be ready.
+
+Sometimes in life you need to test your yourself, throw yourself out of your comfort zone. I did it and you can too.
