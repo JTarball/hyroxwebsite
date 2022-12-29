@@ -39,7 +39,9 @@ In late 2019, Miami (October) and New York City (December) held their first U.S.
 
 {{< youtube gpWVKZSULbk >}}
 
-Of course as an indoor event Covid was a large blow to large indoor events business but lessons were learnt.
+As 2020 season continued Covid came as a large blow to large indoor events like Hyrox, however lessons were learnt leading to better events in 21/22 seasons. 
+
+*It should be noted that as a new sport Hyrox events also saw some improvements during this time with improvements in form for stations, standardisation of sleds.*
 
 ### 2023 onwards
 
