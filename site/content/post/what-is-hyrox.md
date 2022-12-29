@@ -3,6 +3,7 @@ weight: 1
 title: What is Hyrox?
 metaDescription: What is Hyrox
 date: 2022-11-24T12:04:48.187Z
+last_updated: 2022-12-29T20:21:04+00:00
 description: Functional Fitness Racing .... urmm... What?
 image: img/8629_20221119_084137_259567464_original.jpg
 tags:
@@ -34,15 +35,9 @@ H﻿yrox has several different formats:
 
 **N﻿ote**: There is different standards for men / women e.g. 4kg wall ball vs 6kg
 
-
-
-e.g. Mens Individual Open
+e.g. Mens Individual Open Format
 
 ![Mens Open Format](img/hyrox-men-1-format.png)
-
-
-
-
 
 ## W﻿hat is a Hyrox Race?
 
@@ -99,8 +94,6 @@ As stated before the demands are high and mostly likely as a beginner the double
 For regular gym goers or strong runners an individual race in the open is totally possible
 
 <https://hyrox.com/find-my-level/>
-
-
 
 ##### Further Reading:
 
