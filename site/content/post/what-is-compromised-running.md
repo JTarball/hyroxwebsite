@@ -3,7 +3,7 @@ weight: 0
 title: What is Compromised Running?
 metaDescription: What is compromised running and why is it important for hyrox
 date: 2022-11-24T12:04:48.187Z
-last_updated: 2022-12-29T21:33:36+00:00
+last_updated: 2022-12-29T21:37:10+00:00
 description: Run, something else, run
 image: img/sled-mard.jpg
 tags:
@@ -49,12 +49,12 @@ Much like running with a heavy rucksack or backpack you might find your running 
 
 ## How often
 
-It is dependent on the athlete but just like an interval speed run when running training you do NOT want to do it everyday and you will need to play with intensity/volume depending on what cycle of training. 
+It is dependent on the athlete but just like an interval speed run you do NOT want to do it everyday and you will need to play with intensity/volume depending on what cycle of training you are. 
 
 Once a week is more than enough. 
 
 When we talk compromised the classic/sexy association is that of a strength/power based exercise & run. Most closely aligned with Crossfit however that doesn't need to be the case. 
 
-You can be smart and do some workouts as recovery as some Hyrox stations are more cardio that strength based. If you still do some compromised works that have less impact physical but help to increase your cardio specifically with burpees, ski erg, rowing. 
+You can be smart and do some workouts as recovery as some Hyrox stations are more cardio that strength based. If you still do some compromised works that have less impact physically you can include burpees, ski erg & rowing with running increasing your cardio and compromised running.
 
-E.g. If you are legs are hammered from the impact of a long run you can mix ski ergs, cycle and a run on the treadmill to increase your cardio without the impact and poundering of a run outside.
+E.g. If you are legs are hammered from the impact of a long run you can mix ski ergs, cycle and a run on the treadmill to increase your cardio without the impact and pounding of a run outside.
