@@ -6,7 +6,7 @@ date: 2022-11-27T20:48:23.892Z
 description: .
 tags:
   - General
-draft: true
+draft: false
 ---
 You will need muscular endurance in order to survive the sandbag lunges and wall balls. You will also need to decide when its best to train for muscular endurance.. skipping that hard decision, here's how you might do it.
 
@@ -83,4 +83,18 @@ Here are a few that I have heard or used in the past:
 
 * Affirmattions 
 
-  Look up David Goggins and you will understand the power of the mind when it comes to endurance efforts.
+  Look up David Goggins and you will understand the power of the mind when it comes to endurance efforts. 
+
+
+
+
+
+
+
+## Pyramids 
+
+
+
+
+
+You will likely notice this in crossfit or hyrox wods as a result; You now know why.
