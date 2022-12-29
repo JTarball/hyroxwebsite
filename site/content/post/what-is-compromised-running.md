@@ -3,13 +3,13 @@ weight: 0
 title: What is Compromised Running?
 metaDescription: What is compromised running and why is it important for hyrox
 date: 2022-11-24T12:04:48.187Z
-last_updated: 2022-12-29T21:22:59+00:00
+last_updated: 2022-12-29T21:24:39+00:00
 description: Run, something else, run
 image: img/sled-mard.jpg
 tags:
   - General
   - Welcome
-draft: true
+draft: false
 ---
 Coined supposedly by The Running Public's Brakken Kraker, 
 
