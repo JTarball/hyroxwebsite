@@ -59,10 +59,6 @@ You can watch the official Hyrox documentary on YouTube:
 
 {{< youtube OWrfPCWlDo4 >}}
 
-https://www.youtube.com/watch?v=kjm8X8znAMs
-
-
-
 ## Further Resources
 
 {{< youtube kjm8X8znAMs >}}
