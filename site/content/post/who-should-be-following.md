@@ -7,13 +7,16 @@ description: Influence the influencers
 image: img/screenshot-2022-11-24-at-12.53.21.png
 tags:
   - Guides
+  - Tips and Tricks
 draft: false
 ---
 Social media can often be an incredibly toxic place however when it comes to the hyrox community is nothing short of just great. 
 
-You can gain a lot of insight through following certain individuals and channels.\
-\
-- Wor
+You can gain a lot of insight through following certain individuals and channels.
+
+* Workout Inspiration
+* Tips and Technique Improvements
+* Motivation
 
 ## Top picks on Social Media
 
