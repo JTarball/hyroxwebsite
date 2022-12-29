@@ -11,8 +11,7 @@ draft: false
 ---
 Social media can often be an incredibly toxic place however when it comes to the hyrox community is nothing short of just great. 
 
-You can gain a lot of insight through following certain individuals.
-
+You can gain a lot of insight through following certain individuals and channels.
 
 ## Top picks on Social Media
 
@@ -40,7 +39,7 @@ facebook: https://www.facebook.com/JadeSkillenAthleteCoach/
 
 An online coach focusing on functional fitness. His content is great for motivation.
 
-### Mark Lewis 
+### Mark Lewis
 
 The highly above average Mark Lewis
 
@@ -56,25 +55,41 @@ A must have on anyone lists
 https://www.youtube.com/@MarkLewisfitness
 
 ### Woodsy Workout
+
 ### Imke Salander
+
 ### Mastering Fitness
+
 ### GMB Fitness
+
 ### Markus Frison
+
 ### Roxlyfe
+
 ### Mario Novak  - @supermario.sportsworld
-
-
 
 ## Extra
 
 The following are most group instagram accounts but definitely worth following:
 
-### Hyrox UK / Hyrox America / Hyrox Ger 
+### Hyrox UK / Hyrox America / Hyrox Ger
 
   Very important for tips and layout of the events. Especially for first timers
+
 ### Hyrox World
+
 ### Hyrox Daily
+
 ### Hyrox Workouts
+
 ### Hunter McIntyre
 
   Just for the banter
+
+#### \
+\
+[@hyroxworkouts ](https://www.instagram.com/hyroxworkouts/?hl=en-gb)
+
+
+
+<https://www.instagram.com/hyroxworkouts/?hl=en-gb>
