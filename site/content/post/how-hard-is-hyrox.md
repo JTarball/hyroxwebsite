@@ -3,7 +3,7 @@ weight: 0
 title: How Hard is Hyrox?
 metaDescription: How hard is Hyrox event?
 date: 2022-11-23T19:51:24.127Z
-last_updated: 2022-12-29T22:20:48+00:00
+last_updated: 2022-12-29T22:29:34+00:00
 description: "Bloody Hard. "
 image: img/8629_20221119_080034_259471440_original.jpg
 tags:
@@ -35,11 +35,7 @@ Significant pulling endurance will be required for both the skierg, sled pull & 
 
 You must be able to squat and get into a burpee position
 
-
-
 If you are deficiency in one area you will be found out!
-
-
 
 ## Recreating the Feeling
 
@@ -50,6 +46,16 @@ You must recreate the feeling of Hyrox every so often to know how hard a Hyrox i
 It's similar to training for a running distance, you may run a competition pace run at the distance required to see 'where you are at' but you are unlikely to run a half marathon everyday when training for one.
 
 You can only recreating the feeling by doing a hyrox sim, a PFT with others or a Hyrox Class. Having to workout with others can make you push and compete more than on your own.
+
+Don't be under the false impression, consecutive fatigue completely changes the feeling of the exercises:
+
+* Pushing/Pulling @ Hyrox Weight on carpet feels soo much harder
+* Wall balls at the end of Hyrox will not feel like the weight specified. Train with 9kg or greater (mens) to get a similar feeling after fatiguing your shoulder muscles with e.g. hand release pushups.
+* Running the distance is harder because it's compromised. Run after lifting very heavy for similar feeling.
+* Farmers carry weight will feel heavier
+* Burpees will be harder after the sleds. Do Hand Release pushups or shoulder press to pre-fatigue.
+
+This is not an exaggeration. You have been warned.
 
 
 
