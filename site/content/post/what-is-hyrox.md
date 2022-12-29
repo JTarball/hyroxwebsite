@@ -43,7 +43,7 @@ I﻿t is a power endurance race, requiring sustained power for extended periods 
 
 ## W﻿hat is the average time for Hyrox?
 
-N﻿ormally the race will take between 1h - 1h 30.
+N﻿ormally the race will take between 1h - 1h 45. The average male time is 1h 30.
 
 G﻿iven the sport is rather new, standards are tightening meaning averages are changing.
 
@@ -58,7 +58,6 @@ I﻿ often just explain the race format that's often enough to get it across to 
 
 \
 *P﻿ro tip: It's a great way to memorise the station order!*
-
 
 ## W﻿hy is Hyrox becoming so popular?
 
@@ -87,8 +86,6 @@ For beginners I would recommend the doubles unless you a numpty like me.
 As stated before the demands are high and mostly likely as a beginner the doubles will be a better introduction to Hyrox.
 
 For regular gym goers or strong runners an individual race in the open is totally possible
-
-
 
 ##### Further Reading:
 
