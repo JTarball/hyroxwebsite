@@ -36,3 +36,51 @@ I can tell you from first hand experience just trying to do 100 sandbag lunges e
 **As the saying quality over quantity might be quality with heavy weights has some reprecocial effect.** 
 
 **Maximum**
+
+
+
+
+
+
+
+## **Hard Work** 
+
+When you think .. you may become efficient at the
+
+The human body does become more efficient at a specific technique e.g. lunges and much like with pull ups there is a muscle memory and elasticity to the movement making it easier with repeated effort however everyone has a limit.  Consider a marathon the general wisdom given is not to train in your longer runs the entire 26 miles because ultimately it is not worth the cost. Although people have and can run marathons back to back the amount of time to prepare and train the body is far too much. \
+\
+What is my point? that you must train the mental aspect of your endurance and that comes from grinding and hard work in sessions. It is very easy to give up and there will be times that you feel awful and need to continue on.  \
+\
+Increase your volume over time and make sure that you are mentally strong in any endurance exercise.
+
+You can apply the same technique to that when running longer distances you can build up your endurance over time. With strength exercises you can break up a long rep count into sets 
+
+
+
+E.g. Farmers carry 
+
+
+
+Knowing the feeling when you are 75 reps into the sandbag lunges and 
+
+
+
+
+
+### \
+Mental Techniques
+
+Everyone has different coping methods when in the 'pain zone'
+
+Here are a few that I have heard or used in the past:
+
+
+
+* Maths
+* Sets of X 
+* See the finish line / Focus Point
+
+
+* Affirmattions 
+
+  Look up David Goggins and you will understand the power of the mind when it comes to endurance efforts.
