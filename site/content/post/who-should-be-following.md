@@ -11,7 +11,9 @@ draft: false
 ---
 Social media can often be an incredibly toxic place however when it comes to the hyrox community is nothing short of just great. 
 
-You can gain a lot of insight through following certain individuals and channels.
+You can gain a lot of insight through following certain individuals and channels.\
+\
+- Wor
 
 ## Top picks on Social Media
 
@@ -66,30 +68,41 @@ https://www.youtube.com/@MarkLewisfitness
 
 ### Roxlyfe
 
-### Mario Novak  - @supermario.sportsworld
+### Mario Novak  - [@supermario.sportsworld](https://www.instagram.com/supermario.sportsworld/?hl=en-gb)
+
+## \
+[@markus_frison](https://www.instagram.com/markus_frison/?hl=en-gb)
+
+## Markus frison is an elite hyrox athlete. Great tips and should be noted he now offers online coaching.
 
 ## Extra
 
-The following are most group instagram accounts but definitely worth following:
+#### [@huntthesheriff](https://www.instagram.com/huntthesheriff/?hl=en-gb)
 
-### Hyrox UK / Hyrox America / Hyrox Ger
+#### Hunter McIntyre... just for the banter
 
-  Very important for tips and layout of the events. Especially for first timers
 
-### Hyrox World
 
-### Hyrox Daily
+## Hyrox News & More
 
-### Hyrox Workouts
+[@hyroxworld](https://www.instagram.com/hyroxworld/?hl=en-gb)
 
-### Hunter McIntyre
+[@hyroxuk](https://www.instagram.com/hyroxuk/?hl=en-gb)
 
-  Just for the banter
+[@hyroxfr_](https://www.instagram.com/hyroxfr_/?hl=en-gb)
 
-#### \
+[@hyroxamerica](https://www.instagram.com/hyroxamerica/?hl=en-gb)\
 \
-[@hyroxworkouts ](https://www.instagram.com/hyroxworkouts/?hl=en-gb)
+[@hyroxger](https://www.instagram.com/hyroxger/?hl=en-gb)\
+\
+This can be great for viewing how the pros do it as well as seeing how the stations are setup via live streams. Having a few last minute tips and insight before your first race is a great mental edge for race day.
 
+Summary: Very important for tips and layout of the events. Especially for first timers
 
+## For Hyrox Workouts
 
-<https://www.instagram.com/hyroxworkouts/?hl=en-gb>
+#### [@hyroxdaily](https://www.instagram.com/hyroxdaily/?hl=en-gb)
+
+#### [@hyroxworkouts](https://www.instagram.com/hyroxworkouts/?hl=en-gb)
+
+Hyrox workouts and good for doubles workouts
