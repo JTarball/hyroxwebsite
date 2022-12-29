@@ -2,9 +2,9 @@
 weight: 10
 title: The History of Hyrox
 metaDescription: The history of hyrox
-date: 2022-11-22T12:34:02.385Z
+date: 2022-12-29T18:20:07.387Z
 description: World Series of Fitness Racing
-image: img/maxresdefault.jpeg
+image: img/his_hyrox.jpeg
 tags:
   - Welcome
   - Guides
