@@ -13,6 +13,8 @@ Hyrox was f﻿ounded by Christian Toetzke, together with the marketing icon Mich
 
 Since it's first event it has experienced massive growth in Europe and the US.
 
+## History
+
 ### Origins
 
 > “People have a much deeper awareness of their fitness and health now,” 
