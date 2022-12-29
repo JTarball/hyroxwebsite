@@ -7,6 +7,7 @@ description: World Series of Fitness Racing
 image: img/maxresdefault.jpeg
 tags:
   - Welcome
+  - Guides
 draft: false
 ---
 ## History
