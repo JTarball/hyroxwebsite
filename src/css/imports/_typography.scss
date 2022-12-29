@@ -4,7 +4,7 @@ html {
     font-size: var(--font-size-m);
   }
   @media (--breakpoint-large) {
-    font-size: var(--font-size-l);
+    font-size: var(--font-size-s);
   }
   background-color: var(--black);
 }
@@ -22,7 +22,7 @@ body {
 
 p {
   margin-bottom: var(--spacing-medium);
-  max-width: 32rem;
+  max-width: 48rem;
 }
 
 strong {

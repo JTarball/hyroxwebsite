@@ -190,6 +190,10 @@
         display: none !important;
     }
 
+}
+
+@media all and (max-width: 1300px) {
+
     #TableOfContents {
         display: none  !important;
     }
