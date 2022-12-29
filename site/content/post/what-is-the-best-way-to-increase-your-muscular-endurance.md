@@ -6,6 +6,7 @@ date: 2022-11-27T20:48:23.892Z
 description: .
 tags:
   - General
+  - Max Strength
 draft: false
 ---
 You will need muscular endurance in order to survive the sandbag lunges and wall balls. You will also need to decide when its best to train for muscular endurance.. skipping that hard decision, here's how you might do it.
