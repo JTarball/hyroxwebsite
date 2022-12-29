@@ -3,7 +3,7 @@ weight: 0
 title: What is Compromised Running?
 metaDescription: What is compromised running and why is it important for hyrox
 date: 2022-11-24T12:04:48.187Z
-last_updated: 2022-12-29T21:39:44+00:00
+last_updated: 2022-12-29T21:40:22+00:00
 description: Run, something else, run
 image: img/sled-mard.jpg
 tags:
