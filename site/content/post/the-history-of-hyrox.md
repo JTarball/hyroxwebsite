@@ -9,7 +9,19 @@ tags:
   - Welcome
 draft: false
 ---
-F﻿ounded by Christian Toetzke, together with the marketing icon Michael Trautmann and x3 Olympic Medallist and World Champion, Moritz Fuerste, originating in Germany it has experienced massive growth in Europe and the US.
+Hyrox was f﻿ounded by Christian Toetzke, together with the marketing icon Michael Trautmann and x3 Olympic Medallist and World Champion, Moritz Fuerste in Germany. Since it's first event it has experienced massive growth in Europe and the US.
+
+
+
+> “People have a much deeper awareness of their fitness and health now,” 
+
+he added, noting he has also seen an increased education level when it comes to nutrition and recovery as well. 
+
+> “And they want to stay in shape for their livelihood, and they also want to join or rejoin communities that are associated with fitness.” 
+
+
+
+### Beginnings
 
 Christian Toetzke having spent years organising mass pariticipant cycling events came around a piece of research in Germany stating that over 50% of people now say their sport is "working out". 
 
@@ -25,7 +37,7 @@ He really believes HYROX is a new global Sport of Fitness racing.
 
 > “There is an appetite for these kinds of things I am seeing now that I have never seen before in my life.”  
 
-## In 2019
+### In 2019
 
 In order to test the market in the USA they staged a number of competitions across various states. 
 
@@ -33,7 +45,7 @@ In late 2019, Miami (October) and New York City (December) held their first U.S.
 
 {{< youtube gpWVKZSULbk >}}
 
-## 2023 onwards
+### 2023 onwards
 
 In 2023 there will be expansions into Denmark, Sweden, Greece and the Middle East. 
 
@@ -41,15 +53,13 @@ Spain will continue growing with 5 events planned including Barcelona.
 
 London will have a double weekend for the first time in Kensington Olympia London
 
-## Documentary
-
-“People have a much deeper awareness of their fitness and health now,” he added, noting he has also seen an increased education level when it comes to nutrition and recovery as well. “And they want to stay in shape for their livelihood, and they also want to join or rejoin communities that are associated with fitness.” 
+## Hyrox the Documentary
 
 {{< youtube kjm8X8znAMs >}}
 
 <br />
 
-Watch hyrox the documentary on youtube:
+Watch official Hyrox the documentary on youtube:
 
 {{< youtube OWrfPCWlDo4 >}}
 
