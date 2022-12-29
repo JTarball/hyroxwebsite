@@ -9,18 +9,20 @@ tags:
   - Welcome
 draft: false
 ---
+## History
+
 Hyrox was f﻿ounded by Christian Toetzke, together with the marketing icon Michael Trautmann and x3 Olympic Medallist Moritz Fuerste in Germany. 
 
 Since it's first event it has experienced massive growth in Europe and the US.
-
-## History
 
 ### Origins
 
 Christian Toetzke having spent years organising mass participant cycling events came across an intriguing piece of research in Germany stating that over 50% of people now say their sport is "working out". 
 
 > “People have a much deeper awareness of their fitness and health now,” 
->
+
+
+
 > “And they want to stay in shape for their livelihood, and they also want to join or rejoin communities that are associated with fitness.” 
 
 The lightbulb moment was that there was no competition designed for people that would train fitness every day in the gym even though this was their 'sport'.
