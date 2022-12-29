@@ -49,7 +49,7 @@ Spain will continue growing with 5 events planned including Barcelona.
 
 London will have a double weekend for the first time in Kensington Olympia London
 
-## Hyrox the Documentary
+### Hyrox the Documentary
 
 
 
@@ -61,7 +61,7 @@ https://www.youtube.com/watch?v=kjm8X8znAMs
 
 
 
-### Further Resources
+## Further Resources
 
 {{< youtube kjm8X8znAMs >}}
 
