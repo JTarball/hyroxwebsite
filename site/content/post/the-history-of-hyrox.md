@@ -39,6 +39,8 @@ In 2023 there will be big expansions into Denmark and Sweden, Greece and Middle 
 
 {{< youtube kjm8X8znAMs >}}
 
+<br />
+
 Watch hyrox the documentary on youtube:
 
 {{< youtube OWrfPCWlDo4 >}}
