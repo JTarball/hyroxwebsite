@@ -1,14 +1,15 @@
 ---
 weight: 2
-title: A Begineer Guide to Hyrox
-metaDescription: A begineer guide to Hyrox and how to get started
+title: A Beginner Guide to Hyrox
+metaDescription: A beginner guide to Hyrox and how to get started
 date: 2022-11-24T12:33:02.352Z
+last_updated: 2022-12-29T22:31:13+00:00
 description: "-"
-draft: true
-publish: true
 image: https://image.boxrox.com/2020/02/79120946_2515073272146993_2076131429325996032_o.jpg
 tags:
   - Welcome
+draft: true
+publish: true
 ---
 # a﻿dasdada
 
