@@ -3,7 +3,7 @@ weight: 2
 title: How to Structure your Hyrox Training
 metaDescription: How to structure your programming
 date: 2022-11-24T12:36:36.667Z
-last_updated: 2022-12-30T12:47:06+00:00
+last_updated: 2022-12-30T13:06:30+00:00
 description: This is important listen up
 image: img/34-posts.homepage_preview_md.jpg
 tags:
@@ -14,43 +14,25 @@ Structure your training for Hyrox is the most important thing you need to do. It
 
 Mostly likely you do not have 
 
-
-
 If you have an extended period of time then you have the time for your body to adapt.
-
-
 
 To put simply you answer/do the following 
 
 1. What are you / do you have a background?
-
-2.  Analyse how much time you have and demands?
-
+2. Analyse how much time you have and demands?
 3. Understand Periodisation 
-
-3. Choose your periodisation
-
-3. Find periodic tests / Do not ignore your weakness
-
-
-
-
+4. Choose your periodisation
+5. Find periodic tests / Do not ignore your weakness
 
 ## Understanding Your Background
 
-
-
 ### If you are a complete beginner
 
-### If you have a running background 
+### If you have a running background
 
 ### If you have a strength background
 
-
-
-
-
-## Under Periodisation 
+## Under Periodisation
 
 I could probably start talking about mesocycles, macrocycles, microcycles but the reality this is very simple. 
 
@@ -60,31 +42,15 @@ Can you combine several things at once? Yes you can but it will not have.
 
 There are various s
 
-
-
-
-
 Strength Periodisation 
 
 This is the most well known, frankly so much so I will keep it short.
 
-
-
 This is a foundation, so much so that if you look at a lot of top Hyrox athletes in the off season they are not training Hyrox specific movements and workouts. They are often working on basic strength or isolated competencies. 
-
-
-
-
 
 Remember in order to get good results and to actually get good at something you need to focus on it. 
 
-
-
-
-
 See article: Does max strength correlate to strength endurance
-
-
 
 The best way 
 
@@ -92,29 +58,11 @@ General strength not specific strength
 
 Standard lift 
 
-
-
 Bench Press
 
 Deadlifts
 
 Back Squat / Front Squat
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## Analyse how much time you have and demands?
 
@@ -128,27 +76,39 @@ You may ask yourself what do I need to be to compete as a Hyrox athlete. Being f
 
 Does that mean you should start playing Rugby.. well no but hopefully I have gotten my point across.
 
-
-
-
-
-
-
-
-
-
-
-
-
 Further reading :
-
-
 
 Although focused on gaining strength via bodyweight exercises it. It is rather a large book 
 
 Prehab / Structure of a workout 
 
 And understanding cycles of training 
+
+
+
+Confused?
+
+diagram of venn diagrams 
+
+you need build a fondation of enudrance and strength
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
