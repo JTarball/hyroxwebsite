@@ -1,29 +1,22 @@
 <!-- TODO: Add a footer -->
- <footer class="bg-black ph3 pv4 white">
+ <footer class="divider-footer ph3 pv4" style="color: rgba(117, 117, 117, 1);">
 
 	<div class="mw7 center pt3">
-		<div class="measure-narrow center mb4">
+		<div class="center mb4">
 			<p style="font-size: 12px">
 			All content and information on compromisedrunning.com is for informational and educational purposes only, and does not consitute medical advice. 
-			Although we strive to provide accurate information, the information presneted here is not a substitute for any of professsional medical advice, and should no rely solely on this information.
+			Although we strive to provide accurate information, the information presented here is not a substitute for any type of professsional medical advice, nor should one solely rely on such information.
 			</p>
 		</div>
 
 		<div class="flex-ns justify-between">
 			<div>
-				<!-- <h3 class="f6 b lh-title mb1 primary">Compromised Running</h3> -->
-				<ul class="mb3" style="font-size: 14px;">
+				<ul class="mb3" style="font-size: 12px; display: inline-block;">
+					<li><a href="/contribute/" class="link">Would u like to contribute?</a></li>
 					<li><a href="/" class="link">Home</a></li>
 					<li><a href="/privacy" class="link">Privacy</a></li>
 					<li><a href="/about" class="link">About</a></li>
 					<li><a href="/contact" class="link">Contact Us</a></li>
-				</ul>
-			</div>
-
-			<div>
-				<!-- <h3 class="f6 b lh-title mb1 primary">Find out more</h3> -->
-				<ul class="mb3"  style="font-size: 14px;">
-					<li><a href="/contribute/" class="link">Would u like to contribute?</a></li>
 				</ul>
 			</div>
 
@@ -34,122 +27,7 @@
 				</ul>
 			</div>
 
-			<!-- <div>
-				<h3 class="f6 b lh-title mb2 primary">Social media</h3>
-				<ul class="mhn2">
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter") }} 
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram") }}
-				 {{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo") }}
-				</ul>
-			</div> -->
-
 		</div>
 
 	</div>
-<!-- 
-	Would you like to contribute?
-	Would you like to Advertise on this website? -->
-
-
-
-
-	<!-- <div class="mw7 center pt3">
-
-		<div class="measure-narrow center mb4">
-
-			<img src="/img/logo.svg" alt="Kaldi logo" class="db w4 center mb4 br0">
-			<p class="f3 lh-title light-gray b tc mb2">Newsletter subscribe</p>
-			<p>Get awesome news from us in your inbox every two weeks. Be the first to learn about new products.</p>
-
-			{{ partial "newsletter-form" . }}
-
-		</div>
-
-		<div class="flex-ns justify-between">
-
-			<div>
-				<h3 class="f4 b lh-title mb1 primary">Kaldi</h3>
-				<ul class="mb3">
-					<li><a href="/" class="link">Home</a></li>
-					<li><a href="/products" class="link">Our products</a></li>
-					<li><a href="/values" class="link">About</a></li>
-					<li><a href="/post" class="link">Blog</a></li>
-					<li><a href="/contact" class="link">Contact</a></li>
-				</ul>
-			</div>
-
-			<div>
-				<h3 class="f4 b lh-title mb1 primary">Find out more</h3>
-				<ul class="mb3">
-					<li><a href="/post/jamaica-blue/" class="link">Latest offers</a></li>
-					<li><a href="/contact" class="link">Schedule and appointment</a></li>
-				</ul>
-			</div>
-
-			<div>
-				<h3 class="f4 b lh-title mb2 primary">Social media</h3>
-				<ul class="mhn2">
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo") }}
-				</ul>
-			</div>
-
-		</div>
-	</div>
-
-</footer> -->
-
-<!-- {{ partial "svg" . }} -->
-<!-- <footer class="hero-foot">
-	<div class="wrapper is-paddingless footer-links has-background-white">
-	  <div class="container columns">
-		<div class="column buoyant-info has-text-centered-mobile">
-		  <figure class="image logo">
-			<img src=/images/identity/svg/linkerd_primary_color_black.svg alt="logo" />
-		  </figure>
-		  <p class="has-text-dark-grey">
-			Linkerd was originally created by <a class="" target="_blank" href="https://buoyant.io/">Buoyant, Inc.</a>
-		  </p>
-		  <p class="has-text-dark-grey">
-			View <a class="" target="_blank" href="https://github.com/linkerd/linkerd/wiki/Linkerd-code-of-conduct">Code
-			  of Conduct</a>
-		  </p>
-		</div>
-		<div class="column is-one-third has-text-centered-mobile">
-		  <div class="columns is-mobile is-centered">
-			<div class="column is-one-half list-of-links">
-			  <p class="has-text-weight-bold">Community</p>
-			  {{ $currentPage := . }}
-			  {{ range.Site.Menus.community }}
-			  <p>
-				<a href="{{ .URL }}" target="_blank" class="has-text-color has-text-weight-light"><span
-					class="navbar-item-helper">{{ .Name }}</span></a>
-			  </p>
-			  {{ end }}
-			</div>
-			<div class="column is-one-thirds list-of-links">
-			  <p class="has-text-weight-bold">Follow</p>
-			  {{ range.Site.Menus.follow }}
-			  <p>
-				<a href="{{ .URL }}" class="has-text-color has-text-weight-light">
-				  <span class="navbar-item-helper">{{ .Name }}</span>
-				</a>
-			  </p>
-			  {{ end }}
-			</div>
-		  </div>
-		</div>
-	  </div>
-	</div>
-	<div class="is-paddingless has-background-navy-black">
-	  <div class="container columns footer has-background-navy-black">
-		<p class="column is-narrow">
-		  <a href="https://github.com/linkerd/website/tree/main/linkerd.io/content" class="">Edit This Site</a>
-		</p>
-		<p class="column has-text-white">© {{ now.Year }} Linkerd Authors. All rights reserved.</p>
-	  </div>
-	</div> -->
 </footer>

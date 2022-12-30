@@ -37,10 +37,21 @@ ol, ul {
 blockquote, q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before, q:before {
+	// content: '';
+	// content: none;
+	font-family:Arial;
+	content: "\201C";
+	color: black;
+	font-size:4em;
+	position: absolute;
+	left: 10px;
+	top:-10px;
+}
+blockquote:after, q:after {
 	content: '';
 	content: none;
+
 }
 table {
 	border-collapse: collapse;

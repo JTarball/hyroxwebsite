@@ -23,7 +23,7 @@ CMS.registerEventListener({
     name: 'preSave',
     handler: ({ entry }) => {
       var now = moment().format();
-      console.log('lemon', now);
+      console.log('preSave.. last_updated to be set to ', now);
       return entry.get('data').set('last_updated', now);
     },
   });

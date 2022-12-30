@@ -40,6 +40,7 @@
 	/* Links */
 	& a {
 		color: var(--primary);
+		color: black;
 		transition: var(--hover-transition);
 		&:hover {
 			background-color: var(--highlight);
@@ -66,7 +67,7 @@
 			content: '✱';
 			left: -1.33rem;
 			position: absolute;
-			color: var(--primary);
+			color: black;
 		}
 	}
 
@@ -88,16 +89,28 @@
 
   /* Blockquotes */
   & blockquote {
-    background-color: var(--grey-1);
     display: block;
     border-radius: var(--border-radius);
     padding: var(--spacing-medium);
-    color: var(--primary);
+    color: var(--grey-4);
     font-weight: 700;
     font-size: 1.25rem;;
     margin-bottom: var(--spacing-medium);
     & p {
       margin: 0;
     }
+
+	font-size: 1.4em;
+	width:80%;
+	margin:50px auto;
+	font-family:Open Sans;
+	font-style:italic;
+	// color: #555555;
+	padding:1.2em 5px 1.2em 55px;
+	border-left:8px solid #78C0A8 ;
+	line-height:1.6;
+	position: relative;
+	// background:#EDEDED;
+
   }
 }

@@ -222,7 +222,7 @@ const it=t=>i=>"function"==typeof i?((t,i)=>(customElements.define(t,i),i))(t,i)
     .tag:hover p.text {
       color: red;
     }
-  `,ht([st({type:String})],dt.prototype,"name",void 0),dt=ht([it("mini-card-element")],dt);var ct=function(t,i,e,s){for(var o,n=arguments.length,r=n<3?i:null===s?s=Object.getOwnPropertyDescriptor(i,e):s,l=t.length-1;l>=0;l--)(o=t[l])&&(r=(n<3?o(r):n>3?o(i,e,r):o(i,e))||r);return n>3&&r&&Object.defineProperty(i,e,r),r};let pt=class extends Y{constructor(){super(...arguments),this.theme="",this.ignoreTagText="",this.hideDate=!1,this.tagDisplayCount=3}render(){var t="100",i="100";return"minimal-small"==this.theme?(t="75px",i="75px"):"large"==this.theme&&(t="100%",i="300"),H`
+  `,ht([st({type:String})],dt.prototype,"name",void 0),dt=ht([it("mini-card-element")],dt);var ct=function(t,i,e,s){for(var o,n=arguments.length,r=n<3?i:null===s?s=Object.getOwnPropertyDescriptor(i,e):s,l=t.length-1;l>=0;l--)(o=t[l])&&(r=(n<3?o(r):n>3?o(i,e,r):o(i,e))||r);return n>3&&r&&Object.defineProperty(i,e,r),r};let pt=class extends Y{constructor(){super(...arguments),this.theme="",this.ignoreTagText="",this.hideTags=!1,this.hideDate=!1,this.tagDisplayCount=3}render(){var t="100",i="100";return"minimal-small"==this.theme?(t="75px",i="75px"):"large"==this.theme&&(t="100%",i="300"),H`
       <div class="card-wrapper">
         <a class="card" href="${this.item.href}">
           <div class="card-image">
@@ -246,7 +246,7 @@ const it=t=>i=>"function"==typeof i?((t,i)=>(customElements.define(t,i),i))(t,i)
                         <span>·</span>
                       </div>
                     `:""}
-                ${this.item.tags?H`
+                ${this.item.tags&&!this.hideTags?H`
                       <ul class="card-meta-tags">
                         ${this.item.tags.map(((t,i)=>t===this.ignoreTagText?"":i<this.tagDisplayCount?H`<li>
                               <a
@@ -410,7 +410,7 @@ const it=t=>i=>"function"==typeof i?((t,i)=>(customElements.define(t,i),i))(t,i)
     .image {
       object-fit: cover;
     }
-  `,ct([st({type:String})],pt.prototype,"theme",void 0),ct([st({type:String})],pt.prototype,"ignoreTagText",void 0),ct([st({type:Boolean,reflect:!0})],pt.prototype,"hideDate",void 0),ct([st({type:Object,reflect:!1})],pt.prototype,"item",void 0),ct([st({type:Number})],pt.prototype,"tagDisplayCount",void 0),pt=ct([it("simple-mini-card-element")],pt);var vt=function(t,i,e,s){for(var o,n=arguments.length,r=n<3?i:null===s?s=Object.getOwnPropertyDescriptor(i,e):s,l=t.length-1;l>=0;l--)(o=t[l])&&(r=(n<3?o(r):n>3?o(i,e,r):o(i,e))||r);return n>3&&r&&Object.defineProperty(i,e,r),r};let ut=class extends Y{constructor(){super(...arguments),this.title="",this.items=[]}render(){return console.log("list-element",this.items),H`
+  `,ct([st({type:String})],pt.prototype,"theme",void 0),ct([st({type:String})],pt.prototype,"ignoreTagText",void 0),ct([st({type:Boolean,reflect:!0})],pt.prototype,"hideTags",void 0),ct([st({type:Boolean,reflect:!0})],pt.prototype,"hideDate",void 0),ct([st({type:Object,reflect:!1})],pt.prototype,"item",void 0),ct([st({type:Number})],pt.prototype,"tagDisplayCount",void 0),pt=ct([it("simple-mini-card-element")],pt);var vt=function(t,i,e,s){for(var o,n=arguments.length,r=n<3?i:null===s?s=Object.getOwnPropertyDescriptor(i,e):s,l=t.length-1;l>=0;l--)(o=t[l])&&(r=(n<3?o(r):n>3?o(i,e,r):o(i,e))||r);return n>3&&r&&Object.defineProperty(i,e,r),r};let ut=class extends Y{constructor(){super(...arguments),this.title="",this.items=[]}render(){return console.log("list-element",this.items),H`
       <span class="wrapper">
         <ul>
           <span class="text">${this.title}</span>

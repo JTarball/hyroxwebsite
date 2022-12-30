@@ -15,8 +15,23 @@
 }
 
 /* Used in the navbar */
-.divider-black {
-  border-bottom: 1px solid var(--black);
+.divider-nav {
+  //border-bottom: 1px solid var(--black);
+  border-bottom: solid 2px rgba(242, 242, 242, 1);
+  /* Link hover states */
+  & a {
+    //transition: var(--hover-transition);
+    //transition: 300ms linear;
+  }
+  & ul a:hover, & ul a:focus, & ul a.nav-active {
+    box-shadow: inset 0 -4px 0 var(--primary);
+  }
+}
+
+/* Used in the footer */
+.divider-footer {
+  //border-bottom: 1px solid var(--black);
+  border-top: solid 2px rgba(242, 242, 242, 1);
   /* Link hover states */
   & a {
     //transition: var(--hover-transition);

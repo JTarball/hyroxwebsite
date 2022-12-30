@@ -3,17 +3,18 @@
 	--primary: #E3E7AF;
 	--highlight: rgba(254, 213, 198, 1);
 	--white: rgba(255, 255, 255, 1);
-	--off-white: rgba(255, 253, 252, 1);
-	--grey-1: rgba(245, 243, 242, 1);
-	--grey-2: rgba(235, 231, 230, 1);
+	--off-white: rgba(255, 255, 255, 0.156);
+	--grey-1: rgba(245, 243, 242, 0.3);
+	--grey-2: rgba(181, 176, 174, 0.377);
 	--grey-3: rgba(89, 87, 86, 1);
-	--grey-4: rgba(66, 64, 64, 1);
+	--grey-4: rgba(117, 117, 117, 1);
 	--black: rgba(43, 37, 35, 1);
 
 	/* Typography */
 	--font-family: Hiragino Maru Gothic ProN; // monospace;//Nunito Sans, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
 	--line-height: 1.5;
 
+	--font-size-s: 12px;
 	--font-size: 18px;
 	--font-size-m: 20px;
 	--font-size-l: 22px;

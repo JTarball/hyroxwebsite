@@ -4,9 +4,9 @@ html {
     font-size: var(--font-size-m);
   }
   @media (--breakpoint-large) {
-    font-size: var(--font-size-s);
+    font-size: 13px;
   }
-  background-color: var(--black);
+   background-color: var(--grey-1);
 }
 
 

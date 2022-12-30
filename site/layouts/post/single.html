@@ -2,6 +2,28 @@
 
 {{ replace .TableOfContents `href="#` (printf `href="%s#` .Permalink) | safeHTML }}
 
+{{ $items_hyrox_must_reads := slice }}
+{{ range (where (where .Site.RegularPages.ByWeight "Type" "post" ) "Draft" false ) }}
+
+  {{ if in .Params.tags "Must Reads"   }}
+    {{ $date := .Date.Format "Mon, Jan 2, 2006"  }}
+    {{ $items_hyrox_must_reads = $items_hyrox_must_reads | append (dict "name" .Title "href" .RelPermalink "content" .Plain "date" $date "tags" .Params.tags "image" .Params.image)  }}
+  {{ end }}
+
+{{ end }}
+
+<div id="morePosts">
+
+  <div slot="second">
+    More from {{ delimit .Params.tags ", " }}
+    {{ range first 5 $items_hyrox_must_reads }}
+        <simple-mini-card-element hideDate hideTags theme="minimal-small" item={{ . | jsonify }}></simple-mini-card-element>
+    {{ end }}
+    <tag-element name="more" href="/discover/must-reads"></tag-element>
+  </div>
+
+</div>
+
 <div class="mw7 center ph3 pv4">
     <h1 class="f2 lh-title b mb3">{{.Title}}</h1>
     <div class="flex justify-between grey-3">

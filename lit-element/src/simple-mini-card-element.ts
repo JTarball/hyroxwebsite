@@ -10,6 +10,9 @@ export class SimpleMiniCardElement extends LitElement {
   ignoreTagText: string = '';
 
   @property({type: Boolean, reflect: true})
+  hideTags: boolean = false;
+
+  @property({type: Boolean, reflect: true})
   hideDate: boolean = false;
 
   @property({type: Object, reflect: false})
@@ -206,7 +209,7 @@ export class SimpleMiniCardElement extends LitElement {
                       </div>
                     `
                   : ''}
-                ${this.item.tags
+                ${this.item.tags && !this.hideTags
                   ? html`
                       <ul class="card-meta-tags">
                         ${this.item.tags.map((tag, index) => {
