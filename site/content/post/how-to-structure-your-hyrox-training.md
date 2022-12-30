@@ -3,7 +3,7 @@ weight: 2
 title: How to Structure your Hyrox Training
 metaDescription: How to structure your programming
 date: 2022-11-24T12:36:36.667Z
-last_updated: 2022-12-30T13:06:30+00:00
+last_updated: 2022-12-30T13:09:33+00:00
 description: This is important listen up
 image: img/34-posts.homepage_preview_md.jpg
 tags:
@@ -86,7 +86,69 @@ And understanding cycles of training
 
 
 
-Confused?
+Quick Start
+
+Running 
+
+Basic / Max Strength
+
+Power Endurance
+
+Hyrox Simulation 
+
+
+
+How many days per week 
+
+\- recovery 
+
+
+
+
+
+Running 
+
+\- running resources
+
+Strength 
+
+\- examples
+
+
+
+
+
+Sample programming 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Resources 
+
+
+
+
+
+
+
+
+
+
+
+In depth theory 
+
+
+
+fundamental of programming 
 
 diagram of venn diagrams 
 
