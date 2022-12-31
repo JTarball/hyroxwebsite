@@ -3,7 +3,7 @@ weight: 2
 title: How to Structure your Hyrox Training
 metaDescription: How to structure your programming
 date: 2022-11-24T12:36:36.667Z
-last_updated: 2022-12-30T13:09:33+00:00
+last_updated: 2022-12-31T15:35:49+00:00
 description: This is important listen up
 image: img/34-posts.homepage_preview_md.jpg
 tags:
@@ -84,8 +84,6 @@ Prehab / Structure of a workout
 
 And understanding cycles of training 
 
-
-
 Quick Start
 
 Running 
@@ -96,15 +94,9 @@ Power Endurance
 
 Hyrox Simulation 
 
-
-
 How many days per week 
 
 \- recovery 
-
-
-
-
 
 Running 
 
@@ -114,39 +106,11 @@ Strength
 
 \- examples
 
-
-
-
-
 Sample programming 
-
-
-
-
-
-
-
-
-
-
-
-
 
 Resources 
 
-
-
-
-
-
-
-
-
-
-
 In depth theory 
-
-
 
 fundamental of programming 
 
@@ -154,24 +118,64 @@ diagram of venn diagrams
 
 you need build a fondation of enudrance and strength
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=compromisedru-21&language=en_GB&marketplace=amazon&region=GB&placement=0990873854&asins=0990873854&linkId=ea9343eeec895e0d43211e57242f0d54&show_border=true&link_opens_in_new_window=true"></iframe>
+
+Can be phased.
+
+Random simulation and volume and ex
+
+injury / peaking / and not have a foundation 
+
+2 phase cycle 
+
+Consider the following diagrams.
+
+Note that even these diagrams are an oversimplification with no regards to technique, flexibility, mobility, mental component. 
+
+
+
+
+
+Looks for areas of impremvent 
+
+* Select one (if you have more time to two but unl
+
+
+
+
+
+
+
+
+
+
+
+
+
+Improving functional fitness is a difficult
+
+To add to our understanding we can analyse the following diagrams:
+
+![Intensity Endurance Pyramid](img/pyramid-intensity.png "Intensity Endurance Pyramid")
+
+
+
+In order to be the best athlete we want to have the following speed, strength and stamina. In sports like rugby you are required to have power and endurance as well as at time the speed to sprint for a try. With rowing we combine strength and endurance but how do we combine all these 
+
+You might ask the question how to I train when I need to combine strength and endurance. In general the advice is to train strength or endurance invidividually for the best gains however when you are cycle of training for an event people have been experimenting with combining the disciplines. To workout how to combine them in a cycle we can use the diagram to structure a 4 week cycle as follows:
+
+In order to build that we need to have a solid 
+
+
+
+The final week can be a deload or recovery week.
+
+
+
+A lot of intensity  less volume
+
+Drop intensity more volume - stamina
+
+Two intensity session highest volime
+
+train both ends of the ends of the pyramid
