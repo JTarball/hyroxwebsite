@@ -5,6 +5,10 @@ metaDescription: "hyrox training "
 date: 2022-12-31T23:09:01.178Z
 tags:
   - Hyrox Workouts
-draft: true
+draft: false
 ---
 The official hyrox plan from 2019
+
+
+
+![]()
