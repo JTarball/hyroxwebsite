@@ -3,7 +3,8 @@ weight: 0
 title: What is the Posterior Chain
 metaDescription: what is the posterior chain
 date: 2022-12-31T20:20:56.328Z
-last_updated: 2022-12-31T20:34:00+00:00
+last_updated: 2022-12-31T20:36:57+00:00
+image: img/the-posterior-chain-1024x600_1024x1024.png.webp
 tags:
   - General
 draft: true
