@@ -3,66 +3,54 @@ weight: 2
 title: How to Structure your Hyrox Training
 metaDescription: How to structure your programming
 date: 2022-11-24T12:36:36.667Z
-last_updated: 2022-12-31T16:11:54+00:00
+last_updated: 2022-12-31T17:03:48+00:00
 description: This is important listen up
 image: img/34-posts.homepage_preview_md.jpg
 tags:
   - Guides
 draft: false
 ---
-Structure your training for Hyrox is the most important thing you need to do. It will keep you motivated and ensure you are not doing 
+Structuring your training for Hyrox is the most important thing you need to do. It will keep you motivated and ensure you are not doing the right things at the right time. The goal is to peak at the correct time (i.e. on race day) and to not burnout or injure yourself.
 
-Mostly likely you do not have 
+Mostly likely you do not have a large amount of time. If you have an extended period of time then you have the time for your body to adapt and structuring your plan is useful but not essential.
 
-If you have an extended period of time then you have the time for your body to adapt.
-
-To put simply you answer/do the following 
+To put simply you first should answer/understand the following:
 
 1. What are you / do you have a background?
 2. Analyse how much time you have and demands?
-3. Understand Periodisation 
+3. Understand Periodisation
 4. Choose your periodisation
 5. Find periodic tests / Do not ignore your weakness
 
-## Understanding Your Background
+Having done that you can select (See Quick Guide)
 
-### If you are a complete beginner
+\- Choose a 3/4 Cycle
 
-### If you have a running background
+\- Choose an area/s of improvement
 
-### If you have a strength background
+\- Select your first cycle
 
-## Under Periodisation
+## Under Your Background
 
-I could probably start talking about mesocycles, macrocycles, microcycles but the reality this is very simple. 
+Everyone is different, you must understand your background so you know best what phase to start your training on to achieve the best results.
 
-You need 
+If you are a complete beginner with no specific background, I would recommend focusing on your aerobic base first.
 
-Can you combine several things at once? Yes you can but it will not have.
+If you have a running background mostly likely you need to work on your strength first.
 
-There are various s
+If you have a strength background (a regular gym-goer focusing on bodybuilding type exercises) most likely you need to focus on running.
 
-Strength Periodisation 
 
-This is the most well known, frankly so much so I will keep it short.
 
-This is a foundation, so much so that if you look at a lot of top Hyrox athletes in the off season they are not training Hyrox specific movements and workouts. They are often working on basic strength or isolated competencies. 
+## Periodisation
 
-Remember in order to get good results and to actually get good at something you need to focus on it. 
+I could probably start talking about mesocycles, macrocycles, microcycles but the reality this is very simple (See below for more detailed descriptions of the above terms):
 
-See article: Does max strength correlate to strength endurance
+\- You need to breakdown your training into phases
 
-The best way 
+\- Each phase is necessary so that you can see the greatest adaptation by focusing and not being too tired to work at the required intensity during a workout. E.g. in the strength phase if you are working out a day after a long run your legs could be too fatigued to adquitly allow you to progress with improve your one rep max.
 
-General strength not specific strength 
-
-Standard lift 
-
-Bench Press
-
-Deadlifts
-
-Back Squat / Front Squat
+Can you combine several things at once? Yes you can but it will not have as a good result. You need to build a strong foundation to then work from.
 
 ## Analyse how much time you have and demands?
 
@@ -83,6 +71,118 @@ Although focused on gaining strength via bodyweight exercises it. It is rather a
 Prehab / Structure of a workout 
 
 And understanding cycles of training 
+
+
+
+
+
+\# Quick Start Guide
+
+Having understood the prerequisites you should be in a position to answer the following:
+
+\* What is your background?
+
+\* 3/4 cycles
+
+\* Area/s of improvement
+
+\* Select your first cycle
+
+\## 3 Cycle
+
+Strength
+
+In this mesocycle you are trying to increase your basic/maximum strength.
+
+We want to strength our posterior chain and it maybe make sense to split between lower & pull/push workouts so that we have the maximum adaptation.
+
+This is a foundation, so much so that if you look at a lot of top Hyrox athletes in the off season they are not training Hyrox specific movements and workouts. They are often working on basic strength or isolated competencies.
+
+Remember in order to get good results and to actually get good at something you need to focus on it.
+
+See article: Does max strength correlate to strength endurance
+
+The aim is to:
+
+\- Make the demands of Hyrox easier
+
+\- Build the foundation to make your running, muscular endurance later.
+
+How:
+
+\- 3x3 or 3x5 (low rep to increase our)
+
+\- Lower Split & Push/Pull or Combined Body workouts
+
+If you are begineer the gains should be massive gains, else you should be
+
+The key in this cycle is to ensure good enough recovery for maximum gains and to keep it simple. Choose one posterior chain, one or two pull, one or two push and a core exercise for good measure.
+
+To see some example strength workouts here.
+
+Key Decisions:
+
+\- Split (lower/push&pull) or Combined Body Sessions?
+
+\- How many days a week (3 per week if you are unsure)
+
+\- What exercises per category will you work on: pull / push / posterior
+
+Example Exercises:
+
+Standard lifts
+
+Bench Press
+
+Deadlifts
+
+Back Squat / Front Squat
+
+Strength/Muscular Endurance
+
+In this mesocycle you are trying to increase your muscular endurance.
+
+The aim is to:
+
+\- Deal with strength endurance aspects of Hyrox like 100m of sandbag lunges
+
+\- Understand both mentally and physically the pacing required for such exercises e.g. when to pause/breathe on lunges
+
+How:
+
+\- Increase of volume (High Rep)
+
+\- 50/60% of your one rep maximum
+
+You can include some compromised parts to any of these workouts. As in the actual event you will be heavily fatigued by the time you get onto some stations.
+
+Aerobic Engine
+
+The aim is to:
+
+\- Increase your threshold tolerance while performing
+
+How:
+
+\- Zone 2/3 Heart Rate Long steady 90 min runs, Long Rows or Cycling
+
+\- Threshold / Interval Running
+
+\- Compromised Running
+
+\## 4 Cycle
+
+The 4 Cycle is exactly the same as the three week cycle however you have another cycle to focus on one of the aspects which is most likely going to be your aerobic engine.
+
+The extra time also can be good to add some variations, look at specific areas of weakness or hyrox specific workouts.
+
+\## Area/s of Improvement
+
+If you are a first timer to Hyrox you will likely not have the data to know what areas to improve. Of course you can run a hyrox simulation but it has limited use.
+
+I would recommend just focusing on your weakest area and if you don't know what that is to focus on improving your running as the area to improve. It will have the largest benefit.
+
+\# Further Theory / Analysis
 
 Quick Start
 
@@ -141,20 +241,6 @@ Looks for areas of impremvent
 * What is your background 
 * 3/4 cyckes
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Further Analysis
 
 Improving functional fitness is a difficult  to add to our understanding we can analyse the following functional fitness diagrams:
@@ -194,8 +280,9 @@ The point here is that everyone starts at a different point and each time you fo
 ### Macrocycle
 
 ### Mesocycle\
+
 \
 Resources
 
-* ### rich ryan 
+* ### rich ryan
 * bodyweight workout plan
