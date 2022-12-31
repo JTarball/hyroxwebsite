@@ -3,8 +3,9 @@ weight: 0
 title: Hyrox Bodyweight Training Plan
 metaDescription: "hyrox training "
 date: 2022-12-31T23:09:01.178Z
+last_updated: 2022-12-31T23:14:19+00:00
 tags:
-  - Hyrox Workouts
+  - Resources
 draft: false
 ---
 
