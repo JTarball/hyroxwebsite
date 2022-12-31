@@ -3,7 +3,7 @@ weight: 2
 title: How to Structure your Hyrox Training
 metaDescription: How to structure your programming
 date: 2022-11-24T12:36:36.667Z
-last_updated: 2022-12-31T15:35:49+00:00
+last_updated: 2022-12-31T15:50:05+00:00
 description: This is important listen up
 image: img/34-posts.homepage_preview_md.jpg
 tags:
@@ -142,6 +142,7 @@ Looks for areas of impremvent
 
 
 
+## **Quick Guide**
 
 
 
@@ -151,10 +152,9 @@ Looks for areas of impremvent
 
 
 
+## Further Analysis
 
-Improving functional fitness is a difficult
-
-To add to our understanding we can analyse the following diagrams:
+Improving functional fitness is a difficult  to add to our understanding we can analyse the following functional fitness diagrams:
 
 ![Intensity Endurance Pyramid](img/pyramid-intensity.png "Intensity Endurance Pyramid")
 
@@ -179,3 +179,29 @@ Drop intensity more volume - stamina
 Two intensity session highest volime
 
 train both ends of the ends of the pyramid
+
+
+
+![](img/peak-athlete.png)
+
+
+
+The following diagram could be better represented as a venn diagram however for ease of visualisation the following diagrams represents how in order to create the best athelete we must take into account all the components. 
+
+You can consider that 
+
+
+
+As your strength increases it will have an impact 
+
+What makes structuring your workouts so difficult is that its personal. Everyone will start off on the above diagram in a completely different place.  How quickly you can move towards the centre is dependent on not only your workout program but the intensity, recovery, nutrition etc. 
+
+The point here is that everyone starts at a different point and each time you focus on a specific factor it can effect the other factors.
+
+
+
+### Periodisation Terms
+
+### Macrocycle
+
+### Mesocycle
