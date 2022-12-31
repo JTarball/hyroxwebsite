@@ -1,10 +1,15 @@
-{{ define "main" }}
+{{ with .GetPage "/hyrox" }}{{.Render}}{{end}}
+
+<!-- {{ define "main" }}
 
 <style>
     [data-slate-editor] { 
         -webkit-user-modify: read-write !important; 
     }
 </style>
+
+
+
 
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "description" .Params.description "IsHome" .IsHome) }}
 
@@ -14,8 +19,10 @@
 
 {{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }} -->
 
-{{ partial "blog" . }}
+<!-- {{ partial "blog" . }} -->
+
+
 
 <script type="module" src="/js/my-element.bundled.js"></script>
 
-{{ end }}
+{{ end }} -->

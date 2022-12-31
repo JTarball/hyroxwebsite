@@ -1,6 +1,6 @@
 ---
 title: About
-logo: /img/logo.svg
+logo: "/img/logo-inverted.svg"
 ---
 I﻿ was in a fitness rut, I had barely exercised in what felt like years when a friend said he had signed up to Hyrox ...
 
@@ -8,7 +8,7 @@ I was incapable of doing 3 pushups, and unable to run a mile ...
 
 Since then I have learnt a lot in my journey into functional fitness and hopefully you can learn something too.
 
-<div class="cms mw6">
+<div class="cms mw8 center">
     <img style="margin-left:auto;margin-right:auto;" src="/img/about-me-wall-balls.jpg" alt="Wall ball" height="500" />
 </div>
 

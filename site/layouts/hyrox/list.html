@@ -1,5 +1,11 @@
 {{ define "main" }}
 
+<style>
+  [data-slate-editor] { 
+      -webkit-user-modify: read-write !important; 
+  }
+</style>
+
 {{ $items_hyrox_welcome := slice }} 
 {{ $items_hyrox_guides := slice }} 
 {{ $items_hyrox_resources := slice }}
@@ -93,6 +99,7 @@
 </dashboard-element>
 
 <div class="mw7 center">
+  <span class="sectionTitle">Latest Stories</span>
   <div id="blog-list" class="flex-1 flex-wrap mhn1-ns pa3" style="  display: flex;
  display: flex;
     flex-direction: row;">

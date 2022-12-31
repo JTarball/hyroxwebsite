@@ -8,7 +8,7 @@ export class TagElement extends LitElement {
     name: string = ""
 
     @property({type: String})
-    hoverColour: string = "red"
+    hoverColour: string = "black"
 
     @property({type: String})
     href: string = ""

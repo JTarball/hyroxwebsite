@@ -66,7 +66,7 @@ const it=t=>i=>"function"==typeof i?((t,i)=>(customElements.define(t,i),i))(t,i)
             color: inherit; /* blue colors for links too */
             text-decoration: inherit; /* no underline */
         }
-    `,nt([st()],rt.prototype,"title",void 0),rt=nt([it("discover-card-element")],rt);var lt=function(t,i,e,s){for(var o,n=arguments.length,r=n<3?i:null===s?s=Object.getOwnPropertyDescriptor(i,e):s,l=t.length-1;l>=0;l--)(o=t[l])&&(r=(n<3?o(r):n>3?o(i,e,r):o(i,e))||r);return n>3&&r&&Object.defineProperty(i,e,r),r};let at=class extends Y{constructor(){super(...arguments),this.name="",this.hoverColour="red",this.href="",this.active=!1,this.huge=!1}firstUpdated(){this.style.setProperty("--color",this.hoverColour)}render(){return console.warn(typeof this.name),H`
+    `,nt([st()],rt.prototype,"title",void 0),rt=nt([it("discover-card-element")],rt);var lt=function(t,i,e,s){for(var o,n=arguments.length,r=n<3?i:null===s?s=Object.getOwnPropertyDescriptor(i,e):s,l=t.length-1;l>=0;l--)(o=t[l])&&(r=(n<3?o(r):n>3?o(i,e,r):o(i,e))||r);return n>3&&r&&Object.defineProperty(i,e,r),r};let at=class extends Y{constructor(){super(...arguments),this.name="",this.hoverColour="black",this.href="",this.active=!1,this.huge=!1}firstUpdated(){this.style.setProperty("--color",this.hoverColour)}render(){return console.warn(typeof this.name),H`
         <a
         class="ay az ba bb bc bd be bf bg bh bi bj bk bl bm"
         rel="noopener follow"
