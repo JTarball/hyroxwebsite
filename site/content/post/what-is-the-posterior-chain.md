@@ -3,11 +3,11 @@ weight: 0
 title: What is the Posterior Chain
 metaDescription: what is the posterior chain
 date: 2022-12-31T20:20:56.328Z
-last_updated: 2022-12-31T20:36:57+00:00
+last_updated: 2022-12-31T20:43:48+00:00
 image: img/the-posterior-chain-1024x600_1024x1024.png.webp
 tags:
   - General
-draft: true
+draft: false
 ---
 A current buzzword in health & fitness circles. 
 
@@ -55,4 +55,5 @@ E.g. Running, sprinting, broad jumps, squatting, lunges all use the muscles in t
 Yes, the anterior chain is also important but most things in a modern lifecycle leads to an anterior dominant body e.g. Walking forward, sitting, boxing, yoga. 
 
 This is one of the factors into why many in the western world have bad posture.
+
 
