@@ -3,11 +3,12 @@ weight: 0
 title: Tech we use for Recovery
 metaDescription: Recover the lazy way
 date: 2022-11-24T13:42:01.717Z
+last_updated: 2022-12-31T20:05:21+00:00
 description: "-"
 image: img/powerdot-2.0-michael-treating-quads-top-1-750x500.webp
 tags:
   - Recovery and Health
-draft: true
+draft: false
 ---
 As everyone knows recovery is a very important aspect of training and one that everyones knows to do but find hard to optimise and get right. A discussion into different forms of recovery are well beyond the bounds of this article instead we look at forms of tech we can use the help with recovery.
 
