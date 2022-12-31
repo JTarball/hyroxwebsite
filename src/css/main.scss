@@ -290,4 +290,12 @@
     margin: 1rem;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 1rem;
+}
+
+@media all and (max-width: 1500px) {
+
+    #subscribe {
+        display: none  !important;
+    }
 }
