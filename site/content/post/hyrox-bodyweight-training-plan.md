@@ -7,8 +7,8 @@ tags:
   - Hyrox Workouts
 draft: false
 ---
+
+
 The official hyrox plan from 2019
 
-
-
-![]()
+(training plan)[site/static/img/trainingsplan_a4_01_2019_eng.pdf]
