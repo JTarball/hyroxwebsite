@@ -3,7 +3,7 @@ weight: 0
 title: Hyrox Shoes
 metaDescription: What shoes you should have for Hyrox
 date: 2022-11-24T13:53:47.070Z
-last_updated: 2023-01-01T15:50:12+00:00
+last_updated: 2023-01-01T15:51:21+00:00
 description: Push that sled!
 image: img/71nnfr06iul._ac_ux625_.jpg
 tags:
@@ -28,7 +28,7 @@ You can go wrong with the pegasus series. Good to run in, no nonsense and get th
 
 <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:400px;height:480px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=compromisedru-21&language=en_GB&marketplace=amazon&region=GB&placement=B09XXYK8DB&asins=B09XXYK8DB&linkId=0d21a47c51ce5e4920075cacee55eac4&show_border=true&link_opens_in_new_window=true"></iframe>
 
-https://www.hyperwear.com/blog/what-is-hyrox/
+
 
 ## More
 
