@@ -3,7 +3,7 @@ weight: 0
 title: Who should be following?
 metaDescription: Who you should be following on social media for Hyrox
 date: 2022-11-24T13:12:31.034Z
-last_updated: 2023-01-01T15:53:36+00:00
+last_updated: 2023-01-01T15:57:48+00:00
 description: Influence the influencers
 image: img/screenshot-2022-11-24-at-12.53.21.png
 tags:
@@ -11,9 +11,11 @@ tags:
   - Tips and Tricks
 draft: false
 ---
-Social media can often be an incredibly toxic place however when it comes to the hyrox community is nothing short of just great. 
+Social media can often be an incredibly toxic place however when it comes to the hyrox motivation it is nothing short of just great. 
 
 You can gain a lot of insight through following certain individuals and channels.
+
+You will pick up
 
 * Workout Inspiration
 * Tips and Technique Improvements
@@ -31,9 +33,9 @@ The undisputed Queen of Hyrox.
 
 And while she gesticulates more than an italian on steroids there is no doubt her content is awesome. 
 
-Follow to find tips & tricks and Hyrox workout ideas. Her insight in mindset, nutrition and Hyrox gameplan is a must-see.
-
 A former semi-professional footballer now a hyrox master coach, you can apply for her coaching program online: https://linktr.ee/JadeSkillen
+
+Follow to find tips & tricks and Hyrox workout ideas. Her insight in mindset, nutrition and strategy is a must-see.
 
 youtube: https://www.youtube.com/channel/UCzInwf7-85RjXrzZ590CMww
 instagram: @jadeskillenhyroxcoach https://www.instagram.com/jadeskillenhyroxcoach/?hl=en
@@ -55,13 +57,10 @@ Now a fulltime health and fitness youtuber. Stupidly entertaining and a fan of H
 
 {{< youtube XMq6xxFDh_s >}}
 
-Subscribe to his channel for some gems. A must have on anyone list.
-
+Subscribe to his channel for some gems. A must have on anyones' list.
 
 <https://www.youtube.com/@MarkLewisfitness>\
 <https://www.instagram.com/marklewispics/?hl=en>
-
-
 
 ### Woodsy Workout
 
@@ -79,7 +78,6 @@ An old favourite of mine, although it focuses on bodyweight this is a great sour
 
 ### Mario Novak  - [@supermario.sportsworld](https://www.instagram.com/supermario.sportsworld/?hl=en-gb)
 
-## \
 [@markus_frison](https://www.instagram.com/markus_frison/?hl=en-gb)
 
 ## Markus frison is an elite hyrox athlete. Great tips and should be noted he now offers online coaching.
@@ -89,8 +87,6 @@ An old favourite of mine, although it focuses on bodyweight this is a great sour
 #### [@huntthesheriff](https://www.instagram.com/huntthesheriff/?hl=en-gb)
 
 #### Hunter McIntyre... just for the banter
-
-
 
 ## Hyrox News & More
 
@@ -104,9 +100,9 @@ An old favourite of mine, although it focuses on bodyweight this is a great sour
 \
 [@hyroxger](https://www.instagram.com/hyroxger/?hl=en-gb)\
 \
-This can be great for viewing how the pros do it as well as seeing how the stations are setup via live streams. Having a few last minute tips and insight before your first race is a great mental edge for race day.
+This can be great for viewing how the pros race as well as seeing how the stations are setup via their live streams. Having a few last minute tips and insight before your first race is a great mental edge for race day.
 
-Summary: Very important for tips and layout of the events. Especially for first timers
+**Summary**: Very important for tips and layout of the events. Especially for first timers
 
 ## For Hyrox Workouts
 
@@ -114,4 +110,4 @@ Summary: Very important for tips and layout of the events. Especially for first 
 
 #### [@hyroxworkouts](https://www.instagram.com/hyroxworkouts/?hl=en-gb)
 
-Hyrox workouts and good for doubles workouts
+Hyrox workouts (good doubles workouts as well)
