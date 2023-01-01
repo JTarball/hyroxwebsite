@@ -100,14 +100,25 @@
 
 <div class="mw7 center">
   <span class="sectionTitle">Latest Stories</span>
-  <div id="blog-list" class="flex-1 flex-wrap mhn1-ns pa3" style="  display: flex;
- display: flex;
-    flex-direction: row;">
-      {{ range (where .Site.RegularPages "Type" "post" ) }}
+  <div id="blog-list" class="flex-1 flex-wrap mhn1-ns pa3" style="display: flex; flex-direction: row;">
+      {{ range (where .Site.RegularPages.ByPublishDate.Reverse "Type" "post" ) }}
           <div class="w-50-ns ph1-ns col2">
             {{ .Render "li-big"}}
           </div>
       {{ end }}
+
+<!-- 
+			{{ $paged := (where .Site.RegularPages "Type" "page") }} {{ $paginator := .Paginate $paged 8 }}
+			{{ $paged | jsonify (dict "indent" " ") }} 
+
+			{{ $paginator | jsonify (dict "indent" " ") }}
+
+			{{ range $paginator.Pages }}
+        <div class="w-50-ns ph1-ns col2">
+          {{ .Render "li-big"}}
+        </div>
+			{{ end }} -->
+
   </div>
   {{ partial "pagination" . }}
 </div>

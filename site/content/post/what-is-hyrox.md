@@ -3,7 +3,7 @@ weight: 2
 title: What is Hyrox?
 metaDescription: What is Hyrox
 date: 2022-11-24T12:04:48.187Z
-last_updated: 2022-12-29T20:23:48+00:00
+last_updated: 2022-12-31T20:23:48+00:00
 description: Functional Fitness Racing .... urmm... What?
 image: img/8629_20221119_084137_259567464_original.jpg
 tags:

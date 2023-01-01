@@ -24,7 +24,7 @@
 
 </div>
 
-<div class="mw7 center ph3 pv4">
+<div class="mw7 center ph3 pv4" >
     <h1 class="f2 lh-title b mb3">{{.Title}}</h1>
     <div class="flex justify-between grey-3">
       <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
@@ -38,7 +38,7 @@
       </p>
       
     </div>
-    <div class="cms mw7">
+    <div class="cms mw7" style="font-size: 20px;">
       <p>{{ .Description }}</p>
       {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
       {{ .Content }}

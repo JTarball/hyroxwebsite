@@ -13,3 +13,5 @@ Here is the training manual from late 2020:
 * Different Hyrox workouts
 * Techniques
 * Substitute Exercises
+
+[Training Manual](/post/hyrox-training-manual.files/HYROX_ENG_Manual_10_2020.pdf)
