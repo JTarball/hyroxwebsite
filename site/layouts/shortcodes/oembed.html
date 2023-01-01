@@ -6,5 +6,18 @@
 {{ $type := .Get 1 }}
 {{ $id := .Get 2 }}
 {{ $hideCaption := cond (eq (.Get 3) "hidecaption") "1" "0" }}
-{{ with getJSON "https://graph.facebook.com/v11.0/instagram_oembed/?url=https://instagram.com/" $type "/" $id "/&hidecaption=" $hideCaption "&access_token=" $appId "|" $clientToken }}{{ .html | safeHTML }}{{ end }}
+{{ with getJSON "https://graph.facebook.com/v11.0/instagram_oembed/?url=https://instagram.com/" $type "/" $id "/&hidecaption=" $hideCaption "&access_token=" $appId "|" $clientToken }}
+    {{ .html | safeHTML }}
+{{ else }}
+    <div class="container-wrapper">
+        <div class="container">
+            <div class="container-body">
+                <div class="grey-3" style="padding: 1rem;">
+                    Failed to get Instagram Post: {{ $id }}
+                </div>
+            </div>
+        </div>
+    </div>
+
+{{ end }}
 {{- end -}}
