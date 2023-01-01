@@ -3,7 +3,8 @@ weight: 0
 title: Hyrox Official Training Plan
 metaDescription: "hyrox training "
 date: 2022-12-31T23:09:01.178Z
-last_updated: 2022-12-31T23:17:09+00:00
+last_updated: 2023-01-01T15:28:50+00:00
+image: img/training-plan.png
 tags:
   - Resources
 draft: false
