@@ -3,12 +3,13 @@ weight: 0
 title: Who should be following?
 metaDescription: Who you should be following on social media for Hyrox
 date: 2022-11-24T13:12:31.034Z
+last_updated: 2023-01-01T15:53:36+00:00
 description: Influence the influencers
 image: img/screenshot-2022-11-24-at-12.53.21.png
 tags:
   - Guides
   - Tips and Tricks
-draft: true
+draft: false
 ---
 Social media can often be an incredibly toxic place however when it comes to the hyrox community is nothing short of just great. 
 
