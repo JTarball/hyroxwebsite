@@ -3,7 +3,7 @@ weight: 2
 title: How to Structure your Hyrox Training
 metaDescription: How to structure your programming
 date: 2022-11-24T12:36:36.667Z
-last_updated: 2022-12-31T17:03:48+00:00
+last_updated: 2023-01-01T17:34:54+00:00
 description: This is important listen up
 image: img/34-posts.homepage_preview_md.jpg
 tags:
@@ -40,8 +40,6 @@ If you have a running background mostly likely you need to work on your strength
 
 If you have a strength background (a regular gym-goer focusing on bodybuilding type exercises) most likely you need to focus on running.
 
-
-
 ## Periodisation
 
 I could probably start talking about mesocycles, macrocycles, microcycles but the reality this is very simple (See below for more detailed descriptions of the above terms):
@@ -71,10 +69,6 @@ Although focused on gaining strength via bodyweight exercises it. It is rather a
 Prehab / Structure of a workout 
 
 And understanding cycles of training 
-
-
-
-
 
 \# Quick Start Guide
 
@@ -275,17 +269,7 @@ What makes structuring your workouts so difficult is that its personal. Everyone
 
 The point here is that everyone starts at a different point and each time you focus on a specific factor it can effect the other factors.
 
-
-
-
-
-
-
-
-
 https://www.instagram.com/p/CDg2UkciQVd/?hl=en
-
-
 
 HERE ARE YOUR ANSWERS🎊🏴‍☠️
 
@@ -303,21 +287,6 @@ For Hyroxspecific movements we also have to talk about the pure strength includi
 3️⃣METABOLIC CONDITIONING
 "MetCon is a set of conditioning exercises designed for the purpose of enhancing energy storage and delivery for any activity. Consider that MetCon brings circuit training to a higher level. The beauty of this style of training is that it is designed to provide a faster more efficient way to produce desired results without sacrificing any of the quality. The object of MetCon is to alter and manipulate specific variables that affect the body’s adaptation to exercise stimulus. These variables include intensity, exercise selection, sets, reps, rest intervals and time under tension. By simply changing one or two of the variables, one can target different metabolic pathways in order to prevent adaption.."
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Periodisation Terms
 
 ### Macrocycle
@@ -330,6 +299,4 @@ Resources
 * ### rich ryan
 * bodyweight workout plan
 
-
-
-
+https://www.youtube.com/watch?v=WXdyyCfQBeQ&t=309s
