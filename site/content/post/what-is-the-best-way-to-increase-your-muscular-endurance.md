@@ -3,11 +3,12 @@ weight: 0
 title: "What is the best way to increase your muscular endurance "
 metaDescription: What is the best way to increase your muscular endurance
 date: 2022-11-27T20:48:23.892Z
-last_updated: 2023-01-01T16:54:59+00:00
+last_updated: 2023-01-01T16:55:10+00:00
 description: ""
 tags:
   - General
   - Max Strength
+  - Must Reads
 draft: false
 ---
 You will need muscular endurance in order to survive the sandbag lunges and wall balls. You will also need to decide when its best to train for muscular endurance.. skipping that hard decision, here's how you might do it.
