@@ -3,7 +3,8 @@ weight: 1
 title: Hyrox Training Manual
 metaDescription: Hyrox training manual
 date: 2023-01-01T11:45:41.461Z
-last_updated: 2023-01-01T11:50:17+00:00
+last_updated: 2023-01-01T15:28:01+00:00
+image: img/training-manual.png
 tags:
   - Resources
 draft: false
