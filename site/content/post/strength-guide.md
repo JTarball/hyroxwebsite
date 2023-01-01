@@ -139,3 +139,5 @@ Keep it simple
 \### Bodyweight Variant
 
 ## Further Reading
+
+https://www.youtube.com/watch?v=579jQV7465g

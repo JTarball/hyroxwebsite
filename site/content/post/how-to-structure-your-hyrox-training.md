@@ -275,6 +275,49 @@ What makes structuring your workouts so difficult is that its personal. Everyone
 
 The point here is that everyone starts at a different point and each time you focus on a specific factor it can effect the other factors.
 
+
+
+
+
+
+
+
+
+https://www.instagram.com/p/CDg2UkciQVd/?hl=en
+
+
+
+HERE ARE YOUR ANSWERS🎊🏴‍☠️
+
+WHAT'S MISSING? ⬇️ LET US DISCUSS ABOUT IT⬇️
+.
+1️⃣ AEROBIC CAPACITY:
+"The maximum amount of O2 in ml an athlete can use in one minute/kg of body weight. Generally, the higher the VO2max, the higher the anaerobic threshold and the faster an athlete can go in endurance competitions without fatigue. Training can increase VO2max by up to 20%, which can be determined by graded exercise testing. It is only of academic interest as O2 consumption can’t be monitored during workouts.
+Factors affecting Size and strength of heart, concentration of oxygen-carriers in blood (haemoglobin), density of capillaries and mitochondria in the muscles, and activity of aerobic enzymes; proper training enhances these factors and increases aerobic capacity."
+
+2️⃣ POWER (Functional Treshold Power):
+"Functional threshold power (FTP) is the maximum power output an athlete can maintain in a quasi-steady state without fatiguing for 1 hour. ... LT is the point at which lactate increases in the blood stream exponentially whereas FTP is the maximum effort an athlete can maintain for 1 hour without fatiguing."
+
+For Hyroxspecific movements we also have to talk about the pure strength including in the definition of power. As an Hyrox Athlete you have to create a huge amount of endurance and strength. These two determinants together will be crucial for your overall Hyrox performance under fatigue.
+
+3️⃣METABOLIC CONDITIONING
+"MetCon is a set of conditioning exercises designed for the purpose of enhancing energy storage and delivery for any activity. Consider that MetCon brings circuit training to a higher level. The beauty of this style of training is that it is designed to provide a faster more efficient way to produce desired results without sacrificing any of the quality. The object of MetCon is to alter and manipulate specific variables that affect the body’s adaptation to exercise stimulus. These variables include intensity, exercise selection, sets, reps, rest intervals and time under tension. By simply changing one or two of the variables, one can target different metabolic pathways in order to prevent adaption.."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Periodisation Terms
 
 ### Macrocycle
@@ -286,3 +329,7 @@ Resources
 
 * ### rich ryan
 * bodyweight workout plan
+
+
+
+

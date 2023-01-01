@@ -11,6 +11,8 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 enableRobotsTXT = true
 disqusShortname = 'compromisedrunning'
+ignoreErrors = ["error-remote-getjson"]
+
 
 [markup]
   [markup.goldmark]
@@ -21,3 +23,7 @@ disqusShortname = 'compromisedrunning'
   changefreq = 'always'
   filename = 'sitemap.xml'
   priority = 0.5
+
+[params.oembed]
+  appId = "1271196743609704"
+  privacy = false
