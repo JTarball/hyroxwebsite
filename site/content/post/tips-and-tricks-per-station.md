@@ -3,7 +3,7 @@ weight: 0
 title: Tips and Tricks Per Station
 metaDescription: Hyrox tips and tricks
 date: 2022-11-24T13:02:14.833Z
-last_updated: 2023-01-02T15:39:38+00:00
+last_updated: 2023-01-02T15:40:16+00:00
 description: You're welcome!
 image: img/8629_20221119_142452_259482608_socialmedia.jpg
 tags:
@@ -46,8 +46,6 @@ draft: false
 * Have a specific number of seconds for your break/s it will stop you from wasting unnecessary time
 
 ## More
-
-<div class="img-m">{{< youtube sVXGZ6uwb8 >}}</div>
 
 <div class="img-m">{{< youtube zp6C-Va2lQw >}}</div>
 
