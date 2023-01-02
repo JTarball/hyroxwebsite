@@ -14,7 +14,51 @@ If you are looking for motivation or inspiration here is a list of sanitised str
 
 ## Basic Strength
 
-### Runner Strength
+### Minimal 
+
+- Can choose between 5 x 5 or 3 x 3 rep count
+- Minimal exercises to focus max gains over a strength cycle
+- Posterior, Push, Pull, Core, MSP
+
+Back Squat (3x3)
+Rack Pull (3x3)
+PullBent over row (3x3)
+
+### Selectable
+
+We are trying to focus on the core exercises some push / pull / core assessory.
+Can choose between 5 x 5 or 3 x 3 rep count.
+
+
+- Choose 2/3 Exercises from:
+  - Rack Pull
+  - Back Squat
+  - Front Squat
+  - Zercher Squat
+  - Deadlift
+  - Barbell Lunge
+  - Barbell Back Lunge
+  - Split Squat
+  - Raised Split Squat
+
+
+- Choose 1/2 Pull Exercises from:
+  - Bent Over Row 
+  - Kroc Row
+  - Pull Ups
+  - Chin Ups
+
+- Grip Strength Exercise from:
+ - Max Hold Dead Hang (Weighted if poss) (max should be 10secs so need good weight)
+ - Farmers Carry (progressive eventually up to 2 / 3 mins)
+
+- Choose Core Exercise from:
+  - Dragonfly
+  - Toes to Bar
+  - GHD situps
+
+
+## Runner Strength [Rich Ryan]
 
 If you are a classic runner and need to improve your strength here are some workouts:
 
@@ -24,7 +68,10 @@ Attempt to add weight each week to the movement, but not by sacrificing form.
 
 Complete all of the sets and reps of each exercise before moving to the next. Rest 60-90 seconds between sets. You should be recovered between each set. 
 
-\## Title: Runner Strength 1 
+
+### Runner Strength 1
+
+
 
 Warmup: 3 Rounds 
 10 Air Squats 
@@ -38,11 +85,10 @@ D1) Eccentric Push up: 4 x 4 - Four count to chest press back up
 Do superset (back to back) with pushups 
 D2) Push-Up: Max set 
 E) Assisted Bottom Squat Hold: 2 mins total
-F) Forearm Plank Posterior Pelvic Tilt: 3 x 45 - 60 secs 
+F) Forearm Plank Posterior Pelvic Tilt: 3 x 45 - 60 secs
 
-- - -
+### Runner Carry 1
 
-\## Title: Runner Carry 1
 
 A) Assisted Bottom Squat Hold: 2 min accumulated 
 B) Goblet Squat: 3 x 8 - moderate weight
@@ -51,20 +97,16 @@ D) Farmers Walk: 3 x 40 secs Heavyweight
 E1) Hollow Holds: 20 secs on 10 rest x 4 
 E2) Bicycle Crunch: 20 secs on 10 rest x 4 
 
-- - -
-
-\## Title: Runner Strength 2
+### Runner Strength 2
 
 A) Dumbbell Romanian Deadlift: 4 x 8 - moderate weight 
 B) Inverted row: 4x8-10
 C) Split Squat: 3 x 8 
 D) Eccentric Pull-up: 3 x 3 
 E) Assisted Bottom Squat Hold: 2 min accumulated 
-F) Side Plank: 3 x 30 sec each side 
+F) Side Plank: 3 x 30 sec each side
 
-- - -
-
-### Title: Runner Strength 3
+### Runner Strength 3
 
 A) Walking Lunge:: 4 x 8 
 B) Barbell Single-Leg Romanian Deadlift: - Body Weight 
@@ -78,9 +120,9 @@ Do all of "D" back to back
 D1) Bench Dips: 4x10 
 D2)  Push-Up:: Max
 
-\[source: Rich Ryan]
+[source: Rich Ryan]
 
-\# Hyrox Strength
+## Hyrox Strength
 
 These workouts train strength while training some aspects of Hyrox i.e. not completely focused on
 max strength
