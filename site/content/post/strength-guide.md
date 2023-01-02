@@ -3,7 +3,8 @@ weight: 0
 title: Strength Exercise Guide
 metaDescription: How to increase your strength
 date: 2022-12-31T17:04:27.452Z
-last_updated: 2023-01-02T18:15:15+00:00
+last_updated: 2023-01-02T18:41:59+00:00
+image: img/strength-structure.jpeg
 tags:
   - Max Strength
 draft: false
