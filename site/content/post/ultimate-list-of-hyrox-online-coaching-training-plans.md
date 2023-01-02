@@ -3,7 +3,8 @@ weight: 0
 title: Ultimate List of Hyrox Online Coaching/Training Plans
 metaDescription: list of hyrox training plans and online coaching
 date: 2023-01-02T18:42:48.008Z
-last_updated: 2023-01-02T18:47:54+00:00
+last_updated: 2023-01-02T18:49:07+00:00
+image: img/training-plans-fiit.png
 tags:
   - Resources
 draft: false
