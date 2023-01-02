@@ -96,3 +96,5 @@ Some example benchmarks:
 <div class="img-m">{{< youtube NC_PyDj_7c4 >}}</div>
 
 <div class="img-m">{{< youtube ha6xY2Hirag >}}</div>
+
+(https://atomic-athlete.com/maximal-strength-session-sample/)[https://atomic-athlete.com/maximal-strength-session-sample/]

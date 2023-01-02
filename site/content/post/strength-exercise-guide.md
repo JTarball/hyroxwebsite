@@ -24,15 +24,23 @@ Don't overcomplicate select one or two from each category.
 * Aim for small increment changes 
 * Consider the occasional variations: single leg strength, slow eccentrics 
 
-# Vertical Pulls
+## Vertical Pulls
 
-## Weighted Pull Ups
+* Weighted Pullups
 
-There’s really no good excuse for this to not have the top spot: They hit the most muscle mass, they allow for the safest progression, and they use a larger ROM for all the relevant muscles except rhomboids and mid-traps.
+### Weighted Pull Ups
 
-There are two grip orientations that are high yield: neutral and pronated. The differences are minor, but if you can do both without issues than using the pronated grip will give you slightly more carryover.
+Weight pull ups should be on top spot for vertical pull exercises as:
+ - They are an exercise with a large range of motion 
+ - Hit a large amount of muscle mass
 
-There are also two grip widths that you should be using: Regular and wide grip positions.
+You can experiment with two grip positions:
+ - pronated
+ - neutral
+
+And two grip widths:
+ - regular
+ - width
 
 Goals for each rep:
 
@@ -41,9 +49,9 @@ Goals for each rep:
 * Reach a full hang at the bottom of each rep
 * DO NOT focus on getting your chest to touch the bar at the top
 
-### Regression
+#### Regression
 
-If you can't perform weighted pullups 
+If you can't perform weighted pullups try one of the following:
 
 * Negative Weighted Pullups
 * Pullups
@@ -51,50 +59,68 @@ If you can't perform weighted pullups
 * Scapula Pullups
 * Bodyweight Rows
 
-### Progression
+#### Progression
 
 Assisted One-Arm Pullup
 
-# Horizontal Pulls
+## Horizontal Pulls
 
-## Bent-over Row
+* Bent-over Row
+* Kroc Row
+* Chin up
+
+
+### Bent-over Row
 
 This exercise is a great one for building sled pull strength.
 
-## Kroc Row
+### Kroc Row
 
-\## Chin up
+A variation of bent over row with dumbbells, going heavy pay dividends here.
+
+### Chin up
 
 A variation of the pullups were you using a supinated grip (facing you).
 
 Generally for most people this is easier than the pullup given the movement engages your biceps more.
 
-# Vertical Push
+## Vertical Push
 
-## Overhead Press / Strict Press
+ - Overhead Press / Strict Press
+ - Seated Dumbbell Shoulder Press
+ - Arnold Press
+ - Landmine Press
 
-## Seated Dumbbell Shoulder Press
 
-\## Arnold Press
+### Overhead Press / Strict Press
 
-\## Landmine Press
+### Seated Dumbbell Shoulder Press
 
-# Horizontal Push
+### Arnold Press
 
-## Pushup
+### Landmine Press
 
-### Progression
+## Horizontal Push
+
+* Bench Press
+* Pushup
+
+### Pushup
+
+#### Regression
+
+* Knee Pushups
+
+#### Progression
 
 * Pseudo Planche Pushup
 * Hand Release Pushups
 
-### Regression
 
-* Knee Pushups
 
-# Posterior Chain
+## Posterior Chain
 
-## Rack Pulls
+### Rack Pulls
 
 The top exercise for the posterior chain is the deadlift however given the risks associated with the exercise I prefer rack pulls. Unless you are someone that trains competitively in deadlifts or has a lot of experience (and thus good technque) the risk to reward ratio is far too high. Noone wants a lower back injury, its far safer to do a romanian deadlift or a rackpull.
 
@@ -107,13 +133,13 @@ Goals for each rep:
 * Hold the weight at the top
 * Keep your back straight when lowering
 
-## Good Mornings
+### Good Mornings
 
-\## Pullups
+### Pullups
 
 Although stated in above in the vertical pull section, pullups are a great way to strength your upper posterior chain.
 
-Quick Start
+## Quick Reminder on Use
 
 * Minimize the number of exercises for simplicity
 * You want to look for small incremental strength gains by increasing load
@@ -121,25 +147,25 @@ Quick Start
 
 Remember ensure you get your calories, recovery and protein in!
 
-# Rep count
+### Rep count
 
-# How to Progress
+### How to Progress
 
-## Progressive Overload
+#### Progressive Overload
 
-## Time under Tension\
-\
-Increase Range of Motion
+#### Time under Tension
 
-## Example Programming
+#### Increase Range of Motion
+
+### Example Programming
 
 Keep it simple 
 
-\### Basic Strength
+### Basic Strength
 
 ### Single Leg Variant
 
-\### Bodyweight Variant
+### Bodyweight Variant
 
 ## Further Reading
 
