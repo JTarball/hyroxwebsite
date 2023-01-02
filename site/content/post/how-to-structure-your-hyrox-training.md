@@ -3,7 +3,7 @@ weight: 2
 title: How to Structure your Hyrox Training
 metaDescription: How to structure your programming
 date: 2022-11-24T12:36:36.667Z
-last_updated: 2023-01-02T17:20:05+00:00
+last_updated: 2023-01-02T17:31:44+00:00
 description: This is important listen up
 image: img/34-posts.homepage_preview_md.jpg
 tags:
@@ -179,8 +179,6 @@ If you are a first timer to Hyrox you will likely not have the data to know what
 
 I would recommend just focusing on your weakest area and if you don't know what that is to focus on improving your running as the area to improve. It will have the largest benefit.
 
-
-
 ### How many days a week should I train
 
 This is a difficult question to answer and ultimately you will need to look at your schedule to determine what you can and can't do because of your various commitments. 
@@ -191,17 +189,7 @@ In an ideal world you would run AM and perform your workouts in PM allowing you 
 
 Here are some examples from other trainers/athletes. Use them as a guide but remember everyone is different and at different stages of their fitness journey.
 
-
-
 ![](img/example-week-workout-2x.png "Strength and Aerobic Cycle")
-
-
-
-
-
-
-
-
 
 ### Where does Mobility fit
 
@@ -218,21 +206,13 @@ Including mobility into your program can be done in a few different ways:
     * Combined pushups with Xiaopeng Forward for mobility
   * Warm Up could include mobility exercises: cat cow, shoulder delocates, band exercises. Mobility before a workout can be a good prehab for injury preventation.
 
-
-
 Note: Mobilty and flexibility aren't the same thing. You might need to focus on flexibility before including mobilty.
-
-
 
 ### Burnout / Fatigue
 
 I am all for punishment but remember you are doing this to make your life better not worse. The fatigue from heavy works like hyrox simulation can totally ruin your week training if you are not a seasoned athlete and you can feel terrible because of it.
 
 It's important to listen to your body and focus on the positive for improvement. However don't use this as an excuse to skip leg day.
-
-
-
-
 
 \# Further Theory / Analysis
 
@@ -287,10 +267,6 @@ Note that even these diagrams are an oversimplification with no regards to techn
 Looks for areas of impremvent 
 
 * Select one (if you have more time to two but unl
-
-
-
-
 
 ## Theory & Further Analysis
 
@@ -389,25 +365,17 @@ Programming Fundamentals
 
 \- Once you have gained new muscle mass you can regain it quickly then the time it took to build it up
 
-  
-
 In order to program your traininig you need to chunk your programming into blocks which can be a variant in volume, resistance, tempo, frequency. The aim of the chunking process is focus on what you need most of.
 
 This chunking process is called periodisation.
 
 Proper periodisation is about creating a block, so that the next block will be successful. 
 
-
-
 An good example is to create a mass building block before a strength, then a sport specific after that. This is because creating mass via hypertophy is the root of strength. 
 
 The strength block helps maximize recuritment efficiency 
 
-
-
 1. The sport-specific power block translates that efficiency into sport-specific explosiveness
-
-
 
 Bad Example: You program an endurance block, then a sport-specific power block, then a mass block, then another endurance block, then a strength block
 
@@ -419,15 +387,11 @@ Bad Example: You program an endurance block, then a sport-specific power block, 
 
 \[reference: https://labcoatfitness.com/articles/programming-part-1-general-fundamentals-of-programming]
 
-
-
 #### Microcycle
 
 * Is the smallest training block/cycle
 * Typically a week (includes recovery also)
 * Varies the stress/intensity
-
-
 
 An athlete could increase the volume  e.g. 4 cycles to produce large mileage. The aim is help the next weeks cycle across a mesocyle
 
@@ -435,8 +399,6 @@ An athlete could increase the volume  e.g. 4 cycles to produce large mileage. Th
 
 * Typically 3-4 weeks (includes recovery also)
 * When we talk cycles generally we are referrig to mesocycles
-
-
 
 #### Macrocycle
 
@@ -450,9 +412,12 @@ An athlete could increase the volume  e.g. 4 cycles to produce large mileage. Th
   * transition phase (off-season)
 
 ## \
+
 Further Reading
 
 * https://reinforcedrunning.com/hyrox-training-program/
-* bodyweight workout plan
+* [Hyrox Bodyweight Plan](https://www.compromisedrunning.com/post/hyrox-bodyweight-training-plan/)
 
-https://www.youtube.com/watch?v=WXdyyCfQBeQ&t=309s
+<div class="img-m">{{< youtube WXdyyCfQBeQ >}}</div>
+
+<div class="img-m">{{< youtube XBZiTDjz8B0 >}}</div>
