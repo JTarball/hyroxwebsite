@@ -3,16 +3,18 @@ weight: 0
 title: Hyrox Q & A
 metaDescription: Hyrox questions & answers
 date: 2022-11-24T12:57:55.884Z
-last_updated: 2022-12-31T22:56:04+00:00
+last_updated: 2023-01-02T15:38:51+00:00
 description: ""
 image: img/qa-feature-image-v21.01.jpg
 tags:
   - Guides
 draft: false
 ---
+**Should I carry a gel or running chews?**
 
+Generally speaking **Yes** it is wise to take one gel or equivalent 45 mins into the race. 
 
-
+Now if you are performing a Hyrox around the one hour mark you can get away without taking anything but for most that's not the case.
 
 **Can you wear headphones during a race?**
 
