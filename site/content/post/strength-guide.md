@@ -3,15 +3,15 @@ weight: 0
 title: Strength Exercise Guide
 metaDescription: How to increase your strength
 date: 2022-12-31T17:04:27.452Z
-last_updated: 2023-01-02T18:41:59+00:00
+last_updated: 2023-01-02T18:53:24+00:00
 image: img/strength-structure.jpeg
 tags:
   - Max Strength
 draft: false
 ---
-Strength Cycle
 
-The real categories for basic strength:
+
+The base categories for basic strength are:
 
 * Vertical Pull
 * Horizontal Pull
@@ -19,7 +19,7 @@ The real categories for basic strength:
 * Horizontal Push
 * Core Strength
 
-Don't overcomplicate select one or two from each 
+Don't overcomplicate select one or two from each category.
 
 * Aim for small increment changes 
 * Consider the occasional variations: single leg strength, slow eccentrics 
