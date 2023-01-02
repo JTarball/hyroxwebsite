@@ -1,9 +1,9 @@
 ---
 weight: 0
-title: Who should be following?
+title: Who should you be following?
 metaDescription: Who you should be following on social media for Hyrox
 date: 2022-11-24T13:12:31.034Z
-last_updated: 2023-01-01T16:22:44+00:00
+last_updated: 2023-01-02T18:41:28+00:00
 description: Influence the influencers
 image: img/screenshot-2022-11-24-at-12.53.21.png
 tags:
