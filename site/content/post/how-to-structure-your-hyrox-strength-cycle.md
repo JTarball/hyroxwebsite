@@ -3,7 +3,7 @@ weight: 0
 title: How to structure your Hyrox Strength Cycle
 metaDescription: How to structure your strength training for Hyrox
 date: 2023-01-02T17:12:18.680Z
-last_updated: 2023-01-02T18:36:48+00:00
+last_updated: 2023-01-02T18:37:09+00:00
 image: img/strength-structure.png
 tags:
   - Guides
@@ -59,7 +59,7 @@ The following articles go into more depth on the exercises you can do to increas
 
 ### Don't Forget  Single Leg Strength
 
-Most likely if you are begineer the best bang for buck is the back squat.
+Most likely if you are beginner the best bang for buck is the back squat.
 
 Just be aware that some attention to single leg exercises will need to be given at some point e.g. split squats, romanian split squat, single leg romanian deadlifts.
 
