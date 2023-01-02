@@ -3,7 +3,7 @@ weight: 2
 title: How to Structure your Hyrox Training
 metaDescription: How to structure your programming
 date: 2022-11-24T12:36:36.667Z
-last_updated: 2023-01-02T14:34:31+00:00
+last_updated: 2023-01-02T17:20:05+00:00
 description: This is important listen up
 image: img/34-posts.homepage_preview_md.jpg
 tags:
@@ -14,6 +14,8 @@ draft: false
 Structuring your training for Hyrox is the most important thing you need to do. It will keep you motivated and ensure you are not doing the right things at the right time. The goal is to peak at the correct time (i.e. on race day) and to not burnout or injure yourself.
 
 Mostly likely you do not have a large amount of time. If you have an extended period of time then you have the time for your body to adapt and structuring your plan is useful but not essential.
+
+The other important note is that if you don't structure your programming you mostly to either do random workouts which will lead to random results (sort of) or you don't do the required work in the gym etc as you aren't held accountible to what you are doing. My point is it is very easy to go into a gym with the intention to do something and you want you end up doing is something different.
 
 To put simply you first should answer/understand the following:
 
