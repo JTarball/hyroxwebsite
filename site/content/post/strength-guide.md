@@ -1,9 +1,9 @@
 ---
 weight: 0
-title: Strength Guide
+title: Strength Exercise Guide
 metaDescription: How to increase your strength
 date: 2022-12-31T17:04:27.452Z
-last_updated: 2022-12-31T17:07:02+00:00
+last_updated: 2023-01-02T18:15:15+00:00
 tags:
   - Max Strength
 draft: false
@@ -126,7 +126,9 @@ Remember ensure you get your calories, recovery and protein in!
 
 ## Progressive Overload
 
-## Time under Tension
+## Time under Tension\
+\
+Increase Range of Motion
 
 ## Example Programming
 
