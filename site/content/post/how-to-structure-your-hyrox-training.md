@@ -3,7 +3,7 @@ weight: 2
 title: How to Structure your Hyrox Training
 metaDescription: How to structure your programming
 date: 2022-11-24T12:36:36.667Z
-last_updated: 2023-01-01T17:34:54+00:00
+last_updated: 2023-01-02T13:11:54+00:00
 description: This is important listen up
 image: img/34-posts.homepage_preview_md.jpg
 tags:
@@ -176,6 +176,39 @@ If you are a first timer to Hyrox you will likely not have the data to know what
 
 I would recommend just focusing on your weakest area and if you don't know what that is to focus on improving your running as the area to improve. It will have the largest benefit.
 
+
+
+\## Where does Mobility fit
+
+If you are like most people you will likely be lacking mobility in some areas, the trapping of modern life unfortunately. Mobility is not just a requirement for some stations in Hyrox there is an important connection between strength, flexibility and efficiency. It's not a coincidence that yoga has a positive performance effect on running.
+
+Including mobility into your program can be done in a few different ways:
+
+* Including mobility exercises daily 
+* Focus on mobility/yoga on recovery days to also aid in active recovery
+* Pre / Post / During a normal workout
+
+  * When working on classic strength you can include mobility exercises when in rest (the 1-2 mins between reps) 
+
+    * Combined pushups with Xiaopeng Forward for mobility
+  * Warm Up could include mobility exercises: cat cow, shoulder delocates, band exercises. Mobility before a workout can be a good prehab for injury preventation.
+
+
+
+Note: Mobilty and flexibility aren't the same thing. You might need to focus on flexibility before including mobilty.
+
+
+
+\## Burnout / Fatigue
+
+I am all for punishment but remember you are doing this to make your life better not worse. The fatigue from heavy works like hyrox simulation can totally ruin your week training if you are not a seasoned athlete and you can feel terrible because of it.
+
+It's important to listen to your body and focus on the positive for improvement. However don't use this as an excuse to skip leg day.
+
+
+
+
+
 \# Further Theory / Analysis
 
 Quick Start
@@ -233,11 +266,13 @@ Looks for areas of impremvent
 ## **Quick Guide**
 
 * What is your background 
-* 3/4 cyckes
+* 3/4 cycles
 
-## Further Analysis
+## Theory & Further Analysis
 
 Improving functional fitness is a difficult  to add to our understanding we can analyse the following functional fitness diagrams:
+
+## Intensity Endurance Pyramid
 
 ![Intensity Endurance Pyramid](img/pyramid-intensity.png "Intensity Endurance Pyramid")
 
@@ -257,6 +292,8 @@ Two intensity session highest volime
 
 train both ends of the ends of the pyramid
 
+## Fitness Continuum
+
 ![](img/peak-athlete.png)
 
 The following diagram could be better represented as a venn diagram however for ease of visualisation the following diagrams represents how in order to create the best athelete we must take into account all the components. 
@@ -269,29 +306,100 @@ What makes structuring your workouts so difficult is that its personal. Everyone
 
 The point here is that everyone starts at a different point and each time you focus on a specific factor it can effect the other factors.
 
-https://www.instagram.com/p/CDg2UkciQVd/?hl=en
+## Factors Affecting Hyrox
 
-HERE ARE YOUR ANSWERS🎊🏴‍☠️
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CDg2UkciQVd/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/CDg2UkciQVd/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/CDg2UkciQVd/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by 🏴‍☠️ Hyrox Daily 🏴‍☠️ (@hyroxdaily)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
 
-WHAT'S MISSING? ⬇️ LET US DISCUSS ABOUT IT⬇️
-.
-1️⃣ AEROBIC CAPACITY:
-"The maximum amount of O2 in ml an athlete can use in one minute/kg of body weight. Generally, the higher the VO2max, the higher the anaerobic threshold and the faster an athlete can go in endurance competitions without fatigue. Training can increase VO2max by up to 20%, which can be determined by graded exercise testing. It is only of academic interest as O2 consumption can’t be monitored during workouts.
-Factors affecting Size and strength of heart, concentration of oxygen-carriers in blood (haemoglobin), density of capillaries and mitochondria in the muscles, and activity of aerobic enzymes; proper training enhances these factors and increases aerobic capacity."
+\
+Consider the diagram trying to examine the factors affecting hyrox performance. Similar to the our first example however this diagram tries to explain what factors to focus on when training rather than understanding how to do your workouts.
 
-2️⃣ POWER (Functional Treshold Power):
-"Functional threshold power (FTP) is the maximum power output an athlete can maintain in a quasi-steady state without fatiguing for 1 hour. ... LT is the point at which lactate increases in the blood stream exponentially whereas FTP is the maximum effort an athlete can maintain for 1 hour without fatiguing."
+The foundation of the pyramid is aerobic capacity. This is the base for Hyrox you can produce power if you are gassed. The post how to define aerobic capacity as:
 
-For Hyroxspecific movements we also have to talk about the pure strength including in the definition of power. As an Hyrox Athlete you have to create a huge amount of endurance and strength. These two determinants together will be crucial for your overall Hyrox performance under fatigue.
+> "The maximum amount of O2 in ml an athlete can use in one minute/kg of body weight. Generally, the higher the VO2max, the higher the anaerobic threshold and the faster an athlete can go in endurance competitions without fatigue. Training can increase VO2max by up to 20%, which can be determined by graded exercise testing. It is only of academic interest as O2 consumption can’t be monitored during workouts.
+>
+> Factors affecting size and strength of heart, concentration of oxygen-carriers in blood (haemoglobin), density of capillaries and mitochondria in the muscles, and activity of aerobic enzymes; proper training enhances these factors and increases aerobic capacity."
 
-3️⃣METABOLIC CONDITIONING
-"MetCon is a set of conditioning exercises designed for the purpose of enhancing energy storage and delivery for any activity. Consider that MetCon brings circuit training to a higher level. The beauty of this style of training is that it is designed to provide a faster more efficient way to produce desired results without sacrificing any of the quality. The object of MetCon is to alter and manipulate specific variables that affect the body’s adaptation to exercise stimulus. These variables include intensity, exercise selection, sets, reps, rest intervals and time under tension. By simply changing one or two of the variables, one can target different metabolic pathways in order to prevent adaption.."
+This is why it's important to take a look at your VO2 max as an indicator. Most running watches now can track  VO2.
 
-### Periodisation Terms
+See this article on the accuracy of the optional sensor to track VO2:\
+[](https://www.youtube.com/watch?v=u-5UOPwCWHk)<div class="img-m">{{< youtube 5UOPwCWHk >}}</div>
+
+The key point here you need a strong aerobic base and you should per mesocycle or monthly be keeping an eye on your progress. Remember however that progress can feel non-linear and it's merely an indicator and if your aerobic capacity is not where it should be; focus on it!
+
+The middle section is power or (functional threshold power)
+
+Described in the post as 
+
+> Functional threshold power (FTP) is the maximum power output an athlete can maintain in a quasi-steady state without fatiguing for 1 hour. ... LT is the point at which lactate increases in the blood stream exponentially whereas FTP is the maximum effort an athlete can maintain for 1 hour without fatiguing.
+
+Your body must be used to producing power while getting rid off .
+
+When we talk threshold we mostly common associate with our ability to run @ threshold pace what we can run for a hour under medium intensity/difficulty (versus a steady state pace where we should be able to hold a conversation while running). You can apply this 'feeling' to Hyrox workouts to understand what your performance will likely be.
+
+> For Hyrox specific movements we also have to talk about the pure strength including in the definition of power. As an Hyrox Athlete you have to create a huge amount of endurance and strength. These two determinants together will be crucial for your overall Hyrox performance under fatigue.
+
+The third session of the pyramid is the tip of the spear called Metabolic Conditioning and create a variety to allow the body to adapt.
+
+> MetCon is a set of conditioning exercises designed for the purpose of enhancing energy storage and delivery for any activity. Consider that MetCon brings circuit training to a higher level. The beauty of this style of training is that it is designed to provide a faster more efficient way to produce desired results without sacrificing any of the quality. The object of MetCon is to alter and manipulate specific variables that affect the body’s adaptation to exercise stimulus. These variables include intensity, exercise selection, sets, reps, rest intervals and time under tension. By simply changing one or two of the variables, one can target different metabolic pathways in order to prevent adaption..
+
+### Programming Fundmentals and Periodisation
+
+To often someone will try to say one program is better than all others, most of the time this simply isn't the case.
+
+There are fundamentals to programming and how the body responds to exercise understanding them and help you decide what is best for you and your goals.
+
+Programming Fundamentals
+
+\- Endurance training requires mitochondrial adaption:\
+     - You can maintain 80-90% with just 2-3 sessions per week
+
+\- It can take 4/5 weeks to fully recover 10% loss that occurs in one week
+
+\- Gaining Strength happens slowly and can take years to maximize
+
+\- two weeks of inactiviyt has zero effect on mass or strength 
+
+\- 4 weeks of zero training causes small but very temporary losses 
+
+\- Recovery for 4 weeks can be recovered within 3 weeks
+
+\- Once you have gained new muscle mass you can regain it quickly then the time it took to build it up
+
+  
+
+In order to program your traininig you need to chunk your programming into blocks which can be a variant in volume, resistance, tempo, frequency. The aim of the chunking process is focus on what you need most of.
+
+This chunking process is called periodisation.
+
+Proper periodisation is about creating a block, so that the next block will be successful. 
+
+
+
+An good example is to create a mass building block before a strength, then a sport specific after that. This is because creating mass via hypertophy is the root of strength. 
+
+The strength block helps maximize recuritment efficiency 
+
+
+
+1. The sport-specific power block translates that efficiency into sport-specific explosiveness
+
+
+
+Bad Example: You program an endurance block, then a sport-specific power block, then a mass block, then another endurance block, then a strength block
+
+1. The endurance block destroys neuromuscular efficiency, which lowers your usable strength and does not build as much new mass (if any) as you needed to set the stage for a strength or power increase
+2. The power block is now unable to bring you to a new personal best level of performance because you did not add new mass OR increase your recruitment efficiency for the mass you have. You actually decreased that efficiency below what a mass block would have done
+3. The Mass block is fine, at least you’re building some new muscle mass to use and gets your body used to heavier loads again
+4. The Endurance block will once again lower neuromuscular efficiency, and also cause fiber-specific performance changes that make you unnecessarily weak as you enter the upcoming strength block
+5. The strength block will help maximise your efficiency, but you have failed to set this block up for success by placing it immediately after the mass block! If you don’t get your act together and follow a much more intelligent periodization scheme you’ll see very poor performance results for the amount of work you put in.
+
+\[reference: https://labcoatfitness.com/articles/programming-part-1-general-fundamentals-of-programming]
+
+
 
 ### Macrocycle
 
-### Mesocycle\
+### Mesocycle
 
 \
 Resources
