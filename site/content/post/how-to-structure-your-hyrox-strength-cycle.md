@@ -3,7 +3,7 @@ weight: 0
 title: How to structure your Hyrox Strength Cycle
 metaDescription: How to structure your strength training for Hyrox
 date: 2023-01-02T17:12:18.680Z
-last_updated: 2023-01-02T18:37:09+00:00
+last_updated: 2023-01-02T18:40:13+00:00
 image: img/strength-structure.png
 tags:
   - Guides
@@ -15,22 +15,24 @@ In previous articles we touched on why it's important to focus on strength in at
 ## Key Points
 
 * 3x3 or 5x5 reps
-* Focus on some core exercises
+* Focus on some a minimal set of exercises
 * Consider the posterior chain
 * Single Leg Strength is the incredibly important for Hyrox more so than Push/Pull
-* You want progressive overload and incremental gains
+* You want progressive overload and aim for incremental gains
 
 ## How to Structure
 
-The important thing to remember is that you don't want to layer other aspects of Hyrox in this cycle. On your off-days you can keep your aerobic base maintained and high but focus purely on strength in your gym workouts. To get strong you need to focus purely on strength.
-
 For your strength cycle you don't need to overcomplicate it focus on some core exercises which strength the legs and the posterior chain. If you already have a general plan stick to that as long as the two points are covered you should be fine.
 
-As mentioned previously strength can take years to maximise, connectivity tissues can take a while to form however you can't neglect this cycle.
+The important thing to remember is that you don't want to layer other aspects of Hyrox in this cycle. On your off-days you can keep your aerobic base maintained and high but focus purely on strength in your gym workouts. To get strong you need to focus purely on strength.
+
+As mentioned previously strength can take years to maximise and connectivity tissues can take a while to form however even so you can't neglect this cycle; It is fundamental!
 
 It's simple 2/3 times a week:
 
-\- Decide whether to split push/pull & lower. If beginner do a combined workout
+*   Decide whether to split push/pull & lower or do combined. If beginner do a combined strength workout
+
+Example of combined strength workout:
 
 * Choose 1-2 main exercises (See Strength Exercise Guide) targeting:
 
@@ -42,7 +44,7 @@ It's simple 2/3 times a week:
   * Horizontal Push
   * Vertical Push      
   * Core
-* You can optional splice in some plyometric/power exercises to set the foundations for some Hyrox specific movements in future mesocycles.
+* You can optionally splice in some plyometric/power exercises to set the foundations for some Hyrox specific movements in future mesocycles.
 
 See:
 
@@ -61,11 +63,11 @@ The following articles go into more depth on the exercises you can do to increas
 
 Most likely if you are beginner the best bang for buck is the back squat.
 
-Just be aware that some attention to single leg exercises will need to be given at some point e.g. split squats, romanian split squat, single leg romanian deadlifts.
+Just be aware that you will eventually need to give some attention to single leg exercises e.g. split squats, romanian split squat, single leg romanian deadlifts.
 
 ### Bodyweight Strength Training
 
-Yes, of course you can build massive strength with just bodyweight exercises however this can take a long time to form. If you not already an advanced bodyweight practioner I would not remember focusing on bodyweight exercises. Hyrox weights are heavy and if you have only 12-16 weeks you need to hit some heavy weights to see big gains!
+Yes, of course you can build massive strength with just bodyweight exercises however this can take a long time to form. If you not already an advanced bodyweight practitioner I would not remember focusing on bodyweight exercises. Hyrox weights are heavy and if you have only 12-16 weeks you need to hit some heavy weights to see big gains!
 
 ## Baseline Testing
 
