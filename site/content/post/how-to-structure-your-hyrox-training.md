@@ -3,7 +3,7 @@ weight: 2
 title: How to Structure your Hyrox Training
 metaDescription: How to structure your programming
 date: 2022-11-24T12:36:36.667Z
-last_updated: 2023-01-02T13:21:41+00:00
+last_updated: 2023-01-02T13:41:59+00:00
 description: This is important listen up
 image: img/34-posts.homepage_preview_md.jpg
 tags:
@@ -70,7 +70,7 @@ Prehab / Structure of a workout
 
 And understanding cycles of training 
 
-\# Quick Start Guide
+## Quick Start Guide
 
 Having understood the prerequisites you should be in a position to answer the following:
 
@@ -82,7 +82,7 @@ Having understood the prerequisites you should be in a position to answer the fo
 
 \* Select your first cycle
 
-\## 3 Cycle
+### 3 Cycle
 
 Strength
 
@@ -164,13 +164,13 @@ How:
 
 \- Compromised Running
 
-\## 4 Cycle
+### 4 Cycle
 
 The 4 Cycle is exactly the same as the three week cycle however you have another cycle to focus on one of the aspects which is most likely going to be your aerobic engine.
 
 The extra time also can be good to add some variations, look at specific areas of weakness or hyrox specific workouts.
 
-\## Area/s of Improvement
+### Area/s of Improvement
 
 If you are a first timer to Hyrox you will likely not have the data to know what areas to improve. Of course you can run a hyrox simulation but it has limited use.
 
@@ -178,7 +178,29 @@ I would recommend just focusing on your weakest area and if you don't know what 
 
 
 
-\## Where does Mobility fit
+### How many days a week should I train
+
+This is a difficult question to answer and ultimately you will need to look at your schedule to determine what you can and can't do because of your various commitments. 
+
+If you are more seasoned athlete or have a good base you might be able to do 5 days a week.
+
+In an ideal world you would run AM and perform your workouts in PM allowing you to do attack both components during your 12-16 week cycle. This is a strong ask for most people because of time and general fatigue but it's good to understand it so you can experiment with it. Perhaps runnng at 5:30am everyday is easy and you just need to drop you intensity to aim in energy needed for a PM workout.
+
+Here are some examples from other trainers/athletes. Use them as a guide but remember everyone is different and at different stages of their fitness journey.
+
+
+
+![](img/example-week-workout.png "Strength and Aerobic Cycle")
+
+
+
+
+
+
+
+
+
+### Where does Mobility fit
 
 If you are like most people you will likely be lacking mobility in some areas, the trapping of modern life unfortunately. Mobility is not just a requirement for some stations in Hyrox there is an important connection between strength, flexibility and efficiency. It's not a coincidence that yoga has a positive performance effect on running.
 
@@ -199,7 +221,7 @@ Note: Mobilty and flexibility aren't the same thing. You might need to focus on 
 
 
 
-\## Burnout / Fatigue
+### Burnout / Fatigue
 
 I am all for punishment but remember you are doing this to make your life better not worse. The fatigue from heavy works like hyrox simulation can totally ruin your week training if you are not a seasoned athlete and you can feel terrible because of it.
 
@@ -263,10 +285,9 @@ Looks for areas of impremvent
 
 * Select one (if you have more time to two but unl
 
-## **Quick Guide**
 
-* What is your background 
-* 3/4 cycles
+
+
 
 ## Theory & Further Analysis
 
@@ -426,9 +447,9 @@ An athlete could increase the volume  e.g. 4 cycles to produce large mileage. Th
   * transition phase (off-season)
 
 ## \
-Resources
+Further Reading
 
-* ### rich ryan
+* https://reinforcedrunning.com/hyrox-training-program/
 * bodyweight workout plan
 
 https://www.youtube.com/watch?v=WXdyyCfQBeQ&t=309s
