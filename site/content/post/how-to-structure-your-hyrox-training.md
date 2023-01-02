@@ -3,7 +3,7 @@ weight: 2
 title: How to Structure your Hyrox Training
 metaDescription: How to structure your programming
 date: 2022-11-24T12:36:36.667Z
-last_updated: 2023-01-02T13:41:59+00:00
+last_updated: 2023-01-02T13:52:51+00:00
 description: This is important listen up
 image: img/34-posts.homepage_preview_md.jpg
 tags:
@@ -190,7 +190,7 @@ Here are some examples from other trainers/athletes. Use them as a guide but rem
 
 
 
-![](img/example-week-workout.png "Strength and Aerobic Cycle")
+![](img/example-week-workout-2x.png "Strength and Aerobic Cycle")
 
 
 
