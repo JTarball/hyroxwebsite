@@ -64,8 +64,6 @@ export class TagElement extends LitElement {
 
     override render() {
 
-        console.warn(typeof this.name)
-
     return html`
         <a
         class="ay az ba bb bc bd be bf bg bh bi bj bk bl bm"
