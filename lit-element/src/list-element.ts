@@ -49,7 +49,7 @@ export class ListElement extends LitElement {
   `;
 
   override render() {
-    console.log("list-element", this.items)
+    // console.log("list-element", this.items)
     return html`
       <span class="wrapper">
         <ul>
