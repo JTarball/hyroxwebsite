@@ -23,6 +23,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", summary: '{{fields.name}}', widget: select, options: ["Welcome", "Burpee Broad Jumps", "Farmers Carry", "Full Body", "General", "Gear", "Guides", "Health and Fitness", "Hyrox Comp Analysis", "Hyrox Movement Standards", "Hyrox Workouts", "Max Strength", "Mobility", "Motivation", "Must Reads", "Nutrition", "Power Endurance", "Recovery and Health", "Resources", "Rowing", "Running", "Sandbag Lunges", "Ski Erg", "Sled Pull", "Sled Push", "Tips and Tricks", "Wall Balls"], multiple: true}
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Reviewed", name: "reviewed", widget: "boolean", default: false}
 
   # Main Pages
   - name: "pages"
