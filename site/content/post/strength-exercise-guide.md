@@ -8,6 +8,7 @@ image: img/strength-structure.jpeg
 tags:
   - Max Strength
 draft: false
+reviewed: true
 ---
 
 
@@ -19,10 +20,7 @@ The base categories for basic strength are:
 * Horizontal Push
 * Core Strength
 
-Don't overcomplicate select one or two from each category.
 
-* Aim for small increment changes 
-* Consider the occasional variations: single leg strength, slow eccentrics 
 
 ## Vertical Pulls
 
@@ -91,21 +89,14 @@ Generally for most people this is easier than the pullup given the movement enga
  - Arnold Press
  - Landmine Press
 
-
-### Overhead Press / Strict Press
-
-### Seated Dumbbell Shoulder Press
-
-### Arnold Press
-
-### Landmine Press
-
 ## Horizontal Push
 
 * Bench Press
 * Pushup
 
 ### Pushup
+
+No explanation is needed here .. it's a pushup
 
 #### Regression
 
@@ -120,9 +111,16 @@ Generally for most people this is easier than the pullup given the movement enga
 
 ## Posterior Chain
 
+* Deadlift
+* Rack Pull
+* Good Mornings
+* Pullups
+
 ### Rack Pulls
 
-The top exercise for the posterior chain is the deadlift however given the risks associated with the exercise I prefer rack pulls. Unless you are someone that trains competitively in deadlifts or has a lot of experience (and thus good technque) the risk to reward ratio is far too high. Noone wants a lower back injury, its far safer to do a romanian deadlift or a rackpull.
+The top exercise for the posterior chain is the deadlift however given the risks associated with the exercise I prefer rack pulls. 
+
+Unless you are someone that trains competitively in deadlifts or has a lot of experience (and thus good technque) the risk to reward ratio is far too high. Noone wants a lower back injury, its far safer to do a romanian deadlift or a rackpull.
 
 Rack Pull is essentially a deadlift variation where you perform the top part of the movement.
 
@@ -132,8 +130,6 @@ Goals for each rep:
 * Inhale, bend your knees slightly when gripping the bar and lift
 * Hold the weight at the top
 * Keep your back straight when lowering
-
-### Good Mornings
 
 ### Pullups
 
@@ -147,25 +143,15 @@ Although stated in above in the vertical pull section, pullups are a great way t
 
 Remember ensure you get your calories, recovery and protein in!
 
-### Rep count
-
 ### How to Progress
 
-#### Progressive Overload
+You can add some progression but tweaking the following:
 
-#### Time under Tension
-
-#### Increase Range of Motion
-
-### Example Programming
-
-Keep it simple 
-
-### Basic Strength
-
-### Single Leg Variant
-
-### Bodyweight Variant
+- Progressive Overload
+- Time under Tension
+- Increase Range of Motion
+- Single Leg Variant
+- Bodyweight Variant
 
 ## Further Reading
 

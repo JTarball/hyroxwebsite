@@ -9,6 +9,7 @@ tags:
   - Guides
   - Max Strength
 draft: false
+reviewed: true
 ---
 In previous articles we touched on why it's important to focus on strength in at least one of your cycles.
 
@@ -20,42 +21,50 @@ In previous articles we touched on why it's important to focus on strength in at
 * Single Leg Strength is the incredibly important for Hyrox more so than Push/Pull
 * You want progressive overload and aim for incremental gains
 
+<br />
+
+**Summary**: Don't overcomplicate select one or two from each category.
+
+* Aim for small increment changes 
+* Consider the occasional variations: single leg strength, slow eccentrics 
+
 ## How to Structure
 
-For your strength cycle you don't need to overcomplicate it focus on some core exercises which strength the legs and the posterior chain. If you already have a general plan stick to that as long as the two points are covered you should be fine.
+For your strength cycle you don't need to overcomplicate it. Focus on a few exercises which strengthen the legs and the posterior chain. If you already have a general plan stick to that as long as the two points are covered you should be fine.
 
-The important thing to remember is that you don't want to layer other aspects of Hyrox in this cycle. On your off-days you can keep your aerobic base maintained and high but focus purely on strength in your gym workouts. To get strong you need to focus purely on strength.
+[What is the Posterior Chain](https://www.compromisedrunning.com/post/what-is-the-posterior-chain/)
 
-As mentioned previously strength can take years to maximise and connectivity tissues can take a while to form however even so you can't neglect this cycle; It is fundamental!
+The important thing to remember is that you don't want to layer other aspects of Hyrox in this cycle. On your off-days you can keep your aerobic base maintained and high but focus purely on strength in your gym workouts. **To get strong you need to focus purely on strength.**
 
-It's simple 2/3 times a week:
+As mentioned previously, strength can take years to maximise and the connectivity tissues can take a while to form however even so ... you can't neglect this cycle; It is fundamental!
 
-*   Decide whether to split push/pull & lower or do combined. If beginner do a combined strength workout
+It's simple:
+
+* Workout 2/3 times a week
+* Decide whether to split push/pull & lower or do combined. If beginner do a combined strength workout.
 
 Example of combined strength workout:
 
 * Choose 1-2 main exercises (See Strength Exercise Guide) targeting:
-
   * Posterior Chain 
-* Then 1-2 Assessory Exercises for:
 
+* Then 1-2 Assessory Exercises for:
   * Horizontal Pull
   * Vertical Pull
   * Horizontal Push
   * Vertical Push      
   * Core
-* You can optionally splice in some plyometric/power exercises to set the foundations for some Hyrox specific movements in future mesocycles.
 
-See:
+Tip: You can optionally splice in some plyometric/power exercises to set the foundations for some Hyrox specific movements in future mesocycles.
+
+See also:
 
 [Strength Exercise Guide](https://www.compromisedrunning.com/post/strength-guide/)
 
 
 [Strength Hyrox Workouts](https://www.compromisedrunning.com/post/hyrox-strength-workouts/)
 
-The following articles go into more depth on the exercises you can do to increase your max strength as well as some other factors that can be tweaked/manulitplated such as Time under Tension, Reps.
-
-[What is the Posterior Chain](https://www.compromisedrunning.com/post/what-is-the-posterior-chain/)
+The following articles go into more depth on the exercises you can do to increase your max strength as well as some touch some other areas that can be tweaked/manulitplated such as Time under Tension, Reps.
 
 
 
@@ -97,4 +106,4 @@ Some example benchmarks:
 
 <div class="img-m">{{< youtube ha6xY2Hirag >}}</div>
 
-(https://atomic-athlete.com/maximal-strength-session-sample/)[https://atomic-athlete.com/maximal-strength-session-sample/]
+[Maximal Strength Session Sample](https://atomic-athlete.com/maximal-strength-session-sample/)

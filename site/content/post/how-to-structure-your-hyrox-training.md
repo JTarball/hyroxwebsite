@@ -10,32 +10,35 @@ tags:
   - Guides
   - Must Reads
 draft: false
+reviewed: true
 ---
-Structuring your training for Hyrox is the most important thing you need to do. It will keep you motivated and ensure you are not doing the right things at the right time. The goal is to peak at the correct time (i.e. on race day) and to not burnout or injure yourself.
+Structuring your training for Hyrox is the most important thing you need to do. It will keep you motivated and ensure you are not doing the wrong things at the wrong time. 
+
+The goal is to peak at the correct time (i.e. on race day) and to not burnout or injure yourself.
 
 Mostly likely you do not have a large amount of time. If you have an extended period of time then you have the time for your body to adapt and structuring your plan is useful but not essential.
 
-The other important note is that if you don't structure your programming you mostly to either do random workouts which will lead to random results (sort of) or you don't do the required work in the gym etc as you aren't held accountible to what you are doing. My point is it is very easy to go into a gym with the intention to do something and you want you end up doing is something different.
+The other important note is that if you don't structure your programming you mostly be either doing random workouts which will lead to random results (for the most part) or you will not be doing the required work in the gym; as you will not be held accountible to what you are doing. My point is that it is far too easy to go into a gym with the intention to do something specific and ending up doing is something different or only partially.
 
-To put simply you first should answer/understand the following:
+To put simply you must first answer/understand the following:
 
 1. What are you / do you have a background?
-2. Analyse how much time you have and demands?
-3. Understand Periodisation
-4. Choose your periodisation
-5. Find periodic tests / Do not ignore your weakness
+2. How much time do you have and what obligations do you have?
+3. Do you understand Periodisation?
+4. Do you know what period block to start from?
+5. Do you understand how to run periodic tests?
 
-Having done that you can select (See Quick Guide)
+Having done the following you should be able to:
 
-\- Choose a 3/4 Cycle
+- Choose a 3/4+ Cycle
 
-\- Choose an area/s of improvement
+- Choose an area/s of improvement
 
-\- Select your first cycle
+- Select your first cycle
 
 ## Under Your Background
 
-Everyone is different, you must understand your background so you know best what phase to start your training on to achieve the best results.
+Everyone is different, you must understand your background so you know best what phase to start your training on. Otherwises it unlikely you will achieve the best results possible.
 
 If you are a complete beginner with no specific background, I would recommend focusing on your aerobic base first.
 
@@ -45,15 +48,18 @@ If you have a strength background (a regular gym-goer focusing on bodybuilding t
 
 ## Periodisation
 
-I could probably start talking about mesocycles, macrocycles, microcycles but the reality this is very simple (See below for more detailed descriptions of the above terms):
+I could probably start talking about mesocycles, macrocycles, microcycles ... but the reality is it is very simple:
 
-\- You need to breakdown your training into phases
 
-\- Each phase is necessary so that you can see the greatest adaptation by focusing and not being too tired to work at the required intensity during a workout. E.g. in the strength phase if you are working out a day after a long run your legs could be too fatigued to adquitly allow you to progress with improve your one rep max.
+- You need to breakdown your training into phases
+
+- Each phase is necessary so that you can see the greatest adaptation by focusing and not being too tired to work at the required intensity during a workout. E.g. in the strength phase if you are working out a day after a long run your legs could be too fatigued to adquitly allow you to progress with improve your one rep max.
 
 Can you combine several things at once? Yes you can but it will not have as a good result. You need to build a strong foundation to then work from.
 
-## Analyse how much time you have and demands?
+Click [here](/post/how-to-structure-your-hyrox-training#programming-fundmentals-and-periodisation) if you interested in the detailed definitions.
+
+## Analyse how much time do you have and demands?
 
 How much time do you have before your race? Ideally you will have between 8-12 weeks. Ideally you would have between 12 - 16 weeks. 
 
@@ -72,6 +78,20 @@ Although focused on gaining strength via bodyweight exercises it. It is rather a
 Prehab / Structure of a workout 
 
 And understanding cycles of training 
+
+
+## Period Testing 
+
+Do not ignore your weaknesses.
+
+How will you know your weaknesses without testing in a controlled setting?
+
+There are many ways to do this:
+ - PFTs
+ - Hyrox Simulations
+
+Further Reading: [Recreating the Feeling](/post/how-hard-is-hyrox/#recreating-the-feeling)
+
 
 ## Quick Start Guide
 

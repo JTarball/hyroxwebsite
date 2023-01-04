@@ -10,6 +10,7 @@ tags:
   - General
   - Welcome
 draft: false
+reviewed: true
 ---
 Coined supposedly by The Running Public's Brakken Kraker, compromised running essentially means doing running before and after doing something else, this could be strength based, bodyweight or anything that is a different discipline really. 
 
@@ -21,7 +22,7 @@ For those that have even "hit the wall" during a marathon, it's very hard to run
 
 You need to be able to run after sleds. You are only on the second & third station and you can't afford to destroy your race.
 
-When you push the sled, your heart rate will spike and overtime your legs will build lactic.  
+When you push the sled, your heart rate will spike and over time your legs will build lactic.  
 
 If you can't run afterwards or do not understand the feeling you will find Hyrox very difficult.
 
@@ -43,8 +44,13 @@ You must understand the feeling and mentally be prepared for how to overcome it.
 
 </div>
 
-A beginner sled workout with compromised running, you perform a sled push then a run as many as possible in the 20 minutes. As you take no breaks it simulates the fatigue you feel in a race from not being able to take breaks however as you perform only part of the full distance so that it is easier as a beginner.
+A beginner sled workout with compromised running.
 
+You perform a sled push then a run and then the cycle repeats (as many as possible in the 20 minutes). 
+
+As you take no breaks it simulates the fatigue you feel in a race from not being able to take breaks however as you perform only part of the full distance so that it is easier as a beginner. 
+
+This allows you do a lot of a volume in an easier manner.
 
 
 ### Compromised Example 2
@@ -55,20 +61,29 @@ A beginner sled workout with compromised running, you perform a sled push then a
 
 </div>
 
-A ladder workout where you run 500m then do 20 Burpees then 20 Lunges, then 500m run 19 Burpees + 19 Lunges ... until you reach 1 rep for the burpees & lunges
+A ladder workout where you run, do burpees and then lunges until you reach 1 rep.
+
+*i.e. run 500m, 20 Burpess, 20 Lunges, 500m run, 19 Burpees, 19 Lunges ... 1 Burpee, 1 Lunge.*
+
 
 ## How do I get better at compromised running?
 
-You will need to experience the sensation in both your mind and your body in order to adapt. Running after sleds can feel horrific at times but you need to know you can recover back into your threshold/steady state running given enough time.
+You will need to experience the sensation in both your mind and your body in order to adapt. 
 
-Much like running with a heavy rucksack or backpack you might find your running form is slightly different when compromised to ensure efficiency. Don't worry too much about that.
+Running after sleds can feel horrific at times but you need to know you can recover back into your threshold/steadystate running given enough time.
+
+Much like running with a heavy rucksack or backpack you might find your running form is slightly different when compromised to ensure efficiency. Don't worry too much about that though.
+
+You need to condition yourself in compromised running - hence why it is called **conditioning**.
 
 ## How often
 
-It is dependent on the athlete but just like an interval speed run you do NOT want to do it everyday and you will need to play with intensity/volume depending on what cycle of training you are. 
+It is dependent on the athlete but just like an interval/speed training you do NOT want to do it everyday and you will need to play with intensity/volume depending on what cycle of training you are. 
 
 Once a week is more than enough. 
 
-When we talk compromised running the classic/sexy association is that of a strength/power based exercise & running e.g with sleds. While this is can make you feel like a hero make sure you don't go overboard with this. You can be smart and do some workouts as recovery as some Hyrox stations can be more cardio that strength based. If you still need to do some compromised workouts through the week that have less impact physically you can include burpees, ski erg & rowing with running increasing your cardio and compromised running at the same time.
+One thing to note is when we talk compromised running the classic/sexy association is that of a strength/power based exercise & running e.g with sleds. While this is can make you feel like a hero make sure you don't go overboard with this. 
 
-i.e. If you are legs are hammered from the impact of a long run you can mix ski ergs, cycle and a run on the treadmill to increase your cardio without the impact and pounding of a run outside.
+You can be smart and do some workouts as recovery as some Hyrox stations can be more cardio that strength based. If you still need to do some compromised workouts through the week that have less impact physically you can include burpees, ski erg & rowing with running increasing your cardio and compromised running at the same time.
+
+e.g. If your legs are hammered from the impact of a long run you can mix ski ergs, cycle and a run on the treadmill to increase your cardio without the impact and pounding of a run outside. Also it is a compromised run - bang!

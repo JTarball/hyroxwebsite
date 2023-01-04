@@ -16,7 +16,7 @@ draft: false
 **Technique Tips:**
 
 * Don't be scared to go your tip toes if you are not the tallest person
-* Take after a few pulls to get the cable going before doing your first stroke (1/4, 1/2 length...)
+* Take a few pulls to get the cable going before doing your first stroke (1/4, 1/2 length...)
 * Keep your arm bent (especially at the top of the exercise) as it will be strong
 * You need to spend significiant time to get efficient and good at the movement
 
@@ -32,13 +32,15 @@ draft: false
 
 **Technique Experimentation:**
 
-* **There are three main techniques:**
+There are three main techniques:
 * Straight Arms
 * Armpit 
 * Bent Arm
-* Experiment with different leg strides and breaks to find the optimal
 
-  * Too long breaks will take too long
+Experiment with different leg strides and breaks to find the optimal:
+
+  * Too long breaks and you will ruin your time
+  * Too short and you could redline your heart rate
 
 **Race Day Tips:**
 
@@ -46,18 +48,17 @@ draft: false
 * Have a specific number of seconds for your break/s it will stop you from wasting unnecessary time
 
 
-
 ## Strategy / Mental 
 
 You must have a strategy beforehand in order to succeed. You can't turn up on race day, make one up and expect it to be successful.
 
-You need to give this some serious though.
+You need to give this some serious though and experimentation.
 
 
 
 * Pacing
 
-  * Do you run the first 1k slow so you don't go out too hot
+  * Do you run the first 1k slow so you don't go out too hot?
 * Station Strategy
 
   * What station will you push on, which ones will you dial back on 
@@ -67,13 +68,7 @@ You need to give this some serious though.
   * Do you know when to breathe and rest per exercise
 * Mental 
 
-  * When in the pain zone do you know how you can mental continue
-
-
-
-
-
-
+  * When in the pain zone do you know how you can mentally get through it
 
 ## More
 

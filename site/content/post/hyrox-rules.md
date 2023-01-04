@@ -9,8 +9,9 @@ image: img/screenshot-2022-11-24-at-14.16.59.png
 tags:
   - Resources
 draft: false
+reviewed: true
 ---
-\
-Y﻿ou can find the rules for hyrox in pdf form here:\
-\
+
+You can find the rules for hyrox in pdf form here:
+
 <https://hyrox.com/rulebook/>

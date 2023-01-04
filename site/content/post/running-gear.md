@@ -9,6 +9,7 @@ image: img/running_gear.jpeg
 tags:
   - Gear
 draft: false
+reviewed: true
 ---
 ## Watches
 
@@ -32,7 +33,7 @@ The watch includes split times, VO2 tracking and heart rate optical sensor.
 
 ![](https://tracksmith-media.imgix.net/Fall18-Women-On-Body-Session-Pant-Charcoal.png?auto=format,compress&crop=faces&dpr=2&fit=crop&h=640&w=640)
 
-I have three pairs of these trousers literally the most comfortable versatile trouser I have. My favourite 
+I have three pairs of these trousers literally the most comfortable versatile trouser I have. My favourite. 
 
 I have run a half marathon, done power yoga in them and they are perfect for lazying about the house.
 
@@ -52,13 +53,15 @@ Ranked top of any reviews on running shorts.
 
 Unfortunately they are not the cheapest on the market but the pure comfort and quality makes it totally worth it.
 
-The carry capability is also not the greatest in the market but personally it's enough for any gels you may carry 
+The carry capability is also not the greatest in the market but personally it's enough for any gels you may carry.
 
  <https://www.tracksmith.com/gb/products/m-session-shorts?sku=MB32201BY>
 
 ## Gels
 
-Maurten is simply the best gels I have used, it should be noted that this can be a personal thing. I have known people to have issues with various gels in terms of their digestive system, I never had however if you are one of them note that maurten gels are different 'hyrogel' easier on your system during a run.
+Maurten is simply the best gels I have used, it should be noted that this can be a personal thing. I have known people to have issues with various gels in terms of their digestive system.
+
+I never had however if you are one of them note that maurten gels are a 'hyrogel' and thus easier on your system during a run.
 
 ### Maurten Gel 100 (12x40g)
 

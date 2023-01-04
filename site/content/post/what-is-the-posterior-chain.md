@@ -8,6 +8,7 @@ image: img/the-posterior-chain-1024x600_1024x1024.png.webp
 tags:
   - General
 draft: false
+reviewed: true
 ---
 A current buzzword in health & fitness circles. 
 

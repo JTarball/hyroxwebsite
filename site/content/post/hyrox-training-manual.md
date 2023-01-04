@@ -8,6 +8,7 @@ image: img/training-manual.png
 tags:
   - Resources
 draft: false
+reviewed: true
 ---
 Here is the training manual from late 2020:
 

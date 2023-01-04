@@ -8,6 +8,7 @@ image: img/training-plans-fiit.png
 tags:
   - Resources
 draft: false
+reviewed: true
 ---
 ## Online Training Plans
 

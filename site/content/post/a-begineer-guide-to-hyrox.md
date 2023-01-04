@@ -85,7 +85,13 @@ I will make it simple for you with the following statements:
   * Structure your own programme
 * Read up on movement standards
 * Experiment with tips & tricks & form
-* Decide some ways of testing your progress per 6 weeks and add them to your calendar:
+* Read the [training manual](/post/hyrox-training-manual) for Hyrox for:
+   - Alternative exercises per station
+   - An understanding of different Hyrox workouts: 
+
+       AMRAP, EMOM, Tabata ...
+
+* Decide some ways of testing your progress per 6 weeks and add them to your calendar (Read why [here](/post/how-hard-is-hyrox/#recreating-the-feeling):
    - PFT
    - Races: RunThrough 10K, Park Runs ...
    - Hyrox Class
