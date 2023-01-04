@@ -7,7 +7,7 @@ description: Hyrox Classes in London
 tags:
   - General
   - Resources
-draft: true
+draft: false
 ---
 It can be important to test your current fitness at various points in your training.
 

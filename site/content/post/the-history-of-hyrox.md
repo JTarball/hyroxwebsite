@@ -7,7 +7,6 @@ description: World Series of Fitness Racing
 image: img/his_hyrox.jpeg
 tags:
   - Welcome
-  - Guides
 draft: false
 reviewed: true
 ---
