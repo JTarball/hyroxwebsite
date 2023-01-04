@@ -3,7 +3,7 @@ weight: 0
 title: Can a beginner do a Hyrox?
 metaDescription: Can a beginner do a Hyrox
 date: 2022-11-24T12:31:54.727Z
-description: Yes
+description:
 draft: true
 image: img/8629_20221119_210308_259538092_original.jpg
 tags:
