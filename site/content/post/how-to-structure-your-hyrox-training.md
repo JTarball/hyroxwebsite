@@ -36,7 +36,7 @@ Having done the following you should be able to:
 
 - Select your first cycle
 
-## Under Your Background
+## Understand Your Background
 
 Everyone is different, you must understand your background so you know best what phase to start your training on. Otherwises it unlikely you will achieve the best results possible.
 
