@@ -3,7 +3,7 @@ weight: 0
 title: How to Fail at Hyrox
 metaDescription: What not to do at a Hyrox event
 date: 2022-11-24T13:30:33.650Z
-last_updated: 2023-01-05T15:00:17+00:00
+last_updated: 2023-01-05T15:00:33+00:00
 description: '"Success is always less funny than failure"'
 image: img/no-rep-origional-shirt-design-black-shirt-design.png
 tags:
@@ -20,7 +20,8 @@ Here is my top things NOT to do on Hyrox Race Day:
    ![](img/screenshot-2023-01-05-at-14.48.09.png)
 
    *Untrained and pushing too hard in the week before your race day*
-2. **Have no mental game or game plan at all**\
+2. **Have no mental game or game plan at all**
+
 
    ![](img/screenshot-2023-01-05-at-14.45.46.png)
 3. **Experiment with new equipment**
