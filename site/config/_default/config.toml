@@ -1,7 +1,8 @@
-baseurl = "https://www.compromisedrunning.com/"
+baseurl = "/"
+#baseurl = "https://www.compromisedrunning.com/"
 languageCode = "en-us"
 languageLang = "en"
-title = "Compromised Running - Hyrox, Resource for fitness Racing"
+title = "Compromised Running - Hyrox, Running, a resource for fitness racing content"
 description = "A resource for people looking to improve their functional fitness & racing"
 
 # RSS, categories and tags disabled for an easy start
