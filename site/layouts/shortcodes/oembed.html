@@ -6,7 +6,7 @@
 {{ $type := .Get 1 }}
 {{ $id := .Get 2 }}
 {{ $hideCaption := cond (eq (.Get 3) "hidecaption") "1" "0" }}
-{{ with getJSON "https://graph.facebook.com/v11.0/instagram_oembed/?url=https://instagram.com/" $type "/" $id "/&hidecaption=" $hideCaption "&access_token=" $appId "|" $clientToken }}
+{{ with getJSON "https://graph.facebook.com/v15.0/instagram_oembed/?url=https://instagram.com/" $type "/" $id "/&hidecaption=" $hideCaption "&access_token=" $appId "|" $clientToken }}
     {{ .html | safeHTML }}
 {{ else }}
     <div class="container-wrapper">

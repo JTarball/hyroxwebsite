@@ -88,6 +88,10 @@
       counter-increment: i;
       color: black;
     }
+	& >li p, & >li a{
+		display: inline-block;
+	}
+
 	}
 
   /* Blockquotes */

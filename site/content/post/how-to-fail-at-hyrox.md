@@ -7,33 +7,76 @@ description: '"Success is always less funny than failure"'
 image: img/no-rep-origional-shirt-design-black-shirt-design.png
 tags:
   - Must Reads
-draft: true
+draft: false
 ---
-Y﻿ou can't really even fail at HYROX unless you give up which if you are reading this article you are mostly likely not going to do. 
+You can't really even fail at HYROX unless you give up which if you are reading this article you are mostly likely not going to do. 
 
-H﻿ere is my top ten things to do on Hyrox Race Day so 
+Here is my top things NOT to do on Hyrox Race Day: 
 
-1. **Taper**
+<div style="font-size: 22px;">
 
-   U﻿ntrained and push too hard in the week before your race day
+1. **Not Taping**
+    
+    *Untrained and pushing too hard in the week before your race day*
 
-2. H﻿ave no mental game or game plan at all
-3. **E﻿xperiment with new equipment**
-4. **T﻿ry foodspring supplements for the first time on race day**
-5. R﻿un out the Tunnel thinking its a 400m sprint
+2. **Have no mental game or game plan at all**
 
-I﻿gnore all sane advice and run your PB in your first K
+3. **Experiment with new equipment**
 
-1. R﻿ed light to early
-2. H﻿it a sled wall
-3. T﻿rip on the Rope
-4. F﻿ail at Basic Mathematics
-5. G﻿uzzle Water like you are in the Sahara
+    *Wear new running shoes for the first time on race day. What could possible go wrong?*
 
-T﻿he reason why everyone is shirtless must be because we are in desert.
+4. **Try foodspring supplements for the first time on race day**
 
-1. G﻿o cowboy on Hyrox Movement Standards
-2. P﻿anic at the Wall Ball Station
-3. I﻿gnore No Reps
+    *It's free ...*
 
-V﻿olunteers can't count surely.
+5. **Run out the Tunnel thinking its a 400m sprint**
+
+    *Ignore all sane advice and run your PB in your first K*
+
+6. **Red light too early**
+
+    *Zone 5 heart rate is good right?*
+
+7. **Hit a sled wall**
+
+    *This carpet feels like sandpaper*
+
+8. **Trip on the sled rope**
+
+    <div class="img-m">
+
+    ![](img/rope-feet.jpeg "Stepping on the sled rope")
+
+    </div>
+
+9. **Fail at Basic Mathematics**
+
+    *The row comes after farmers carry .. 1, 2, 3, 4, 6, 5*
+
+10. **Guzzle Water like you are in the Sahara**
+
+    *In the roxzone see every refreshment tables as an excuse to rest and drink the whole cup of water.*
+
+    *The reason why everyone is shirtless must be because we are in desert, right?*
+
+11. **Go cowboy on hyrox movement standards**
+
+    *Burpee, fall forward, reach as far as possible, take a step*
+
+    *Lunge, drop the sandbag and claim ignorance*
+
+    *Lunge, dont stand up, lunge*
+
+12. **Panic at the Wall Ball Station**
+
+    *That target looks really high*
+
+13. **Ignore No Reps**
+
+    *Volunteers can't count surely.*
+
+14. **Like to watch the wall balls bounce**
+
+    *I miss basketball ...*
+
+</div>
