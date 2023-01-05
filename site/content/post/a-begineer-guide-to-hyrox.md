@@ -2,14 +2,14 @@
 weight: 1
 title: A Beginner Guide to Hyrox
 metaDescription: A beginner guide to Hyrox and how to get started
-date: 2022-11-24T12:33:02.352Z
-last_updated: 2022-12-30T12:46:34+00:00
+date: 2023-01-05T18:59:03.176Z
+last_updated: 2023-01-05T18:59:05+00:00
 description: it's the journey not the destination
+draft: false
+publish: true
 image: https://image.boxrox.com/2020/02/79120946_2515073272146993_2076131429325996032_o.jpg
 tags:
   - Guides
-draft: false
-publish: true
 reviewed: true
 ---
 # Introduction
