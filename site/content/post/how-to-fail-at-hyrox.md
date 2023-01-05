@@ -3,7 +3,7 @@ weight: 0
 title: How to Fail at Hyrox
 metaDescription: What not to do at a Hyrox event
 date: 2022-11-24T13:30:33.650Z
-last_updated: 2023-01-05T16:09:36+00:00
+last_updated: 2023-01-05T16:10:53+00:00
 description: '"Success is always less funny than failure"'
 image: img/no-rep-origional-shirt-design-black-shirt-design.png
 tags:
@@ -41,11 +41,11 @@ Here is my top things NOT to do on Hyrox Race Day:
 
  *It's free ...*
 
-## **Run out the Tunnel thinking its a 400m sprint**
+## **5. Run out the Tunnel thinking its a 400m sprint**
 
 *Ignore all sane advice and run your PB in your first K*
 
-## **Red light too early**
+## **6. Red light too early**
 
 *Zone 5 heart rate is good right?*
 
@@ -91,4 +91,4 @@ Here is my top things NOT to do on Hyrox Race Day:
 
 ## 14. **Like to watch the wall balls bounce**
 
- *I miss basketball ...*
+*I miss basketball ...*
