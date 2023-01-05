@@ -113,7 +113,7 @@ Having understood the prerequisites you should be in a position to answer the fo
 
 In this mesocycle you are trying to increase your maximum strength.
 
-We want to strength our posterior chain and it may make sense to split between lower & pull/push workouts so that we have the maximum adaptation.
+We want to strengthen our posterior chain and it may make sense to split between lower & pull/push workouts so that we have the maximum adaptation.
 
 This is a foundation, so much so that if you look at a lot of top Hyrox athletes in the off season they are not training Hyrox specific movements and workouts. They are often working on basic strength or isolated competencies.
 
@@ -166,7 +166,7 @@ You can include some compromised parts to any of these workouts as in the actual
 
 **Aerobic Engine**
 
-You must have a strong aerobic engine, it you are gassed you will not be able to power when needed i.e. you can be as strong as an oxe but if you are tired you will be useless.
+You must have a strong aerobic engine, if you are gassed you will not be able to execute max power when needed i.e. you can be as strong as an oxe but if you are tired you will be useless.
 
 **Think about this for a second. It is so important.**
 
@@ -189,7 +189,7 @@ How:
 
 ### 4 Cycle Block or More
 
-With four or more blocks you have 16+ weeks.
+With four or more blocks you will have 16+ weeks.
 
 A 4 Cycle is exactly the same as the three week cycle however you have another cycle to focus on one of the aspects which is most likely going to be your aerobic engine.
 
@@ -204,7 +204,7 @@ The extra time also can be good to add some variations, look at specific areas o
 
 If you are a first timer to Hyrox you will likely not have the data to know what areas to improve. Of course you can run a hyrox simulation but it has limited use.
 
-I would recommend just focusing on your weakest area and if you don't know what that is to just focus on running as your area to improve; it will have the largest benefit.
+I would recommend just focusing on your weakest area and if you don't know what that is, to just focus on running as your area to improve; it will have the largest benefit.
 
 ### How many days a week should I train
 
@@ -212,7 +212,7 @@ This is a difficult question to answer and ultimately you will need to look at y
 
 If you are more seasoned athlete or have a good base you might be able to do 5 days a week.
 
-In an ideal world you would run AM and perform your workouts in PM allowing you to do attack both components during your 12-16 week cycle. This is a strong ask for most people because of time and general fatigue but it's good to understand it so you can experiment with it. Perhaps runnng at 5:30am everyday is easy and you just need to drop you intensity to have the energy needed for a PM workout.
+In an ideal world you would run AM and perform your workouts in PM allowing you to do attack both components during your 12-16 week cycle. This is a strong ask for most people because of time and general fatigue but it's good to understand it so you can experiment with it. Perhaps running at 5:30am everyday is easy and you just need to drop you intensity to have the energy needed for a PM workout.
 
 Here are some examples from other trainers/athletes. Use them as a guide but remember everyone is different and at different stages of their fitness journey.
 
@@ -253,7 +253,7 @@ It's important to listen to your body and focus on the positive for improvement.
 
 ## Theory & Further Analysis
 
-Improving functional fitness is a difficult to add to our understanding we can analyse the following functional fitness diagrams:
+Improving functional fitness is a difficult proposition so to add to our understanding we can analyse the following functional fitness diagrams:
 
 ### Intensity Endurance Pyramid
 
