@@ -3,7 +3,7 @@ weight: 0
 title: How to Fail at Hyrox
 metaDescription: What not to do at a Hyrox event
 date: 2022-11-24T13:30:33.650Z
-last_updated: 2023-01-05T15:00:33+00:00
+last_updated: 2023-01-05T16:09:36+00:00
 description: '"Success is always less funny than failure"'
 image: img/no-rep-origional-shirt-design-black-shirt-design.png
 tags:
@@ -15,61 +15,80 @@ You can't really even fail at HYROX unless you give up which if you are reading 
 
 Here is my top things NOT to do on Hyrox Race Day: 
 
-1. **Not Tapering**
+## **1. Not Tapering**
 
-   ![](img/screenshot-2023-01-05-at-14.48.09.png)
+<div class="img-m">
 
-   *Untrained and pushing too hard in the week before your race day*
-2. **Have no mental game or game plan at all**
+![](img/screenshot-2023-01-05-at-14.48.09.png)
 
+</div>
 
-   ![](img/screenshot-2023-01-05-at-14.45.46.png)
-3. **Experiment with new equipment**
+*Untrained and pushing too hard in the week before your race day*
 
-   *Wear new running shoes for the first time on race day. What could possible go wrong?*
-4. **Try foodspring supplements for the first time on race day**
+## **2. Have no mental game or game plan at all**
 
-   *It's free ...*
-5. **Run out the Tunnel thinking its a 400m sprint**
+<div class="img-m">
 
-   *Ignore all sane advice and run your PB in your first K*
-6. **Red light too early**
+![](img/screenshot-2023-01-05-at-14.45.46.png)
 
-   *Zone 5 heart rate is good right?*
+</div>
 
-7. **Hit a sled wall**
+## **3. Experiment with new equipment**
 
-   *This carpet feels like sandpaper*
-8. **Trip on the sled rope**
+*Wear new running shoes for the first time on race day. What could possible go wrong? At least I will look good for photos ...*
 
-   ![](img/rope-feet.jpeg)
-9. **Fail at Basic Mathematics**
+## **4. Try foodspring supplements for the first time on race day**
 
-   ![](img/8629_20221119_080602_259486466_socialmedia.jpg)
+ *It's free ...*
 
-   *The row comes after farmers carry .. 1, 2, 3, 4, 6, 5*
-10. **Guzzle Water like you are in the Sahara**
+## **Run out the Tunnel thinking its a 400m sprint**
 
-    ![](img/8629_20221119_210308_259538092_original.jpg)
+*Ignore all sane advice and run your PB in your first K*
 
-    *In the roxzone see every refreshment tables as an excuse to rest and drink the whole cup of water.*
+## **Red light too early**
 
-    *The reason why everyone is shirtless must be because we are in desert, right?*
-11. **Go cowboy on hyrox movement standards**
+*Zone 5 heart rate is good right?*
 
-    *Burpee, fall forward, reach as far as possible, take a step*
+## 7. **Hit a sled wall**
 
-    *Lunge, drop the sandbag and claim ignorance*
+*This carpet feels like sandpaper*
 
-    *Lunge, dont stand up, lunge*
-12. **Panic at the Wall Ball Station**
+## 8. **Trip on the sled rope**
 
-    ![](img/wallball-bang.jpg)
+![](img/rope-feet.jpeg)
 
-    *That target looks really high*
-13. **Ignore No Reps**
+## 9. **Fail at Basic Mathematics**
 
-    *Volunteers can't count surely.*
-14. **Like to watch the wall balls bounce**
+![](img/8629_20221119_080602_259486466_socialmedia.jpg)
 
-    *I miss basketball ...*
+*The row comes after farmers carry .. 1, 2, 3, 4, 6, 5*
+
+## 10. **Guzzle Water like you are in the Sahara**
+
+![](img/8629_20221119_210308_259538092_original.jpg)
+
+*In the roxzone see every refreshment tables as an excuse to rest and drink the whole cup of water.*
+
+*The reason why everyone is shirtless must be because we are in desert, right?*
+
+## 11. **Go cowboy on hyrox movement standards**
+
+*Burpee, fall forward, reach as far as possible, take a step*
+
+*Lunge, drop the sandbag and claim ignorance*
+
+*Lunge, dont stand up, lunge*
+
+## 12. **Panic at the Wall Ball Station**
+
+![](img/wallball-bang.jpg)
+
+*That target looks really high*
+
+## 13. **Ignore No Reps**
+
+*Volunteers can't count surely.*
+
+## 14. **Like to watch the wall balls bounce**
+
+ *I miss basketball ...*
