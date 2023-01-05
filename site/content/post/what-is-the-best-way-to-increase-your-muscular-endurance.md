@@ -34,7 +34,7 @@ Being strong makes the demands easier but if you think on that for just a second
 
 There are numerous studies into the connection between maximum strength and muscular endurance. It's seems there is consensus there is a correlation but they are not agreed why and to what degree. 
 
-In the following [paper](https://www.researchgate.net/publication/263541777*Maximum_strength_and_strength_training*-_A_relationship_to_endurance) the author makes a few conclusions:
+In the following [paper](https://www.researchgate.net/publication/263541777_Maximum_strength_and_strength_training_-_A_relationship_to_endurance) the author makes a few conclusions:
 
 -  The correlation between maximum strength and muscular endurance is likely stronger for high intensity workouts (Yes Hyrox is high intensity!)
 

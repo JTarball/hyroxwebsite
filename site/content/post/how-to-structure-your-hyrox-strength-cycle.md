@@ -59,10 +59,10 @@ Tip: You can optionally splice in some plyometric/power exercises to set the fou
 
 See also:
 
-[Strength Exercise Guide](https://www.compromisedrunning.com/post/strength-guide/)
+[Strength Exercise Guide](/post/strength-exercise-guide/)
 
 
-[Strength Hyrox Workouts](https://www.compromisedrunning.com/post/hyrox-strength-workouts/)
+[Strength Hyrox Workouts](/post/hyrox-strength-workouts/)
 
 The following articles go into more depth on the exercises you can do to increase your max strength as well as some touch some other areas that can be tweaked/manulitplated such as Time under Tension, Reps.
 
