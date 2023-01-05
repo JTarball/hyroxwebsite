@@ -3,7 +3,7 @@ weight: 0
 title: How to Fail at Hyrox
 metaDescription: What not to do at a Hyrox event
 date: 2022-11-24T13:30:33.650Z
-last_updated: 2023-01-05T14:59:08+00:00
+last_updated: 2023-01-05T15:00:17+00:00
 description: '"Success is always less funny than failure"'
 image: img/no-rep-origional-shirt-design-black-shirt-design.png
 tags:
@@ -35,10 +35,11 @@ Here is my top things NOT to do on Hyrox Race Day:
 6. **Red light too early**
 
    *Zone 5 heart rate is good right?*
-7. **Hit a sled wall**\
+
+7. **Hit a sled wall**
 
    *This carpet feels like sandpaper*
-8. **Trip on the sled rope**\
+8. **Trip on the sled rope**
 
    ![](img/rope-feet.jpeg)
 9. **Fail at Basic Mathematics**
@@ -46,7 +47,7 @@ Here is my top things NOT to do on Hyrox Race Day:
    ![](img/8629_20221119_080602_259486466_socialmedia.jpg)
 
    *The row comes after farmers carry .. 1, 2, 3, 4, 6, 5*
-10. **Guzzle Water like you are in the Sahara**\
+10. **Guzzle Water like you are in the Sahara**
 
     ![](img/8629_20221119_210308_259538092_original.jpg)
 
