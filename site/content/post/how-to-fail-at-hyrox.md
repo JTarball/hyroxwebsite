@@ -45,7 +45,7 @@ Here is my top things NOT to do on Hyrox Race Day:
 
 *Ignore all sane advice and run your PB in your first K*
 
-## **6. Red light too early**
+## **6. Red line too early**
 
 *Zone 5 heart rate is good right?*
 
