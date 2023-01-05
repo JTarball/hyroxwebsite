@@ -20,7 +20,7 @@ ignoreErrors = ["error-remote-getjson"]
       unsafe = true
 
 [sitemap]
-  changefreq = 'always'
+  changefreq = 'daily'
   filename = 'sitemap.xml'
   priority = 0.5
 

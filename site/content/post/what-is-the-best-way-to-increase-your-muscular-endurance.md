@@ -67,7 +67,7 @@ Knowing the feeling when you are 75 reps into the sandbag lunges and having some
 
 Everyone has different coping methods when in the 'pain zone'
 
-Here are a few that I have heard or used in the past:
+Here are a few that I have heard of or used in the past:
 
 * Maths
 * Sets of X 
