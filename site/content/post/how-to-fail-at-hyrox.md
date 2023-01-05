@@ -3,7 +3,7 @@ weight: 0
 title: How to Fail at Hyrox
 metaDescription: What not to do at a Hyrox event
 date: 2022-11-24T13:30:33.650Z
-last_updated: 2023-01-05T14:36:51+00:00
+last_updated: 2023-01-05T14:47:23+00:00
 description: '"Success is always less funny than failure"'
 image: img/no-rep-origional-shirt-design-black-shirt-design.png
 tags:
@@ -21,6 +21,10 @@ Here is my top things NOT to do on Hyrox Race Day:
 
    *Untrained and pushing too hard in the week before your race day*
 2. **Have no mental game or game plan at all**
+
+   ![](img/screenshot-2023-01-05-at-14.45.46.png)
+
+
 3. **Experiment with new equipment**
 
    *Wear new running shoes for the first time on race day. What could possible go wrong?*
@@ -44,10 +48,13 @@ Here is my top things NOT to do on Hyrox Race Day:
    ![](img/8629_20221119_080602_259486466_socialmedia.jpg)
 
    *The row comes after farmers carry .. 1, 2, 3, 4, 6, 5*
-10. **Guzzle Water like you are in the Sahara**
+10. **Guzzle Water like you are in the Sahara**\
+    <div class="img-m">
 
     ![](img/8629_20221119_210308_259538092_original.jpg)
 
+    *</div>*\
+    \
     *In the roxzone see every refreshment tables as an excuse to rest and drink the whole cup of water.*
 
     *The reason why everyone is shirtless must be because we are in desert, right?*
@@ -59,6 +66,8 @@ Here is my top things NOT to do on Hyrox Race Day:
 
     *Lunge, dont stand up, lunge*
 12. **Panic at the Wall Ball Station**
+
+    ![](img/img-20221124-wa0005.jpg)
 
     *That target looks really high*
 13. **Ignore No Reps**
