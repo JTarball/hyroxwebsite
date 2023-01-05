@@ -10,7 +10,7 @@
 	<div class="primary-nav flex">
 		<ul class=" flex b grey-3">
 			{{ $isHyrox := cond (eq .Type "hyrox") true false }}
-			<li><a href="/hyrox" class='pa2 no-underline db {{ if $isHyrox }} nav-active {{ end }}'>Hyrox</a></li>
+			<li><a href="/hyrox" class='pa2 no-underline db {{ if $isHyrox }} nav-active {{ end }} {{ if .IsHome }} nav-active {{ end }}'>Hyrox</a></li>
 			{{ $isRunning := cond (eq .Type "running") true false }}
 			<li><a href="/running" class='disabled pa2 no-underline db {{ if $isRunning }} nav-active {{ end }}'>Running</a></li>
 			{{ $isDiscover := cond (eq .Type "discover") true false }}

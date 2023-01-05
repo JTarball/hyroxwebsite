@@ -1,28 +1,133 @@
-{{ with .GetPage "/hyrox" }}{{.Render}}{{end}}
-
-<!-- {{ define "main" }}
+{{ define "main" }}
+<!-- This is a duplicate TODO make a partial but for now make sure you change hyrox/list.html as well -->
 
 <style>
-    [data-slate-editor] { 
-        -webkit-user-modify: read-write !important; 
-    }
+  [data-slate-editor] { 
+      -webkit-user-modify: read-write !important; 
+  }
 </style>
 
+{{ $items_hyrox_welcome := slice }} 
+{{ $items_hyrox_guides := slice }} 
+{{ $items_hyrox_resources := slice }}
+{{ $items_hyrox_must_reads := slice }} 
+{{ $items_hyrox_workouts := slice }}
+{{ $items_hyrox_recovery := slice }}
+{{ $items_hyrox_gear := slice }} 
+{{ range (where (where .Site.RegularPages.ByWeight "Type" "post" ) "Draft" false ) }}
+
+  {{ if in .Params.tags "Welcome"   }}
+    {{ $items_hyrox_welcome = $items_hyrox_welcome | append (dict "name" .Title "href" .RelPermalink )  }}
+  {{ end }}
+
+  {{ if in .Params.tags "Guides"   }}
+    {{ $items_hyrox_guides = $items_hyrox_guides | append (dict "name" .Title "href" .RelPermalink )  }}
+  {{ end }}
+
+  {{ if in .Params.tags "Resources"   }}
+    {{ $items_hyrox_resources = $items_hyrox_resources | append (dict "name" .Title "href" .RelPermalink )  }}
+  {{ end }}
+
+  {{ if in .Params.tags "Must Reads"   }}
+    {{ $date := .Date.Format "Mon, Jan 2, 2006"  }}
+    {{ $items_hyrox_must_reads = $items_hyrox_must_reads | append (dict "name" .Title "href" .RelPermalink "content" .Plain "date" $date "tags" .Params.tags "image" .Params.image)  }}
+  {{ end }}
+
+  {{ if in .Params.tags "Hyrox Workouts"   }}
+    {{ $date := .Date.Format "Mon, Jan 2, 2006"  }}
+    {{ $items_hyrox_workouts = $items_hyrox_workouts | append (dict "name" .Title "href" .RelPermalink "content" .Plain "date" $date "tags" .Params.tags "image" .Params.image)  }}
+  {{ end }}
+
+  {{ if in .Params.tags "Recovery and Health"   }}
+    {{ $items_hyrox_recovery = $items_hyrox_recovery | append (dict "name" .Title "href" .RelPermalink )  }}
+  {{ end }}
+
+  {{ if in .Params.tags "Gear"   }}
+    {{ $items_hyrox_gear = $items_hyrox_gear | append (dict "name" .Title "href" .RelPermalink )  }}
+  {{ end }}
+
+{{ end }}
 
 
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "description" .Params.description "IsHome" .IsHome) }}
+<dashboard-element>
+  <div slot="first-1">
+    <list-element title="Welcome" items={{ $items_hyrox_welcome | jsonify }}></list-element>
+  </div>
 
-<!-- {{ partial "short-text" .Params.blurb}} -->
+  <div slot="first-2">
+    <list-element title="Guides" items={{ $items_hyrox_guides | jsonify }}></list-element>
+  </div>
+
+  <div slot="first-3">
+    <list-element title="Resources" items={{ $items_hyrox_resources | jsonify }}></list-element>
+  </div>
+
+  <div slot="second">
+    {{ range first 5 $items_hyrox_must_reads }}
+        <simple-mini-card-element item={{ . | jsonify }}></simple-mini-card-element>
+    {{ end }}
+    <tag-element name="more" href="/discover/must-reads"></tag-element>
+  </div>
+
+  <div slot="third">
+    {{ range first 6 $items_hyrox_workouts }}
+        <simple-mini-card-element hideDate tagDisplayCount=2 ignoreTagText="Hyrox Workouts" theme="minimal-small" item={{ . | jsonify }}></simple-mini-card-element>
+    {{ end }}
+    <tag-element name="more" href="/discover/hyrox-workouts"></tag-element>
+    {{ partial "pagination" . }}
+  </div>
+
+
+  <div slot="fourth-1">
+    <discover-card-element title="Discover">
+			{{ range (where .Site.RegularPages "Type" "discover" ) }}
+        {{ if .Params.display }}
+          <tag-element name="{{.Title}}"></tag-element>
+        {{ end }}
+			{{ end }}
+    </discover-card-element>
+  </div>
+
+  <div slot="fourth-2">
+    <list-element title="Recovery & Health" items={{ $items_hyrox_recovery | jsonify }}></list-element>
+  </div>
+
+  <div slot="fourth-3">
+    <list-element title="Gear" items={{ $items_hyrox_gear | jsonify }}></list-element>
+  </div>
+
+</dashboard-element>
+
+<div class="mw7 center">
+  <span class="sectionTitle">Latest Stories</span>
+  <div id="blog-list" class="flex-1 flex-wrap mhn1-ns pa3" style="display: flex; flex-direction: row;">
+      {{ range (where .Site.RegularPages.ByPublishDate.Reverse "Type" "post" ) }}
+          <div class="w-50-ns ph1-ns col2">
+            {{ .Render "li-big"}}
+          </div>
+      {{ end }}
 
 <!-- 
+			{{ $paged := (where .Site.RegularPages "Type" "page") }} {{ $paginator := .Paginate $paged 8 }}
+			{{ $paged | jsonify (dict "indent" " ") }} 
 
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }} -->
+			{{ $paginator | jsonify (dict "indent" " ") }}
 
-<!-- {{ partial "blog" . }} -->
+			{{ range $paginator.Pages }}
+        <div class="w-50-ns ph1-ns col2">
+          {{ .Render "li-big"}}
+        </div>
+			{{ end }} -->
 
-
+  </div>
+  {{ partial "pagination" . }}
+</div>
 
 <script type="module" src="/js/my-element.bundled.js"></script>
 
-{{ end }} -->
+{{end}}
+
+
+
+
