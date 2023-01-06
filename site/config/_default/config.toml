@@ -1,5 +1,5 @@
 baseurl = "/"
-#baseurl = "https://www.compromisedrunning.com/"
+enableGitInfo = true
 languageCode = "en-us"
 languageLang = "en"
 title = "Compromised Running - Hyrox, Running, a resource for fitness racing content"
@@ -14,6 +14,9 @@ enableRobotsTXT = true
 disqusShortname = 'compromisedrunning'
 ignoreErrors = ["error-remote-getjson"]
 
+
+[frontmatter]
+  lastmod = [':git', 'last_updated', 'date']
 
 [markup]
   [markup.goldmark]
