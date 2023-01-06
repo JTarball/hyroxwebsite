@@ -66,7 +66,7 @@ const it=t=>i=>"function"==typeof i?((t,i)=>(customElements.define(t,i),i))(t,i)
             color: inherit; /* blue colors for links too */
             text-decoration: inherit; /* no underline */
         }
-    `,nt([st()],rt.prototype,"title",void 0),rt=nt([it("discover-card-element")],rt);var lt=function(t,i,e,s){for(var o,n=arguments.length,r=n<3?i:null===s?s=Object.getOwnPropertyDescriptor(i,e):s,l=t.length-1;l>=0;l--)(o=t[l])&&(r=(n<3?o(r):n>3?o(i,e,r):o(i,e))||r);return n>3&&r&&Object.defineProperty(i,e,r),r};let at=class extends Y{constructor(){super(...arguments),this.name="",this.hoverColour="black",this.href="",this.active=!1,this.huge=!1}firstUpdated(){this.style.setProperty("--color",this.hoverColour)}render(){return console.warn(typeof this.name),H`
+    `,nt([st()],rt.prototype,"title",void 0),rt=nt([it("discover-card-element")],rt);var lt=function(t,i,e,s){for(var o,n=arguments.length,r=n<3?i:null===s?s=Object.getOwnPropertyDescriptor(i,e):s,l=t.length-1;l>=0;l--)(o=t[l])&&(r=(n<3?o(r):n>3?o(i,e,r):o(i,e))||r);return n>3&&r&&Object.defineProperty(i,e,r),r};let at=class extends Y{constructor(){super(...arguments),this.name="",this.hoverColour="black",this.href="",this.active=!1,this.huge=!1}firstUpdated(){this.style.setProperty("--color",this.hoverColour)}render(){return H`
         <a
         class="ay az ba bb bc bd be bf bg bh bi bj bk bl bm"
         rel="noopener follow"
@@ -410,7 +410,7 @@ const it=t=>i=>"function"==typeof i?((t,i)=>(customElements.define(t,i),i))(t,i)
     .image {
       object-fit: cover;
     }
-  `,ct([st({type:String})],pt.prototype,"theme",void 0),ct([st({type:String})],pt.prototype,"ignoreTagText",void 0),ct([st({type:Boolean,reflect:!0})],pt.prototype,"hideTags",void 0),ct([st({type:Boolean,reflect:!0})],pt.prototype,"hideDate",void 0),ct([st({type:Object,reflect:!1})],pt.prototype,"item",void 0),ct([st({type:Number})],pt.prototype,"tagDisplayCount",void 0),pt=ct([it("simple-mini-card-element")],pt);var vt=function(t,i,e,s){for(var o,n=arguments.length,r=n<3?i:null===s?s=Object.getOwnPropertyDescriptor(i,e):s,l=t.length-1;l>=0;l--)(o=t[l])&&(r=(n<3?o(r):n>3?o(i,e,r):o(i,e))||r);return n>3&&r&&Object.defineProperty(i,e,r),r};let ut=class extends Y{constructor(){super(...arguments),this.title="",this.items=[]}render(){return console.log("list-element",this.items),H`
+  `,ct([st({type:String})],pt.prototype,"theme",void 0),ct([st({type:String})],pt.prototype,"ignoreTagText",void 0),ct([st({type:Boolean,reflect:!0})],pt.prototype,"hideTags",void 0),ct([st({type:Boolean,reflect:!0})],pt.prototype,"hideDate",void 0),ct([st({type:Object,reflect:!1})],pt.prototype,"item",void 0),ct([st({type:Number})],pt.prototype,"tagDisplayCount",void 0),pt=ct([it("simple-mini-card-element")],pt);var vt=function(t,i,e,s){for(var o,n=arguments.length,r=n<3?i:null===s?s=Object.getOwnPropertyDescriptor(i,e):s,l=t.length-1;l>=0;l--)(o=t[l])&&(r=(n<3?o(r):n>3?o(i,e,r):o(i,e))||r);return n>3&&r&&Object.defineProperty(i,e,r),r};let ut=class extends Y{constructor(){super(...arguments),this.title="",this.items=[]}render(){return H`
       <span class="wrapper">
         <ul>
           <span class="text">${this.title}</span>
