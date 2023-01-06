@@ -1,6 +1,6 @@
 <head>
 
-  <title>{{ .Title }} | {{ $.Site.Title }}</title>
+  <title>{{ .Title | default $.Site.Title }}</title>
 
   {{ $stylesheet := .Site.Data.webpack.main }}
   {{ with $stylesheet.css }}
@@ -37,7 +37,7 @@
 		<meta property="og:type" content="website">
 		<meta property="og:image" content="/img/og-image.jpg">
 		<meta property="og:title" content="Compromised Running | A resource for people looking to improve their functional fitness & racing">
-		<meta property="og:description" content="{{ site.Params.Description }}">
+		<meta property="og:description" content="{{ site.Params.Description | default .Params.Description }}">
 	{{- else -}}
 		<meta property="og:url" content="https://www.compromisedrunning.com/{{ .RelPermalink }}">
 		<meta property="og:type" content="article" />

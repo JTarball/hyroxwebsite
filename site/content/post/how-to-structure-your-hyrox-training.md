@@ -1,7 +1,7 @@
 ---
 weight: 2
 title: How to Structure your Hyrox Training
-metaDescription: How to structure your programming
+metaDescription: How to structure your hyrox programming
 date: 2022-11-24T12:36:36.667Z
 last_updated: 2023-01-02T17:31:44+00:00
 description: This is important listen up
