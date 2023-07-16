@@ -1,0 +1,133 @@
+{{ $w := default "100" (.Get 0) }}
+{{ $h := default "300" (.Get 1) }}
+{{ $r := ( .Inner | chomp) }}
+{{ $seed := "foo" }}
+{{ $id := delimit (shuffle (split (md5 $seed) "" )) "" }}
+
+<div style="width: {{ $w }}%;height: {{ $h }}px;margin: 0 auto">
+    <canvas id="{{ $id }}"></canvas>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.3.0/dist/chart.umd.min.js"></script>
+<script src="
+https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js
+"></script>
+<!-- <script src="
+https://cdn.jsdelivr.net/npm/chartjs-adapter-moment@1.0.1/dist/chartjs-adapter-moment.min.js
+"></script> -->
+<script src="
+https://cdn.jsdelivr.net/npm/chartjs-plugin-trendline@2.0.3/src/chartjs-plugin-trendline.min.js
+"></script>
+<script src="
+https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.0.1/dist/chartjs-plugin-annotation.min.js
+"></script>
+
+<script type="text/javascript">
+    function TrendLineFitter()
+    {
+        this.count = 0;
+        this.sumX = 0;
+        this.sumX2 = 0;
+        this.sumXY = 0;
+        this.sumY = 0;
+    }
+
+    TrendLineFitter.prototype = {
+        'add': function(x, y)
+        {
+            this.count++;
+            this.sumX += x;
+            this.sumX2 += x*x;
+            this.sumXY += x*y;
+            this.sumY += y;
+        },
+        'project': function(x)
+        {
+            var det = this.count * this.sumX2 - this.sumX * this.sumX;
+            var offset = (this.sumX2 * this.sumY - this.sumX * this.sumXY) / det;
+            var scale = (this.count * this.sumXY - this.sumX * this.sumY) / det;
+            return offset + x * scale;
+        }
+    };
+
+    function trendLinearProject(data, x)
+    {
+        var fitter = new TrendLineFitter();
+        for (var i = 0; i < data.length; i++)
+        {
+            fitter.add(i, data[i]);
+        }
+        return fitter.project(x);
+    }
+
+    function first_ts(ctx) {
+      const data = ctx.chart.data.datasets[0].data;
+      const values =  data.map(({ y }) => y)
+      return values[0];
+    }
+
+    function trend_ts(ctx) {
+      const data = ctx.chart.data.datasets[0].data;
+      const values =  data.map(({ y }) => y)
+      return trendLinearProject(values, values.length);
+    }
+
+    function isTrendingUp(startVal, projectedVal) {
+        return projectedVal > startVal;
+    }
+
+    function average_ts(ctx) {
+      console.log(ctx);
+      const data = ctx.chart.data.datasets[0].data;
+      const values =  data.map(({ y }) => y)
+      console.log(values.reduce((a, b) => a + b, 0) / values.length)
+      return values.reduce((a, b) => a + b, 0) / values.length;
+    }
+
+    const averageAnnotation = {
+      type: 'line',
+      borderColor: 'black',
+      borderDash: [6, 6],
+      borderDashOffset: 0,
+      borderWidth: 1,
+      label: {
+        display: true,
+        content: (ctx) => 'Average: ' + average_ts(ctx).toFixed(2) + ' bpm',
+        position: 'end'
+      },
+      scaleID: 'y',
+      value: (ctx) => average_ts(ctx),
+    };
+
+
+    const trendAnnotation = {
+      type: 'line',
+      borderColor: 'black',
+      color: 'yellow',
+      borderDash: [6, 6],
+      borderDashOffset: 0,
+      borderWidth: 1,
+      label: {
+        display: true,
+        content: (ctx) => {
+            const projectedVal = trend_ts(ctx).toFixed(2);
+            const startVal = first_ts(ctx).toFixed(2);
+            console.log("danvir", ctx, projectedVal, startVal);
+            if (isTrendingUp(startVal, projectedVal)) {
+                return 'Trending UP ' + projectedVal + ' (+' + (projectedVal - startVal).toFixed(2) + ')';
+            }
+            else {
+                return 'Trending DOWN ' + projectedVal + ' (-' + (projectedVal - startVal).toFixed(2) + ')';
+            }
+        },
+        position: 'end'
+      },
+      scaleID: 'y',
+      value: (ctx) => first_ts(ctx),
+      endValue: (ctx) => trend_ts(ctx)
+    };
+
+
+    var ctx = document.getElementById('{{ $id }}').getContext('2d');
+    var options = {{ $r | safeJS }};
+    new Chart(ctx, options);
+</script>
