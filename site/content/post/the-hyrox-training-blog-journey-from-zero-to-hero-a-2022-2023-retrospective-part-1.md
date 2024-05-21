@@ -1,9 +1,9 @@
 ---
-weight: 0
+weight: 10
 title: The Hyrox Training Blog - Journey from Zero to Hero - A Retrospective Part 1
 metaDescription: "Hyrox Training Blog A year "
 date: 2024-05-21T15:46:55.504Z
-last_updated: 2024-05-21T17:16:29+01:00
+last_updated: 2024-05-21T17:18:09+01:00
 description: "I'm a fortysomething dad of four with a love for beer, pizza, and
   casual gym sessions. When a friend introduced me to HYROX—a tough indoor race
   blending running and strength workouts—my fitness routine took a serious turn.
@@ -11,7 +11,6 @@ description: "I'm a fortysomething dad of four with a love for beer, pizza, and
   path to competing in HYROX. "
 image: img/pg_training.jpg
 tags:
-  - Welcome
   - Must Reads
 draft: false
 reviewed: false
@@ -64,7 +63,8 @@ Then have a family evening on the Saturday, escort them to the airport Sunday mo
 
 I feel I have been eating and drinking way too much but with my move into a physical job plus the training, I have been keeping the weight generally at bay but still have a midriff which bugs me. I wish I was more disciplined and there is no reason why I cannot look after myself better but well there are no excuses I am willing to write. The summer months are passing. Family holiday to France under my belt (with lots of eating and drinking) and the autumn months are fast approaching.
 
-Follow my journey as I navigate the trials of training, balancing family life, and pursuing a newfound passion for HYROX. Will I conquer the race or fall to pieces? Stay tuned to Part 2!
+*Follow my journey as I navigate the trials of training, balancing family life, and pursuing a newfound passion for HYROX. Will I conquer the race or fall to pieces? Stay tuned to Part 2!*
 
 Thanks, 
+</br>
 James
