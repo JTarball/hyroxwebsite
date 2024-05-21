@@ -1,18 +1,19 @@
 ---
 weight: 0
-title: The Hyrox Training Blog - Journey from Zero to Hero - A 2022-2023
-  Retrospective Part 1
+title: The Hyrox Training Blog - Journey from Zero to Hero - A Retrospective Part 1
 metaDescription: "Hyrox Training Blog A year "
 date: 2024-05-21T15:46:55.504Z
-last_updated: 2024-05-21T17:11:33+01:00
+last_updated: 2024-05-21T17:16:29+01:00
 description: "I'm a fortysomething dad of four with a love for beer, pizza, and
   casual gym sessions. When a friend introduced me to HYROX—a tough indoor race
   blending running and strength workouts—my fitness routine took a serious turn.
   Join me as I juggle family life, tackle training, and navigate setbacks on my
   path to competing in HYROX. "
+image: img/pg_training.jpg
 tags:
   - Welcome
-draft: true
+  - Must Reads
+draft: false
 reviewed: false
 ---
 # 1 – December 2022 – What the..?
