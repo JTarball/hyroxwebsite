@@ -3,7 +3,7 @@ weight: 10
 title: The Hyrox Training Blog - Journey from Zero to Hero - A Retrospective Part 2
 metaDescription: "Hyrox Training Blog A year "
 date: 2024-06-01T22:22:59.095Z
-last_updated: 2024-06-01T23:25:30+01:00
+last_updated: 2024-06-01T23:28:11+01:00
 description: "I'm a fortysomething dad of four with a love for beer, pizza, and
   casual gym sessions. When a friend introduced me to HYROX—a tough indoor race
   blending running and strength workouts—my fitness routine took a serious turn.
@@ -14,6 +14,10 @@ tags:
 draft: true
 reviewed: false
 ---
+
+Read Part 1 [Here](https://www.compromisedrunning.com/post/the-hyrox-training-blog-journey-from-zero-to-hero-a-2022-2023-retrospective-part-1/)
+
+
 # 7 – November 2023 – First HYROX Part 1
 
 It felt rushed but we had a bit of time at Gatwick before our departure so we were able have a decent meal rather than feed the kids £20 melted plastic toasties courtesy of a well-known low budget airline with orange livery. By the time we got to our Airbnb in Barcelona it was pretty late though and we had a nightmare trying to get in and plenty of other problems with the accommodation which I will not go into here. Briefly though, I complained and got £100 back as a refund. Beer money.
