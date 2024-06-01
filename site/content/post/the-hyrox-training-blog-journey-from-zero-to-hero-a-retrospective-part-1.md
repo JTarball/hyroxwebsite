@@ -1,9 +1,9 @@
 ---
 weight: 10
-title: The Hyrox Training Blog - Journey from Zero to Hero - A Retrospective Part 1
+title: The Hyrox Training Blog - Journey from Zero to Hero - A Retrospective Part 2
 metaDescription: "Hyrox Training Blog A year "
 date: 2024-06-01T22:22:59.095Z
-last_updated: 2024-06-01T23:25:12+01:00
+last_updated: 2024-06-01T23:25:30+01:00
 description: "I'm a fortysomething dad of four with a love for beer, pizza, and
   casual gym sessions. When a friend introduced me to HYROX—a tough indoor race
   blending running and strength workouts—my fitness routine took a serious turn.
