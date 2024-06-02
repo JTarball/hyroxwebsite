@@ -3,7 +3,7 @@ weight: 10
 title: The Hyrox Training Blog - Journey from Zero to Hero - A Retrospective Part 2
 metaDescription: Hyrox Training Blog
 date: 2024-06-02T07:36:40.578Z
-last_updated: 2024-06-02T08:37:19+01:00
+last_updated: 2024-06-02T08:42:19+01:00
 description: "I'm a fortysomething dad of four with a love for beer, pizza, and
   casual gym sessions. When a friend introduced me to HYROX—a tough indoor race
   blending running and strength workouts—my fitness routine took a serious turn.
@@ -65,9 +65,11 @@ I got there way too early. The map was not simplest with run 1 being two and a b
 
 I did not feel nervous or anything. Just keen to pace myself, take things easy and did not feel any pressure to push myself. I love the build-up in the start area. Flashing lights, the countdown, the music, the anticipation. Nothing quite like it. I was second to last out of the start area which very quickly became last as the man behind me thundered past. After the mistake in Barcelona I was pretty focused on getting the laps correct. There was a massive screen that you run past which displays what you are on and what is next. Simple. Everything was going well.
 
+
+
+![ski erg](img/whatsapp-image-2024-06-02-at-08.24.58-4-.jpeg "ski erg")
+
 Sleds felt surprisingly comfortable. Struggled on the farmers which I expected as I just cannot hold onto those dam things for 200m. But as I hit run 7, I developed quite an acute pain at the bottom of my calf muscle and started hobbling. This made the lunges particularly arduous and photos of me were entertaining but my time was ok. It was when I hit the wall balls though where I really struggled. Just could not get into a rhythm and my calf was searing away. I was doing like 6 or 7 at time and ended up completing this station in 9:09. What a disappointment! My overall time was 1:22:45.
-
-
 
 ![pull](img/whatsapp-image-2024-06-02-at-08.24.58-2-.jpeg "Sled pull")
 
