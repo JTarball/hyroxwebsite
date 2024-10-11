@@ -3,7 +3,8 @@ weight: 0
 title: The Hyrox Training Blog - Part 3 Gdansk + Future
 metaDescription: Hyrox training blog
 date: 2024-10-11T10:25:21.661Z
-last_updated: 2024-10-11T11:34:26+01:00
+last_updated: 2024-10-11T18:01:11+01:00
+description: "Post Olympia, Gdansk and Milan... "
 image: img/12584_20240526_133445_364826013_socialmedia.jpg
 tags:
   - Must Reads
@@ -19,8 +20,6 @@ So I am 9 days out and needing to limit my exposure to running I had to improvis
 Saturday came round quickly as anticipated. I had my journey to Stansted airport all planned out but then, engineering works and rail replacement buses. Arrgghh. I managed to negotiate with the Mrs though and she and the kids got out of bed early and kindly drove me part of the way so I could get to the airport in good time. I found a nice spot in Wetherspoons overlooking the runway for eggs benedict and tea. No pint and a massive fry up for me. I had a race the next day.
 
 # 14 - May 2024 – Gdansk Part 1
-
-
 
 ![hyrox time](img/12584_20240526_145653_364837750_socialmedia.jpg "Hyrox Time")
 
@@ -46,7 +45,7 @@ I had low expectations but the application window was narrow so I just thought w
 
 After two weeks away from the gym I was pleased to get back to it. I do not necessary love the gym but there is an element where you feel previous hard work is being undone and I cannot be dealing with that. As time has gone by and my thirst for improvement carries on, my knowledge of how to train for this type of race is growing. I would love to have visually documented the journey I am on but I am way too private for that so this typing will have to do for now. There is a lot of technicalities about my racing I want to address and I have considered personal training but like hell am I going to pay for a coach.
 
-17 - June 2024 – Impatience strikes again
+# 17 - June 2024 – Impatience strikes again
 
 So the London ballot. I have been posting so much about this ballot on Facebook I think people are genuinely getting sick of my name appearing on their screens. I had arranged to meet a mate on the Friday evening and watch the Hyrox World Championships together in a pub which was a great laugh and was fascinating to watch the event unfold with Hunter McIntyre not winning for a change. Where did he go?? I watch him a bit on social media and he has been slimming down a touch which might explain it. Alexander Roncevic produced something incredible and well-deserved the win. Naturally the Hyrox bug had doubled in size while watching and I found myself scrolling through the ‘Find my race’ section once again.
 
